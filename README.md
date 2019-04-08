@@ -1,9 +1,9 @@
 # FuzzScanner
-一个主要用于信息搜集的工具集，主要是用于对网站子域名、开放端口、端口指纹、c段地址、敏感目录等信息进行批量搜集。
+一个用来进行信息搜集的工具集，主要是用于对网站子域名、开放端口、端口指纹、c段地址、敏感目录、链接爬取等信息进行批量搜集。
 
 fuzzScanner可用于批量快速的搜集网站信息，比别人更快一步的发现其他端口的应用或者网站管理后台等，也适合src漏洞挖掘的前期信息搜集。
 
-开发初衷比较简单，当时正在参加一些攻防演练，需要快速的对目标网站进行子域名发现、端口扫描、目录扫描等，手头上有一些分散的工具，比如lijiejie的subdomin、子域名挖掘机、dirsearch等等，但当目标任务量比较大时，这些重复性的工作就会比较费时费力，所以就有了这么个集合十八种杀人武器于一身的“超级武器”——fuzzScanner。
+开发初衷比较简单，当时正在参加一些攻防演练，需要快速的对目标网站进行子域名发现、端口扫描、目录扫描等，手头上有一些分散的工具，比如lijiejie的subdomains、子域名挖掘机、dirsearch等等，但当目标任务量比较大时，这些重复性的工作就会比较费时费力，所以就有了这么个集合十八种杀人武器于一身的“超级武器”——fuzzScanner。
 
 因为当时着急用，所以很多功能的实现都是直接命令行调用的其他工具，再次非常感谢wydomain、WhatWeb、subDomainsBrute、dirsearch、wafw00f等开源平台。
 
@@ -14,8 +14,9 @@ fuzzScanner可用于批量快速的搜集网站信息，比别人更快一步的
 - [2018-04-03] 完成基础功能
 
 
-# Usage
+# Install
 
+## 自行安装
 平台开发和运行都是在linux环境下，windows未测试，wydomain、WhatWeb、subDomainsBrute、dirsearch、wafw00f等工具均已放在libs目录下，默认可直接调用。
 
 使用比较简单：
@@ -45,6 +46,17 @@ apt-get install nmap  # Debian 或 Ubuntu 系统
 sudo python FuzzScanner.py 
 ```
 
+## docker环境
+
+我直接做了个镜像放在了阿里云上，docker直接pull下来就可以
+
+```
+docker pull registry.cn-hangzhou.aliyuncs.com/secplus/tide:1.0
+
+```
+
+
+# Usage
 
 参数设置说明
 
