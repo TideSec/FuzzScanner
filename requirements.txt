@@ -5,3 +5,4 @@ requests
 wafw00f
 lxml
 python-nmap
+dnspython
