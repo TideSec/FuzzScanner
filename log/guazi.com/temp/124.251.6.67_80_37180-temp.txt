@@ -1,0 +1,2 @@
+http://124.251.6.67:80 [302 Found] Country[CHINA][CN], HTTPServer[openresty], IP[124.251.6.67], RedirectLocation[http://www.guazi.com/404.htm], Title[302 Found]
+http://www.guazi.com/404.htm [203 Non-Authoritative Information] Country[CHINA][CN], HTML5, HTTPServer[openresty], IP[124.250.45.21], Script[text/javascript]

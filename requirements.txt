@@ -1,0 +1,7 @@
+bs4
+urlparse
+hackhttp
+requests
+wafw00f
+lxml
+python-nmap

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/local/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.70 scan initiated Thu Jan 10 10:11:40 2019 as: nmap -oX /root/fuzzScanner/log/vipshop.com/c_ip/210.21.83.1-nmap.xml -Pn -&#45;open -sS -sV -O -&#45;script=banner -p 22,25,80,81,82,85,88,179,443,444,465,587,993,995,1220,1443,1720,1723,2000,2323,2443,3306,3389,6666,7002,7070,8000,8001,8008,8010,8030,8080,8081,8082,8083,8084,8087,8088,8089,8090,8883,8888,9000,9080,9090,10443,18080,50000 210.21.83.101 210.21.83.102 210.21.83.113 210.21.83.115 210.21.83.118 210.21.83.129 210.21.83.130 210.21.83.135 210.21.83.136 210.21.83.146 210.21.83.147 210.21.83.148 210.21.83.150 210.21.83.161 210.21.83.162 210.21.83.18 210.21.83.185 210.21.83.187 210.21.83.188 210.21.83.19 210.21.83.209 210.21.83.210 210.21.83.220 210.21.83.222 210.21.83.230 210.21.83.25 210.21.83.33 210.21.83.42 210.21.83.43 210.21.83.45 210.21.83.52 210.21.83.9 210.21.83.97 210.21.83.99 -->
+<nmaprun scanner="nmap" args="nmap -oX /root/fuzzScanner/log/vipshop.com/c_ip/210.21.83.1-nmap.xml -Pn -&#45;open -sS -sV -O -&#45;script=banner -p 22,25,80,81,82,85,88,179,443,444,465,587,993,995,1220,1443,1720,1723,2000,2323,2443,3306,3389,6666,7002,7070,8000,8001,8008,8010,8030,8080,8081,8082,8083,8084,8087,8088,8089,8090,8883,8888,9000,9080,9090,10443,18080,50000 210.21.83.101 210.21.83.102 210.21.83.113 210.21.83.115 210.21.83.118 210.21.83.129 210.21.83.130 210.21.83.135 210.21.83.136 210.21.83.146 210.21.83.147 210.21.83.148 210.21.83.150 210.21.83.161 210.21.83.162 210.21.83.18 210.21.83.185 210.21.83.187 210.21.83.188 210.21.83.19 210.21.83.209 210.21.83.210 210.21.83.220 210.21.83.222 210.21.83.230 210.21.83.25 210.21.83.33 210.21.83.42 210.21.83.43 210.21.83.45 210.21.83.52 210.21.83.9 210.21.83.97 210.21.83.99" start="1547086300" startstr="Thu Jan 10 10:11:40 2019" version="7.70" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="48" services="22,25,80-82,85,88,179,443-444,465,587,993,995,1220,1443,1720,1723,2000,2323,2443,3306,3389,6666,7002,7070,8000-8001,8008,8010,8030,8080-8084,8087-8090,8883,8888,9000,9080,9090,10443,18080,50000"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1547086329" endtime="1547086391"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="210.21.83.101" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="47">
+<extrareasons reason="no-responses" count="47"/>
+</extraports>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="51"/><service name="ssl" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="443"/>
+<osmatch name="iPXE 1.0.0+" accuracy="100" line="40429">
+<osclass type="specialized" vendor="iPXE" osfamily="iPXE" osgen="1.X" accuracy="100"><cpe>cpe:/o:ipxe:ipxe:1.0.0%2b</cpe></osclass>
+</osmatch>
+<osmatch name="Tomato 1.28 (Linux 2.4.20)" accuracy="100" line="46662">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:2.4.20</cpe></osclass>
+</osmatch>
+<osmatch name="Tomato firmware (Linux 2.6.22)" accuracy="100" line="61430">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:2.6.22</cpe></osclass>
+</osmatch>
+</os>
+<ipidsequence class="All zeros" values="0,0,0"/>
+<tcptssequence class="none returned (unsupported)"/>
+<times srtt="38699" rttvar="4706" to="100000"/>
+</host>
+<host starttime="1547086329" endtime="1547086391"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="210.21.83.102" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="46">
+<extrareasons reason="no-responses" count="46"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="http" product="Tengine httpd" method="probed" conf="10"><cpe>cpe:/a:alibaba:tengine</cpe></service></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="ssl" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 3.11 - 4.1" accuracy="100" line="63416">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.4" accuracy="100" line="67202">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4.4</cpe></osclass>
+</osmatch>
+</os>
+<times srtt="38826" rttvar="4666" to="100000"/>
+</host>
+<host starttime="1547086329" endtime="1547086391"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="210.21.83.135" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="26">
+<extrareasons reason="resets" count="26"/>
+</extraports>
+<extraports state="filtered" count="21">
+<extrareasons reason="no-responses" count="21"/>
+</extraports>
+<port protocol="tcp" portid="3306"><state state="open" reason="syn-ack" reason_ttl="55"/><service name="mysql" product="MySQL" extrainfo="unauthorized" method="probed" conf="10"><cpe>cpe:/a:mysql:mysql</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="3306"/>
+<portused state="closed" proto="tcp" portid="80"/>
+<portused state="closed" proto="udp" portid="32115"/>
+<osmatch name="Linux 2.6.32 - 3.13" accuracy="100" line="56411">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+</os>
+<distance value="10"/>
+<times srtt="37482" rttvar="1904" to="100000"/>
+</host>
+<host starttime="1547086329" endtime="1547086391"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="210.21.83.230" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="47">
+<extrareasons reason="no-responses" count="47"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="http" product="nginx" version="1.7.10" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx:1.7.10</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Microsoft Windows XP SP2" accuracy="100" line="81310">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="XP" accuracy="100"><cpe>cpe:/o:microsoft:windows_xp::sp2</cpe></osclass>
+</osmatch>
+</os>
+<times srtt="42610" rttvar="11143" to="100000"/>
+</host>
+<host starttime="1547086329" endtime="1547086391"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="210.21.83.25" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="28">
+<extrareasons reason="no-responses" count="28"/>
+</extraports>
+<extraports state="closed" count="19">
+<extrareasons reason="resets" count="19"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="247"/><service name="ssh" product="Cisco SSH" version="1.25" extrainfo="protocol 1.99" ostype="IOS" method="probed" conf="10"><cpe>cpe:/a:cisco:ssh:1.25</cpe><cpe>cpe:/o:cisco:ios</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="tcp" portid="25"/>
+<osmatch name="Cisco Aironet 1250 WAP (IOS 12.4) or IOS XE" accuracy="89" line="18051">
+<osclass type="WAP" vendor="Cisco" osfamily="IOS" osgen="12.X" accuracy="89"><cpe>cpe:/h:cisco:aironet_ap1250</cpe><cpe>cpe:/o:cisco:ios:12.4</cpe></osclass>
+<osclass type="router" vendor="Cisco" osfamily="IOS XE" accuracy="89"><cpe>cpe:/o:cisco:ios_xe</cpe></osclass>
+</osmatch>
+<osmatch name="Cisco 2811 router (IOS 12.X)" accuracy="88" line="16022">
+<osclass type="router" vendor="Cisco" osfamily="IOS" osgen="12.X" accuracy="88"><cpe>cpe:/h:cisco:2811_router</cpe><cpe>cpe:/o:cisco:ios:12.x</cpe></osclass>
+</osmatch>
+<osmatch name="Cisco 880 router (IOS 15.1)" accuracy="87" line="18182">
+<osclass type="router" vendor="Cisco" osfamily="IOS" osgen="15.X" accuracy="87"><cpe>cpe:/o:cisco:ios:15.1</cpe></osclass>
+</osmatch>
+<osmatch name="Cisco Aironet 1042N WAP (IOS 15.2)" accuracy="87" line="18366">
+<osclass type="WAP" vendor="Cisco" osfamily="IOS" osgen="15.X" accuracy="87"><cpe>cpe:/o:cisco:ios:15.2</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.18 - 2.6.22" accuracy="87" line="49721">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="87"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Cisco 870 router or 2960 switch (IOS 12.2 - 12.4)" accuracy="86" line="16425">
+<osclass type="router" vendor="Cisco" osfamily="IOS" osgen="12.X" accuracy="86"><cpe>cpe:/h:cisco:870_router</cpe><cpe>cpe:/o:cisco:ios:12</cpe></osclass>
+<osclass type="switch" vendor="Cisco" osfamily="IOS" osgen="12.X" accuracy="86"><cpe>cpe:/h:cisco:2960_switch</cpe><cpe>cpe:/o:cisco:ios:12</cpe></osclass>
+</osmatch>
+<osmatch name="D-Link DWL-624+ or DWL-2000AP, or TRENDnet TEW-432BRP WAP" accuracy="85" line="20848">
+<osclass type="WAP" vendor="D-Link" osfamily="embedded" accuracy="85"><cpe>cpe:/h:dlink:dwl-624%2b</cpe><cpe>cpe:/h:dlink:dwl-2000ap</cpe></osclass>
+<osclass type="WAP" vendor="TRENDnet" osfamily="embedded" accuracy="85"><cpe>cpe:/h:trendnet:tew-432brp</cpe></osclass>
+</osmatch>
+<osmatch name="Cisco IOS 12.4 or IOS-XE 15.3" accuracy="85" line="16657">
+<osclass type="router" vendor="Cisco" osfamily="IOS" osgen="12.X" accuracy="85"><cpe>cpe:/o:cisco:ios:12.4</cpe></osclass>
+<osclass type="router" vendor="Cisco" osfamily="IOS-XE" osgen="15.X" accuracy="85"><cpe>cpe:/o:cisco:ios_xe:15.3</cpe></osclass>
+</osmatch>
+</os>
+<ipidsequence class="Randomized" values="C688,DE69,D3A6"/>
+<tcptssequence class="none returned (unsupported)"/>
+<times srtt="41975" rttvar="3769" to="100000"/>
+</host>
+<runstats><finished time="1547086391" timestr="Thu Jan 10 10:13:11 2019" elapsed="98.66" summary="Nmap done at Thu Jan 10 10:13:11 2019; 34 IP addresses (34 hosts up) scanned in 98.66 seconds" exit="success"/><hosts up="34" down="0" total="34"/>
+</runstats>
+</nmaprun>

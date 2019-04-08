@@ -1,0 +1,512 @@
+
+
+############################## web.call.guazi.com ##############################
+
+http://web.call.guazi.com|124.250.45.26|200 OK|瓜子智能客服系统|openresty||UnDetect
+
+https://webmail.guazi.com/owa/auth/logon.aspx?url=https%3a%2f%2fwebmail.guazi.com%2fowa&reason=0
+
+############################## mail.guazi.com ##############################
+
+http://mail.guazi.com|124.250.45.78|302 Found|文档已移动|Microsoft-IIS/8.5|ASP.NET|UnDetect
+
+https://webmail.guazi.com/owa/auth/logon.aspx?url=https%3a%2f%2fwebmail.guazi.com%2fowa&reason=0
+
+############################## post.guazi.com ##############################
+
+http://post.guazi.com|124.250.45.15|200 OK|瓜子二手车校园招聘|nginx||NoWaf
+124.250.45.15 is repeated with others in this file.
+
+
+############################## campus.guazi.com ##############################
+
+http://campus.guazi.com|124.250.45.76|200 OK|瓜子二手车校园招聘|openresty||NoWaf
+124.250.45.76 is repeated with others in this file.
+
+
+############################## user.guazi.com ##############################
+
+http://user.guazi.com|124.250.45.63|200 OK|SSO|openresty||NoWaf
+124.250.45.63 is repeated with others in this file.
+
+############################## 3g.guazi.com ##############################
+
+http://3g.guazi.com|124.251.6.21|203 Non-Authoritative Information||openresty||Unknown_Waf
+124.251.6.21 is repeated with others in this file.
+
+############################## cars.iip.guazi.com ##############################
+
+http://cars.iip.guazi.com|host_down
+124.250.45.74 is repeated with others in this file.
+
+############################## uc.guazi.com ##############################
+
+http://uc.guazi.com|124.251.6.21|200 OK|瓜子二手车直卖网|openresty||Unknown_Waf
+124.251.6.21 is repeated with others in this file.
+
+############################## api.guazi.com ##############################
+
+http://api.guazi.com|124.251.6.21|404 Not Found||openresty||Unknown_Waf
+124.251.6.21 is repeated with others in this file.
+
+############################## im.guazi.com ##############################
+
+http://im.guazi.com|124.250.45.63|200 OK|Welcome to OpenResty!|openresty||NoWaf
+124.250.45.63 is repeated with others in this file.
+
+############################## api.jr.guazi.com ##############################
+
+http://api.jr.guazi.com|124.250.45.9|200 OK||openresty||NoWaf
+124.250.45.9 is repeated with others in this file.
+
+############################## call.guazi.com ##############################
+
+http://call.guazi.com|124.251.6.63|403 Forbidden|403 Forbidden|openresty||NoWaf
+124.251.6.63 is repeated with others in this file.
+
+http://call.guazi.com/test.html  ZTREE DEMO - checkbox
+
+############################## analytics.guazi.com ##############################
+
+http://analytics.guazi.com|124.250.45.15|403 Forbidden|403 Forbidden|nginx||Unknown_Waf
+124.250.45.15 is repeated with others in this file.
+
+
+############################## wx.guazi.com ##############################
+
+http://wx.guazi.com|124.250.45.57|403 Forbidden|403 Forbidden|openresty||NoWaf
+
+############################## audio.guazi.com ##############################
+
+http://audio.guazi.com|124.251.6.63|200 OK||openresty||NoWaf
+124.251.6.63 is repeated with others in this file.
+
+############################## welcome.guazi.com ##############################
+
+http://welcome.guazi.com|124.250.45.63|403 Forbidden|403 Forbidden|openresty||NoWaf
+124.250.45.63 is repeated with others in this file.
+
+############################## mtest.guazi.com ##############################
+
+http://mtest.guazi.com|host_down
+
+
+############################## re-bm.guazi.com ##############################
+
+http://re-bm.guazi.com|124.250.45.80|200 OK|瓜子保卖系统|openresty||NoWaf
+124.250.45.80 is repeated with others in this file.
+
+############################## sta.guazi.com ##############################
+
+http://sta.guazi.com|124.251.6.21|200 OK|Welcome to OpenResty!|openresty||Unknown_Waf
+124.251.6.21 is repeated with others in this file.
+
+############################## cars.sp.guazi.com ##############################
+
+http://cars.sp.guazi.com|124.250.45.63|302 Found|302 Found|openresty||NoWaf
+124.250.45.63 is repeated with others in this file.
+
+############################## ares.guazi.com ##############################
+
+http://ares.guazi.com|124.250.45.72|302 Found|302 Found|openresty||NoWaf
+124.250.45.72 is repeated with others in this file.
+
+############################## guazi.com ##############################
+
+http://guazi.com|124.251.6.21|301 Moved Permanently|301 Moved Permanently|openresty||Unknown_Waf
+124.251.6.21 is repeated with others in this file.
+
+############################## cars.kf.guazi.com ##############################
+
+http://cars.kf.guazi.com|124.251.6.63|302 Found|302 Found|openresty||NoWaf
+124.251.6.63 is repeated with others in this file.
+
+############################## crm.guazi.com ##############################
+
+http://crm.guazi.com|124.250.45.8|200 OK|瓜子后台管理系统|openresty||NoWaf
+124.250.45.8 is repeated with others in this file.
+
+############################## cars.pub.guazi.com ##############################
+
+http://cars.pub.guazi.com|124.250.45.76|302 Found|302 Found|openresty||NoWaf
+124.250.45.76 is repeated with others in this file.
+
+############################## cctv.guazi.com ##############################
+
+http://cctv.guazi.com|124.250.45.74|301 Moved Permanently|301 Moved Permanently|openresty||Unknown_Waf
+124.250.45.74 is repeated with others in this file.
+
+############################## open.guazi.com ##############################
+
+http://open.guazi.com|124.251.6.90|200 OK||openresty||NoWaf
+124.251.6.90 is repeated with others in this file.
+
+############################## dialin.guazi.com ##############################
+
+http://dialin.guazi.com|106.38.228.201|302 Found|文档已移动|Microsoft-IIS/8.5||NoWaf
+106.38.228.201 is repeated with others in this file.
+
+############################## sempage.guazi.com ##############################
+
+http://sempage.guazi.com|124.251.6.90|302 Found||openresty||NoWaf
+124.251.6.90 is repeated with others in this file.
+
+############################## library.guazi.com ##############################
+
+http://library.guazi.com|124.250.45.80|200 OK|Laravel|openresty||NoWaf
+
+
+############################## zhaopin.guazi.com ##############################
+
+http://zhaopin.guazi.com|124.250.45.9|301 Moved Permanently|301 Moved Permanently|openresty||NoWaf
+124.250.45.9 is repeated with others in this file.
+
+############################## m.jr.guazi.com ##############################
+
+http://m.jr.guazi.com|124.250.45.9|200 OK|【济南二手车贷款_济南二手车分期付款_二手车贷款计算器】- 瓜子汽车金融 济南|openresty||NoWaf
+124.250.45.9 is repeated with others in this file.
+
+############################## we.guazi.com ##############################
+
+http://we.guazi.com|124.250.45.63|200 OK|Welcome to OpenResty!|openresty||NoWaf
+124.250.45.63 is repeated with others in this file.
+
+############################## cars.m.guazi.com ##############################
+
+http://cars.m.guazi.com|124.251.6.21|203 Non-Authoritative Information||openresty||Unknown_Waf
+124.251.6.21 is repeated with others in this file.
+
+############################## join.guazi.com ##############################
+
+http://join.guazi.com|124.250.45.63|200 OK|Index Page|openresty||NoWaf
+124.250.45.63 is repeated with others in this file.
+
+############################## cars.pro.pub.guazi.com ##############################
+
+http://cars.pro.pub.guazi.com|124.250.45.76|302 Found|302 Found|openresty||NoWaf
+
+
+############################## oss.guazi.com ##############################
+
+http://oss.guazi.com|124.250.45.76|301 Moved Permanently|301 Moved Permanently|openresty||NoWaf
+124.250.45.76 is repeated with others in this file.
+
+############################## am001.guazi.com ##############################
+
+http://am001.guazi.com|124.250.45.79|302 Found|302 Found|openresty||NoWaf
+124.250.45.79 is repeated with others in this file.
+
+############################## weixin.guazi.com ##############################
+
+http://weixin.guazi.com|124.251.6.21|404 Not Found||openresty||Unknown_Waf
+124.251.6.21 is repeated with others in this file.
+
+############################## polaris.guazi.com ##############################
+
+http://polaris.guazi.com|124.250.45.48|301 Moved Permanently|301 Moved Permanently|openresty||NoWaf
+124.250.45.48 is repeated with others in this file.
+
+############################## m.pay.guazi.com ##############################
+
+http://m.pay.guazi.com|124.250.45.63|302 Found||openresty||NoWaf
+124.250.45.63 is repeated with others in this file.
+
+############################## guagua.guazi.com ##############################
+
+http://guagua.guazi.com|124.250.45.63|301 Moved Permanently|301 Moved Permanently|openresty||NoWaf
+124.250.45.63 is repeated with others in this file.
+
+############################## iguagua.guazi.com ##############################
+
+http://iguagua.guazi.com|124.250.45.19|302 Found|302 Found|openresty||NoWaf
+
+
+############################## venus.guazi.com ##############################
+
+http://venus.guazi.com|124.250.45.48|200 OK|报表制作平台|openresty||NoWaf
+124.250.45.48 is repeated with others in this file.
+
+############################## app.jr.guazi.com ##############################
+
+http://app.jr.guazi.com|124.250.45.9|200 OK|【济南二手车贷款_济南二手车分期付款_二手车贷款计算器】- 瓜子汽车金融 济南|openresty||NoWaf
+124.250.45.9 is repeated with others in this file.
+
+############################## sale.guazi.com ##############################
+
+http://sale.guazi.com|124.250.45.8|302 Found|瓜子二手车直卖网|openresty||NoWaf
+124.250.45.8 is repeated with others in this file.
+
+############################## che.guazi.com ##############################
+
+http://che.guazi.com|124.251.6.77|302 Found|瓜子二手车直卖网|openresty||Unknown_Waf
+124.251.6.77 is repeated with others in this file.
+
+############################## ping.guazi.com ##############################
+
+http://ping.guazi.com|124.251.6.77|302 Found|瓜子二手车直卖网|openresty||NoWaf
+124.251.6.77 is repeated with others in this file.
+
+############################## pay.guazi.com ##############################
+
+http://pay.guazi.com|124.250.45.63|302 Found||openresty||NoWaf
+124.250.45.63 is repeated with others in this file.
+
+############################## op.guazi.com ##############################
+
+http://op.guazi.com|124.250.45.29|302 Found|Redirecting to https://staff.guazi.com/Account/LogIn?returnUrl=http://op.guazi.com|openresty||NoWaf
+124.250.45.29 is repeated with others in this file.
+
+############################## ams.guazi.com ##############################
+
+http://ams.guazi.com|124.250.45.76|301 Moved Permanently|301 Moved Permanently|openresty||NoWaf
+124.250.45.76 is repeated with others in this file.
+
+############################## shop.guazi.com ##############################
+
+http://shop.guazi.com|124.250.45.79|301 Moved Permanently|301 Moved Permanently|openresty||NoWaf
+124.250.45.79 is repeated with others in this file.
+
+############################## quote.guazi.com ##############################
+
+http://quote.guazi.com|124.250.45.79|200 OK|供应商报价|openresty||NoWaf
+124.250.45.79 is repeated with others in this file.
+
+############################## cwiki.guazi.com ##############################
+
+http://cwiki.guazi.com|124.250.45.76|302 Found|Log In - Confluence|openresty||NoWaf
+124.250.45.76 is repeated with others in this file.
+
+############################## cms.guazi.com ##############################
+
+http://cms.guazi.com|124.250.45.63|200 OK||openresty||NoWaf
+124.250.45.63 is repeated with others in this file.
+
+############################## jr.guazi.com ##############################
+
+http://jr.guazi.com|124.250.45.9|302 Found|【济南二手车贷款_济南二手车分期付款_二手车贷款计算器】- 瓜子汽车金融 济南|openresty||NoWaf
+124.250.45.9 is repeated with others in this file.
+
+############################## tg.guazi.com ##############################
+
+http://tg.guazi.com|124.250.45.79|200 OK|天工系统|openresty||NoWaf
+124.250.45.79 is repeated with others in this file.
+
+############################## ch.guazi.com ##############################
+
+http://ch.guazi.com|124.250.45.79|200 OK|整备管理系统|openresty||NoWaf
+124.250.45.79 is repeated with others in this file.
+
+############################## t.guazi.com ##############################
+
+http://t.guazi.com|124.251.6.92|200 OK||openresty||UnDetect
+
+
+############################## mx2.guazi.com ##############################
+
+http://mx2.guazi.com|host_down
+
+
+############################## yc.guazi.com ##############################
+
+http://yc.guazi.com|124.250.45.74|302 Found|302 Found|openresty||UnDetect
+
+
+############################## staff.guazi.com ##############################
+
+http://staff.guazi.com|124.250.45.62|200 OK|瓜子二手车直卖网|openresty||UnDetect
+
+
+############################## seo.guazi.com ##############################
+
+http://seo.guazi.com|124.251.6.90|403 Forbidden|403 Forbidden|openresty||UnDetect
+
+
+############################## price.guazi.com ##############################
+
+http://price.guazi.com|host_down
+
+
+
+############################## cars.car.guazi.com ##############################
+
+http://cars.car.guazi.com|124.251.6.77|302 Found|302 Found|openresty||Unknown_Waf
+
+
+############################## ebs.guazi.com ##############################
+
+http://ebs.guazi.com|host_down
+
+
+############################## cdn.guazi.com ##############################
+
+http://cdn.guazi.com|host_down
+
+
+############################## meeting.guazi.com ##############################
+
+http://meeting.guazi.com|host_down
+
+
+############################## security.guazi.com ##############################
+
+http://security.guazi.com|124.250.45.76|301 Moved Permanently|301 Moved Permanently|openresty||UnDetect
+
+
+############################## c2c.bc.guazi.com ##############################
+
+http://c2c.bc.guazi.com|124.250.45.8|302 Found|瓜子二手车直卖网|openresty||UnDetect
+	124.250.45.8|up|Linux 3.2 - 4.9|c2c.bc.guazi.com
+		80|open|tcp|tcpwrapped| |###
+		443|open|tcp|tcpwrapped| |###
+
+
+############################## gateway.guazi.com ##############################
+
+http://gateway.guazi.com|host_down
+	124.250.45.53|up|Linux 3.2 - 4.9|gateway.guazi.com
+		8000|open|tcp|tcpwrapped| |###   api
+		8443|open|tcp|tcpwrapped| |###   400 Bad Request   The plain HTTP request was sent to HTTPS port
+		9901|open|tcp|tcpwrapped| |###
+
+
+############################## bi.guazi.com ##############################
+
+http://bi.guazi.com|host_down
+
+
+############################## kaoshi.guazi.com ##############################
+
+http://kaoshi.guazi.com|host_down
+
+
+############################## av.guazi.com ##############################
+
+http://av.guazi.com|host_down
+
+
+############################## mx1.guazi.com ##############################
+
+http://mx1.guazi.com|host_down
+
+
+############################## storage.guazi.com ##############################
+
+http://storage.guazi.com|host_down
+
+
+############################## test.guazi.com ##############################
+
+http://test.guazi.com|host_down
+
+
+############################## mail1.guazi.com ##############################
+
+http://mail1.guazi.com|host_down
+
+
+############################## sa.guazi.com ##############################
+
+http://sa.guazi.com|host_down
+
+
+############################## xinche.guazi.com ##############################
+
+http://xinche.guazi.com|host_down
+	124.251.6.80|up|Linux 3.2 - 4.9|xinche.guazi.com
+		80|open|tcp|http|OpenResty web app server |###|
+		443|open|tcp|ssl| |###
+
+
+############################## m.guazi.com ##############################
+
+http://m.guazi.com|124.251.6.21|203 Non-Authoritative Information||openresty||UnDetect
+	124.251.6.21|up|Crestron XPanel control system|m.guazi.com
+		80|open|tcp|tcpwrapped| |###
+		443|open|tcp|tcpwrapped| |###
+
+
+############################## file.guazi.com ##############################
+
+http://file.guazi.com|124.250.45.63|200 OK||openresty||UnDetect
+
+
+############################## guest.guazi.com ##############################
+
+http://guest.guazi.com|106.38.228.215|502 Bad Gateway|502 Bad Gateway|nginx/1.15.2||IBM Web Application Security
+
+
+############################## sip.guazi.com ##############################
+
+http://sip.guazi.com|host_down
+	106.38.228.203|up|Microsoft Windows Server 2012 R2|sip.guazi.com
+		443|open|tcp|ssl|Microsoft IIS SSL |Windows###
+
+
+############################## apitest.guazi.com ##############################
+
+http://apitest.guazi.com|host_down
+
+
+############################## meet.guazi.com ##############################
+
+http://meet.guazi.com|host_down
+
+
+############################## webmail.guazi.com ##############################
+
+http://webmail.guazi.com|host_down
+	124.250.45.59|up|Linux 3.2 - 4.9|webmail.guazi.com
+		80|open|tcp|http|OpenResty web app server |###|
+		443|open|tcp|ssl| |###
+
+
+############################## www.guazi.com ##############################
+
+http://www.guazi.com|host_down
+	124.250.45.21|up|Linux 3.2 - 4.9|www.guazi.com
+		80|open|tcp|tcpwrapped| |###
+		443|open|tcp|tcpwrapped| |###
+
+
+############################## cars.wx.guazi.com ##############################
+
+http://cars.wx.guazi.com|124.250.45.72|302 Found|302 Found|openresty||IBM Web Application Security
+	124.250.45.72|up|Linux 3.2 - 4.9|cars.wx.guazi.com
+		80|open|tcp|tcpwrapped| |###
+		443|open|tcp|tcpwrapped| |###
+
+
+############################## bx.guazi.com ##############################
+
+http://bx.guazi.com|124.250.45.79|200 OK|保险管理系统|openresty||UnDetect
+
+
+############################## accounting.guazi.com ##############################
+
+http://accounting.guazi.com|124.250.45.70|200 OK|Welcome to OpenResty!|openresty||IBM Web Application Security
+	124.250.45.70|up|Linux 3.2 - 4.9|accounting.guazi.com
+		80|open|tcp|tcpwrapped| |###
+		443|open|tcp|tcpwrapped| |###
+
+
+############################## bm.guazi.com ##############################
+
+http://bm.guazi.com|host_down
+	124.250.45.80|up|Linux 3.2 - 4.9|bm.guazi.com
+		80|open|tcp|http|OpenResty web app server |###|
+		443|open|tcp|ssl| |###
+
+
+############################## sentry.guazi.com ##############################
+
+http://sentry.guazi.com|124.250.45.9|200 OK|Welcome to nginx!|openresty||Unknown_Waf
+	124.250.45.9|up|Linux 3.10|sentry.guazi.com
+		80|open|tcp|http|OpenResty web app server |###|
+		443|open|tcp|tcpwrapped| |###
+
+
+############################## crm2-gray.guazi.com ##############################
+
+http://crm2-gray.guazi.com|124.251.6.63|200 OK|智能客服系统|openresty||NoWaf
+
+

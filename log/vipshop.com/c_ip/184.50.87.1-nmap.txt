@@ -1,0 +1,689 @@
+	184.50.87.10|up|Linux 3.13 - 3.16|a184-50-87-10.deploy.static.akamaitechnologies.com
+		443|open|tcp|ssl| |###
+
+	184.50.87.100|up|Linux 3.13 - 3.16|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.101|up|Linux 3.13 - 3.16|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.102|up|Linux 3.13 - 3.16|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.103|up|Linux 4.4|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.104|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.104|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.105|up|Linux 3.13 - 3.16|
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.106|up|Linux 3.13 - 3.16|
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.107|up|Linux 4.4|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.108|up|Linux 3.13 - 3.16|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.109|up|Linux 3.13 - 3.16|
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.110|up|Linux 3.13 - 3.16|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.111|up|Linux 3.13 - 3.16|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.112|up|Linux 3.13 - 3.16|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.113|up|Linux 3.13 - 3.16|
+		443|open|tcp|https| |###|
+
+	184.50.87.114|up|Linux 3.13 - 3.16|
+		443|open|tcp|tcpwrapped| |###
+		8883|open|tcp|tcpwrapped| |###
+
+	184.50.87.115|up|Linux 3.13 - 3.16|
+		8883|open|tcp|tcpwrapped| |###
+
+	184.50.87.116|up|Linux 3.13 - 3.16|
+		80|open|tcp|tcpwrapped| |###
+		443|open|tcp|tcpwrapped| |###
+		8883|open|tcp|tcpwrapped| |###
+
+	184.50.87.117|up|Linux 3.13 - 3.16|
+		443|open|tcp|tcpwrapped| |###
+		8883|open|tcp|tcpwrapped| |###
+
+	184.50.87.118|up|Linux 3.13 - 3.16|a184-50-87-118.deploy.static.akamaitechnologies.com
+		80|open|tcp|tcpwrapped| |###
+		443|open|tcp|tcpwrapped| |###
+		8883|open|tcp|tcpwrapped| |###
+
+	184.50.87.119|up|Linux 3.13 - 3.16|
+		443|open|tcp|tcpwrapped| |###
+		8883|open|tcp|tcpwrapped| |###
+
+	184.50.87.12|up|Linux 3.13 - 3.16|
+		443|open|tcp|tcpwrapped| |###
+
+	184.50.87.120|up|Linux 3.13 - 3.16|
+		443|open|tcp|tcpwrapped| |###
+		8883|open|tcp|tcpwrapped| |###
+
+	184.50.87.121|up|Linux 3.13 - 3.16|
+		8883|open|tcp|tcpwrapped| |###
+
+	184.50.87.122|up|Linux 3.13 - 3.16|
+		443|open|tcp|tcpwrapped| |###
+		8883|open|tcp|tcpwrapped| |###
+
+	184.50.87.123|up|Linux 3.13 - 3.16|
+		443|open|tcp|tcpwrapped| |###
+		8883|open|tcp|tcpwrapped| |###
+
+	184.50.87.124|up|Linux 3.13 - 3.16|a184-50-87-124.deploy.static.akamaitechnologies.com
+		443|open|tcp|tcpwrapped| |###
+
+	184.50.87.125|up|Crestron XPanel control system|
+		443|open|tcp|ssl| |###
+
+	184.50.87.13|up|Linux 3.13 - 3.16|
+		443|open|tcp|ssl| |###
+
+	184.50.87.132|up|Crestron XPanel control system|
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.133|up|Crestron XPanel control system|
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.134|up|Linux 3.13 - 3.16|
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.135|up|Linux 3.13 - 3.16|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.136|up|Linux 4.4|
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.137|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.137|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.138|up|Linux 3.13 - 3.16|
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.139|up|Linux 3.13 - 3.16|
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.140|up|Linux 3.13 - 3.16|a184-50-87-140.deploy.static.akamaitechnologies.com
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.141|up|Linux 3.13 - 3.16|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.142|up|Linux 3.13 - 3.16|
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.143|up|Linux 3.13 - 3.16|
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.144|up|Linux 4.4|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.145|up|Linux 3.13 - 3.16|
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.146|up|Linux 3.13 - 3.16|
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.147|up|Linux 3.13 - 3.16|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.148|up|Linux 4.4|
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.149|up|Crestron XPanel control system|
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.150|up|Crestron XPanel control system|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.151|up|Linux 3.13 - 3.16|
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.152|up|Linux 3.13 - 3.16|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.153|up|Linux 3.13 - 3.16|
+		443|open|tcp|https| |###|
+
+	184.50.87.154|up|Linux 3.13 - 3.16|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.155|up|Linux 3.13 - 3.16|a184-50-87-155.deploy.static.akamaitechnologies.com
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.156|up|Linux 3.13 - 3.16|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.157|up|Linux 3.13 - 3.16|a184-50-87-157.deploy.static.akamaitechnologies.com
+		443|open|tcp|https| |###|
+		8883|open|tcp|tcpwrapped| |###
+
+	184.50.87.158|up|Linux 3.13 - 3.16|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.159|up|Linux 3.13 - 3.16|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.16|up|Linux 3.13 - 3.16|a184-50-87-16.deploy.static.akamaitechnologies.com
+		443|open|tcp|tcpwrapped| |###
+
+	184.50.87.160|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.160|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|tcpwrapped| |###
+		8883|open|tcp|tcpwrapped| |###
+
+	184.50.87.161|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.161|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.162|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.162|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.163|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.163|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.164|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.164|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.165|up|Linux 3.13 - 3.16|a184-50-87-165.deploy.static.akamaitechnologies.com
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.165|400 Bad Request|Invalid URL|AkamaiGHost||
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.166|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.166|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.167|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.167|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.168|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.168|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.169|up|Crestron XPanel control system|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.169|400 Bad Request|Invalid URL|AkamaiGHost||
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.17|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.17|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.170|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.170|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.171|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.171|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.172|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.172|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.173|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.173|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.174|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.174|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.175|up|Linux 3.13 - 3.16|a184-50-87-175.deploy.static.akamaitechnologies.com
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.175|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.176|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.176|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.177|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.177|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|https| |###|
+		8883|open|tcp|tcpwrapped| |###
+
+	184.50.87.178|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.178|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|tcpwrapped| |###
+		8883|open|tcp|tcpwrapped| |###
+
+	184.50.87.179|up|Linux 3.13 - 3.16|
+		80|open|tcp|tcpwrapped| |###
+		443|open|tcp|tcpwrapped| |###
+		8883|open|tcp|tcpwrapped| |###
+
+	184.50.87.18|up|Linux 3.13 - 3.16|a184-50-87-18.deploy.static.akamaitechnologies.com
+		80|open|tcp|tcpwrapped| |###
+		443|open|tcp|tcpwrapped| |###
+
+	184.50.87.180|up|Linux 3.13 - 3.16|
+		80|open|tcp|tcpwrapped| |###
+		443|open|tcp|tcpwrapped| |###
+		8883|open|tcp|tcpwrapped| |###
+
+	184.50.87.181|up|Linux 3.13 - 3.16|
+		80|open|tcp|tcpwrapped| |###
+		8883|open|tcp|tcpwrapped| |###
+
+	184.50.87.182|up|Linux 3.13 - 3.16|
+		80|open|tcp|tcpwrapped| |###
+		443|open|tcp|tcpwrapped| |###
+		8883|open|tcp|tcpwrapped| |###
+
+	184.50.87.183|up|Linux 3.13 - 3.16|
+		80|open|tcp|tcpwrapped| |###
+		443|open|tcp|tcpwrapped| |###
+		8883|open|tcp|tcpwrapped| |###
+
+	184.50.87.184|up|Linux 3.13 - 3.16|
+		80|open|tcp|tcpwrapped| |###
+		8883|open|tcp|tcpwrapped| |###
+
+	184.50.87.185|up|Linux 3.13 - 3.16|
+		80|open|tcp|tcpwrapped| |###
+		443|open|tcp|tcpwrapped| |###
+		8883|open|tcp|tcpwrapped| |###
+
+	184.50.87.186|up|Linux 3.13 - 3.16|
+		80|open|tcp|tcpwrapped| |###
+		443|open|tcp|tcpwrapped| |###
+		8883|open|tcp|tcpwrapped| |###
+
+	184.50.87.187|up|Linux 3.13 - 3.16|
+		80|open|tcp|tcpwrapped| |###
+		8883|open|tcp|tcpwrapped| |###
+
+	184.50.87.188|up|Linux 3.13 - 3.16|
+		80|open|tcp|tcpwrapped| |###
+		443|open|tcp|tcpwrapped| |###
+		8883|open|tcp|tcpwrapped| |###
+
+	184.50.87.19|up|Linux 3.13 - 3.16|a184-50-87-19.deploy.static.akamaitechnologies.com
+		80|open|tcp|tcpwrapped| |###
+
+	184.50.87.20|up|Linux 3.13 - 3.16|
+		80|open|tcp|tcpwrapped| |###
+		443|open|tcp|tcpwrapped| |###
+
+	184.50.87.21|up|OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4)|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.21|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.22|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.22|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.23|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.23|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.24|up|Linux 3.13 - 3.16|a184-50-87-24.deploy.static.akamaitechnologies.com
+		80|open|tcp|tcpwrapped| |###
+		443|open|tcp|tcpwrapped| |###
+
+	184.50.87.25|up|OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4)|
+		80|open|tcp|tcpwrapped| |###
+		443|open|tcp|tcpwrapped| |###
+
+	184.50.87.26|up|Linux 3.13 - 3.16|
+		80|open|tcp|tcpwrapped| |###
+		443|open|tcp|tcpwrapped| |###
+
+	184.50.87.27|up|Linux 3.13 - 3.16|a184-50-87-27.deploy.static.akamaitechnologies.com
+		80|open|tcp|tcpwrapped| |###
+		443|open|tcp|ssl| |###
+
+	184.50.87.28|up|D-Link DIR-835 WAP|
+		80|open|tcp|tcpwrapped| |###
+		443|open|tcp|tcpwrapped| |###
+
+	184.50.87.29|up|Linux 3.13 - 3.16|
+		80|open|tcp|tcpwrapped| |###
+		443|open|tcp|ssl| |###
+
+	184.50.87.30|up|Linux 3.13 - 3.16|
+		80|open|tcp|tcpwrapped| |###
+		443|open|tcp|tcpwrapped| |###
+
+	184.50.87.31|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.31|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.32|up|Linux 3.13 - 3.16|a184-50-87-32.deploy.static.akamaitechnologies.com
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.32|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.33|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.33|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.34|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.34|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.35|up|Linux 3.13 - 3.16|a184-50-87-35.deploy.static.akamaitechnologies.com
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.35|400 Bad Request|Invalid URL|AkamaiGHost||
+
+	184.50.87.36|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.36|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.37|up|OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4)|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.37|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.38|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.38|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.39|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.39|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.4|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.4|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.40|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.40|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.41|up|Linux 3.2 - 4.9|a184-50-87-41.deploy.static.akamaitechnologies.com
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.41|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.42|up|Linux 3.13 - 3.16|a184-50-87-42.deploy.static.akamaitechnologies.com
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.42|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.43|up|Linux 3.13 - 3.16|a184-50-87-43.deploy.static.akamaitechnologies.com
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.43|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.44|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.44|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.45|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.45|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.46|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.46|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.47|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.47|400 Bad Request|Invalid URL|AkamaiGHost||
+
+	184.50.87.48|up|Linux 3.13 - 3.16|a184-50-87-48.deploy.static.akamaitechnologies.com
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.48|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.49|up|Linux 3.13 - 3.16|a184-50-87-49.deploy.static.akamaitechnologies.com
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.49|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.5|up|Linux 3.2 - 4.9|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.5|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.50|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.50|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.51|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|
+		443|open|tcp|ssl| |###
+
+	184.50.87.52|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.52|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.53|up|Linux 3.10 - 4.11|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.53|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.55|up|Asus RT-AC66U router (Linux 2.6)|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.55|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.56|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|
+		443|open|tcp|ssl| |###
+
+	184.50.87.57|up|Linux 3.10 - 4.11|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.57|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.58|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.58|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.59|up|Linux 3.13 - 3.16|a184-50-87-59.deploy.static.akamaitechnologies.com
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.59|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.6|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.6|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.60|up|Linux 3.13 - 3.16|a184-50-87-60.deploy.static.akamaitechnologies.com
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.60|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.62|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.62|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.63|up|Asus RT-AC66U router (Linux 2.6)|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.63|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.64|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.64|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.65|up|Asus RT-AC66U router (Linux 2.6)|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.65|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.67|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.67|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.68|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.68|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.69|up|Linux 3.2 - 4.9|a184-50-87-69.deploy.static.akamaitechnologies.com
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.69|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.7|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.7|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.70|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.70|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.71|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.71|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.72|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.72|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.73|up|Linux 3.10 - 4.11|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.73|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.74|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|
+		443|open|tcp|ssl| |###
+
+	184.50.87.75|up|Linux 3.13 - 3.16|a184-50-87-75.deploy.static.akamaitechnologies.com
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.75|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.76|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.76|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.78|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.78|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.79|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.79|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.80|up|Linux 3.13 - 3.16|a184-50-87-80.deploy.static.akamaitechnologies.com
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.80|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.81|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.81|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.82|up|Linux 3.13 - 3.16|a184-50-87-82.deploy.static.akamaitechnologies.com
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.82|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.83|up|Linux 3.13 - 3.16|a184-50-87-83.deploy.static.akamaitechnologies.com
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.83|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.84|up|Linux 3.10 - 4.11|
+		22|open|tcp|ssh| |protocol 2.0###
+		500|open|tcp|ssh| |protocol 2.0###
+
+	184.50.87.86|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.86|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.87|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.87|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.88|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.88|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.89|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.89|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.9|up|Linux 3.2 - 4.9|a184-50-87-9.deploy.static.akamaitechnologies.com
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.9|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|ssl| |###
+
+	184.50.87.90|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.90|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.91|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.91|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.92|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.92|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.93|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.93|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.94|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.94|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.95|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.95|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.96|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.96|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.97|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.97|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.98|up|Linux 3.13 - 3.16|
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|184.50.87.98|400 Bad Request|Invalid URL|AkamaiGHost||
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+
+	184.50.87.99|up|Linux 3.13 - 3.16|
+		443|open|tcp|https| |###|
+		8883|open|tcp|secure-mqtt| |###
+

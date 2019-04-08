@@ -1,0 +1,1 @@
+http://www.vipshop.com [301 Moved Permanently] Country[CHINA][CN], HTTPServer[vipshop/VipS], IP[61.156.243.247], RedirectLocation[http://www.vip.com], UncommonHeaders[x-via,x-cache-remote,cdn-src-port]

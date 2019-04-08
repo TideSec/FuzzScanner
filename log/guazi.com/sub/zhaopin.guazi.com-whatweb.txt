@@ -1,0 +1,2 @@
+http://zhaopin.guazi.com [301 Moved Permanently] Country[CHINA][CN], HTTPServer[openresty], IP[124.250.45.9], RedirectLocation[https://zhaopin.guazi.com/], Title[301 Moved Permanently]
+https://zhaopin.guazi.com/ [200 OK] Country[CHINA][CN], Frame, HTTPServer[openresty], IP[124.250.45.9], Title[瓜子招聘官网]

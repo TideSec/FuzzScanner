@@ -1,0 +1,193 @@
+	124.251.6.1|up|Crestron XPanel control system|
+		80|open|tcp|http| |###|
+
+	124.251.6.10|up|Crestron XPanel control system|
+		80|open|tcp|http|nginx |###|124.251.6.10|404 Not Found|404 Not Found|nginx||
+		443|open|tcp|ssl| |###
+
+	124.251.6.12|up|Crestron MPC-M5 AV controller or Wago Kontakttechnik 750-852 PLC|
+		80|open|tcp|http|nginx |###|124.251.6.12|200 OK|瓜子二手车校园招聘|nginx||
+		443|open|tcp|ssl| |###
+
+	124.251.6.13|up|Crestron MPC-M5 AV controller or Wago Kontakttechnik 750-852 PLC|
+		80|open|tcp|http|OpenResty web app server |###|124.251.6.13|302 Found|302 Found|openresty||
+		443|open|tcp|ssl| |###
+
+	124.251.6.16|up|Linux 3.18|
+		80|open|tcp|http|OpenResty web app server |###|
+		443|open|tcp|ssl| |###
+
+	124.251.6.17|up|Linux 3.2 - 4.9|
+		80|open|tcp|http| |###|
+		443|open|tcp|ssl| |###
+
+	124.251.6.18|up|Linux 3.2 - 4.9|
+		80|open|tcp|http| |###|
+		443|open|tcp|ssl| |###
+
+	124.251.6.19|up|Linux 3.18|
+		80|open|tcp|http| |###|
+		443|open|tcp|ssl| |###
+
+	124.251.6.2|up|Microsoft Windows Server 2012 R2|
+		25|open|tcp|smtp|Microsoft Exchange 2010 smtpd |not available###
+		80|open|tcp|http|Microsoft IIS httpd 8.5|Windows###|124.251.6.2|403 Forbidden||Microsoft-IIS/8.5||
+		143|open|tcp|imap|Microsoft Exchange 2007-2010 imapd |Windows###
+		443|open|tcp|ssl|TLSv1 |Windows###
+		465|open|tcp|smtp|Microsoft Exchange smtpd |Windows###
+		587|open|tcp|smtp|Microsoft Exchange smtpd |Windows###
+		993|open|tcp|ssl|Microsoft SChannel TLS |Windows###
+
+	124.251.6.20|up|Linux 3.16|
+		80|open|tcp|http| |###|
+		443|open|tcp|ssl| |###
+
+	124.251.6.21|up|Linux 3.16|
+		80|open|tcp|http| |###|
+		443|open|tcp|ssl| |###
+
+	124.251.6.22|up|Linux 3.2 - 4.9|
+		80|open|tcp|http| |###|
+		443|open|tcp|ssl| |###
+
+	124.251.6.23|up||
+		80|open|tcp|http|nginx |###|
+		443|open|tcp|ssl| |###
+
+	124.251.6.25|up|Compal CG6640 cable modem|
+		80|open|tcp|http|Server |###|124.251.6.25|200 OK||Server||
+
+	124.251.6.26|up|Linux 3.16|
+		80|open|tcp|http|OpenResty web app server |###|124.251.6.26|302 Found|302 Found|openresty||
+		443|open|tcp|ssl| |###
+
+	124.251.6.27|up|Linux 3.16|
+		80|open|tcp|http| |###|
+		443|open|tcp|ssl| |###
+
+	124.251.6.3|up|Linux 2.6.32 - 3.10|
+		25|open|tcp|smtp|Postfix smtpd |###
+
+	124.251.6.30|up|Linux 3.16|
+		80|open|tcp|http| |###|
+		443|open|tcp|ssl| |###
+
+	124.251.6.31|up|Linux 3.16|
+		80|open|tcp|tcpwrapped| |###
+		443|open|tcp|tcpwrapped| |###
+
+	124.251.6.32|up|Microsoft Windows Server 2012 R2|
+		25|open|tcp|tcpwrapped| |###
+		80|open|tcp|tcpwrapped| |###
+		143|open|tcp|imap|Microsoft Exchange 2007-2010 imapd |Windows###
+		443|open|tcp|ssl|TLSv1 |Windows###
+		587|open|tcp|smtp|Microsoft Exchange smtpd |Windows###
+		993|open|tcp|ssl|TLSv1 |Windows###
+
+	124.251.6.34|up|Linux 3.2 - 4.9|
+		80|open|tcp|http|OpenResty web app server |###|
+		443|open|tcp|ssl| |###
+
+	124.251.6.35|up|Crestron XPanel control system|
+		80|open|tcp|tcpwrapped| |###
+		443|open|tcp|tcpwrapped| |###
+
+	124.251.6.4|up|Linux 2.6.32 - 3.10|
+		25|open|tcp|smtp|Postfix smtpd |###
+
+	124.251.6.41|up|Linux 2.6.32 - 3.10|
+		80|open|tcp|http|nginx |###|
+
+	124.251.6.42|up|Linux 3.16|
+		80|open|tcp|http|OpenResty web app server |###|124.251.6.42|302 Found|302 Found|openresty||
+		443|open|tcp|tcpwrapped| |###
+
+	124.251.6.43|up|Linux 3.16|
+		80|open|tcp|http|OpenResty web app server |###|124.251.6.43|302 Found|302 Found|openresty||
+		443|open|tcp|tcpwrapped| |###
+
+	124.251.6.44|up|Linux 3.16|
+		80|open|tcp|tcpwrapped| |###
+		443|open|tcp|tcpwrapped| |###
+
+	124.251.6.48|up|Linux 3.16|
+		8443|open|tcp|tcpwrapped| |###
+
+	124.251.6.49|up|Linux 3.16|
+		80|open|tcp|tcpwrapped| |###
+		443|open|tcp|ssl| |###
+
+	124.251.6.5|up|Linux 3.16|
+		80|open|tcp|http|OpenResty web app server |###|124.251.6.5|302 Found|302 Found|openresty||
+		443|open|tcp|ssl| |###
+
+	124.251.6.50|up|Linux 2.6.32 - 3.13|
+		80|open|tcp|http|nginx |###|
+
+	124.251.6.51|up|Linux 2.6.39|
+		80|open|tcp|http|nginx |###|
+
+	124.251.6.52|up|Crestron XPanel control system|
+		80|open|tcp|http|OpenResty web app server |###|124.251.6.52|302 Found|302 Found|openresty||
+		443|open|tcp|ssl| |###
+
+	124.251.6.53|up|Crestron XPanel control system|
+		80|open|tcp|http|OpenResty web app server |###|
+		443|open|tcp|ssl| |###
+
+	124.251.6.54|up|Linux 3.2 - 4.9|
+		80|open|tcp|http|OpenResty web app server |###|124.251.6.54|302 Found|302 Found|openresty||
+		443|open|tcp|ssl| |###
+
+	124.251.6.56|up|Crestron XPanel control system|
+		80|open|tcp|http| |###|
+		443|open|tcp|ssl| |###
+
+	124.251.6.57|up|Linux 3.16|
+		80|open|tcp|http|OpenResty web app server |###|124.251.6.57|302 Found|302 Found|openresty||
+		443|open|tcp|ssl| |###
+
+	124.251.6.58|up|Linux 3.16|
+		80|open|tcp|http|OpenResty web app server |###|124.251.6.58|302 Found|302 Found|openresty||
+
+	124.251.6.59|up|Linux 3.2 - 4.9|
+		80|open|tcp|http|OpenResty web app server |###|124.251.6.59|302 Found|302 Found|openresty||
+		443|open|tcp|ssl| |###
+
+	124.251.6.6|up|Crestron XPanel control system|
+		80|open|tcp|http|OpenResty web app server |###|124.251.6.6|502 Bad Gateway|502 Bad Gateway|openresty||
+		443|open|tcp|ssl| |###
+
+	124.251.6.60|up|Linux 2.6.39|
+		80|open|tcp|http|nginx |###|
+
+	124.251.6.63|up|Crestron XPanel control system|
+		80|open|tcp|http|OpenResty web app server |###|
+		443|open|tcp|ssl| |###
+
+	124.251.6.64|up|Linux 3.2 - 4.9|
+		80|open|tcp|http|OpenResty web app server |###|124.251.6.64|302 Found|302 Found|openresty||
+		443|open|tcp|ssl| |###
+
+	124.251.6.65|up|Linux 2.6.32 - 3.10|
+		80|open|tcp|http|OpenResty web app server |###|124.251.6.65|302 Found|302 Found|openresty||
+		443|open|tcp|ssl| |###
+
+	124.251.6.66|up|Linux 3.2 - 4.9|
+		80|open|tcp|http|OpenResty web app server |###|124.251.6.66|302 Found|302 Found|openresty||
+		443|open|tcp|ssl| |###
+
+	124.251.6.67|up|Linux 3.2 - 4.9|
+		80|open|tcp|http|OpenResty web app server |###|124.251.6.67|302 Found|302 Found|openresty||
+
+	124.251.6.68|up|Linux 3.2 - 4.9|
+		80|open|tcp|http| |###|
+		443|open|tcp|ssl| |###
+
+	124.251.6.69|up|Linux 3.2 - 4.9|
+		80|open|tcp|http|OpenResty web app server |###|124.251.6.69|302 Found|302 Found|openresty||
+
+	124.251.6.7|up|Linux 3.2 - 4.9|
+		80|open|tcp|http| |###|
+		443|open|tcp|ssl| |###
+

@@ -1,0 +1,1 @@
+http://210.21.83.230:80 [301 Moved Permanently] Country[CHINA][CN], HTTPServer[nginx/1.7.10], IP[210.21.83.230], RedirectLocation[https://b2b.adholidays.com/], nginx[1.7.10]

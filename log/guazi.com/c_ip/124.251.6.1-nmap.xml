@@ -1,0 +1,1410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/local/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.70 scan initiated Thu Jan 10 22:09:03 2019 as: nmap -oX /root/fuzzScanner/log/guazi.com/c_ip/124.251.6.1-nmap.xml -Pn -&#45;open -sS -sV -O -&#45;script=banner -p 21,23,25,80,111,143,443,465,554,587,993,3306,5060,5061,7547,8000,8080,8443,9000 124.251.6.1 124.251.6.10 124.251.6.11 124.251.6.12 124.251.6.13 124.251.6.14 124.251.6.16 124.251.6.17 124.251.6.18 124.251.6.19 124.251.6.2 124.251.6.20 124.251.6.21 124.251.6.22 124.251.6.23 124.251.6.24 124.251.6.25 124.251.6.26 124.251.6.27 124.251.6.28 124.251.6.29 124.251.6.3 124.251.6.30 124.251.6.31 124.251.6.32 124.251.6.33 124.251.6.34 124.251.6.35 124.251.6.38 124.251.6.39 124.251.6.4 124.251.6.40 124.251.6.41 124.251.6.42 124.251.6.43 124.251.6.44 124.251.6.45 124.251.6.46 124.251.6.47 124.251.6.48 124.251.6.49 124.251.6.5 124.251.6.50 124.251.6.51 124.251.6.52 124.251.6.53 124.251.6.54 124.251.6.55 124.251.6.56 124.251.6.57 124.251.6.58 124.251.6.59 124.251.6.6 124.251.6.60 124.251.6.61 124.251.6.62 124.251.6.63 124.251.6.64 124.251.6.65 124.251.6.66 124.251.6.67 124.251.6.68 124.251.6.69 124.251.6.7 124.251.6.70 124.251.6.71 124.251.6.72 124.251.6.73 124.251.6.74 124.251.6.75 124.251.6.76 124.251.6.77 124.251.6.78 124.251.6.79 124.251.6.8 124.251.6.80 124.251.6.81 124.251.6.82 124.251.6.85 124.251.6.86 124.251.6.87 124.251.6.89 124.251.6.9 124.251.6.90 124.251.6.91 124.251.6.92 124.251.6.94 -->
+<nmaprun scanner="nmap" args="nmap -oX /root/fuzzScanner/log/guazi.com/c_ip/124.251.6.1-nmap.xml -Pn -&#45;open -sS -sV -O -&#45;script=banner -p 21,23,25,80,111,143,443,465,554,587,993,3306,5060,5061,7547,8000,8080,8443,9000 124.251.6.1 124.251.6.10 124.251.6.11 124.251.6.12 124.251.6.13 124.251.6.14 124.251.6.16 124.251.6.17 124.251.6.18 124.251.6.19 124.251.6.2 124.251.6.20 124.251.6.21 124.251.6.22 124.251.6.23 124.251.6.24 124.251.6.25 124.251.6.26 124.251.6.27 124.251.6.28 124.251.6.29 124.251.6.3 124.251.6.30 124.251.6.31 124.251.6.32 124.251.6.33 124.251.6.34 124.251.6.35 124.251.6.38 124.251.6.39 124.251.6.4 124.251.6.40 124.251.6.41 124.251.6.42 124.251.6.43 124.251.6.44 124.251.6.45 124.251.6.46 124.251.6.47 124.251.6.48 124.251.6.49 124.251.6.5 124.251.6.50 124.251.6.51 124.251.6.52 124.251.6.53 124.251.6.54 124.251.6.55 124.251.6.56 124.251.6.57 124.251.6.58 124.251.6.59 124.251.6.6 124.251.6.60 124.251.6.61 124.251.6.62 124.251.6.63 124.251.6.64 124.251.6.65 124.251.6.66 124.251.6.67 124.251.6.68 124.251.6.69 124.251.6.7 124.251.6.70 124.251.6.71 124.251.6.72 124.251.6.73 124.251.6.74 124.251.6.75 124.251.6.76 124.251.6.77 124.251.6.78 124.251.6.79 124.251.6.8 124.251.6.80 124.251.6.81 124.251.6.82 124.251.6.85 124.251.6.86 124.251.6.87 124.251.6.89 124.251.6.9 124.251.6.90 124.251.6.91 124.251.6.92 124.251.6.94" start="1547129343" startstr="Thu Jan 10 22:09:03 2019" version="7.70" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="19" services="21,23,25,80,111,143,443,465,554,587,993,3306,5060-5061,7547,8000,8080,8443,9000"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1547129409" endtime="1547129689"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.1" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="18">
+<extrareasons reason="no-responses" count="18"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="http" servicefp="SF-Port80-TCP:V=7.70%I=7%D=1/10%Time=5C375256%P=x86_64-unknown-linux-gnu%r(RTSPRequest,AA,&quot;&lt;html&gt;\r\n&lt;head&gt;&lt;title&gt;400\x20Bad\x20Request&lt;/title&gt;&lt;/head&gt;\r\n&lt;body\x20bgcolor=\&quot;white\&quot;&gt;\r\n&lt;center&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;/center&gt;\r\n&lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;\r\n&lt;/body&gt;\r\n&lt;/html&gt;\r\n&quot;)%r(X11Probe,13F,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nServer:\x20openresty\r\nDate:\x20Thu,\x2010\x20Jan\x202019\x2014:10:30\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x20170\r\nConnection:\x20close\r\n\r\n&lt;html&gt;\r\n&lt;head&gt;&lt;title&gt;400\x20Bad\x20Request&lt;/title&gt;&lt;/head&gt;\r\n&lt;body\x20bgcolor=\&quot;white\&quot;&gt;\r\n&lt;center&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;/center&gt;\r\n&lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;\r\n&lt;/body&gt;\r\n&lt;/html&gt;\r\n&quot;);" method="table" conf="3"/><script id="fingerprint-strings" output="&#xa;  RTSPRequest: &#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;&#xa;  X11Probe: &#xa;    HTTP/1.1 400 Bad Request&#xa;    Server: openresty&#xa;    Date: Thu, 10 Jan 2019 14:10:30 GMT&#xa;    Content-Type: text/html&#xa;    Content-Length: 170&#xa;    Connection: close&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;"><elem key="RTSPRequest">&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;</elem>
+<elem key="X11Probe">&#xa;    HTTP/1.1 400 Bad Request&#xa;    Server: openresty&#xa;    Date: Thu, 10 Jan 2019 14:10:30 GMT&#xa;    Content-Type: text/html&#xa;    Content-Length: 170&#xa;    Connection: close&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Crestron XPanel control system" accuracy="100" line="19544">
+<osclass type="specialized" vendor="Crestron" osfamily="2-Series" accuracy="100"><cpe>cpe:/o:crestron:2_series</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="375" lastboot="Thu Jan 10 22:08:34 2019"/>
+<ipidsequence class="All zeros" values="0,0,0"/>
+<tcptssequence class="other" values="ECADEE3A,EDA09D44,EDA07040"/>
+<times srtt="22602" rttvar="6191" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.10" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" product="nginx" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service><script id="http-server-header" output="nginx"><elem>nginx</elem>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="ssl" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Crestron XPanel control system" accuracy="100" line="19544">
+<osclass type="specialized" vendor="Crestron" osfamily="2-Series" accuracy="100"><cpe>cpe:/o:crestron:2_series</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="227" lastboot="Thu Jan 10 22:11:02 2019"/>
+<ipidsequence class="All zeros" values="0,0,0"/>
+<tcptssequence class="other" values="E9862041,A83D7C24,E98623F9"/>
+<times srtt="22877" rttvar="5481" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.12" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="http" product="nginx" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="ssl" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Crestron MPC-M5 AV controller or Wago Kontakttechnik 750-852 PLC" accuracy="100" line="19564">
+<osclass type="media device" vendor="Crestron" osfamily="embedded" accuracy="100"><cpe>cpe:/h:crestron:mpc-m5</cpe></osclass>
+<osclass type="specialized" vendor="Wago Kontakttechnik" osfamily="embedded" accuracy="100"><cpe>cpe:/h:wago_kontakttechnik:750-852</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.4.26 (Slackware 10.0.0)" accuracy="100" line="45456">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:2.4.26</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="2824307" lastboot="Sun Dec  9 05:43:02 2018"/>
+<ipidsequence class="All zeros" values="0,0,0"/>
+<tcptssequence class="1000HZ" values="A8541066,A854118A,A854141A"/>
+<times srtt="23384" rttvar="7107" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.13" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" product="OpenResty web app server" method="probed" conf="10"><cpe>cpe:/a:openresty:ngx_openresty</cpe></service></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="ssl" method="probed" conf="10"/><script id="http-server-header" output="openresty"><elem>openresty</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Crestron MPC-M5 AV controller or Wago Kontakttechnik 750-852 PLC" accuracy="100" line="19564">
+<osclass type="media device" vendor="Crestron" osfamily="embedded" accuracy="100"><cpe>cpe:/h:crestron:mpc-m5</cpe></osclass>
+<osclass type="specialized" vendor="Wago Kontakttechnik" osfamily="embedded" accuracy="100"><cpe>cpe:/h:wago_kontakttechnik:750-852</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.4.26 (Slackware 10.0.0)" accuracy="100" line="45456">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:2.4.26</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="17336" lastboot="Thu Jan 10 17:25:53 2019"/>
+<ipidsequence class="All zeros" values="0,0,0"/>
+<tcptssequence class="other" values="6A1D0A8D,6A1C17C4,6A1C1A5A"/>
+<times srtt="22556" rttvar="7330" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.16" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" product="OpenResty web app server" method="probed" conf="10"><cpe>cpe:/a:openresty:ngx_openresty</cpe></service></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="ssl" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 3.18" accuracy="98" line="64274">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="98"><cpe>cpe:/o:linux:linux_kernel:3.18</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32" accuracy="96" line="55191">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10" accuracy="88" line="63039">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:3.10</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10 - 3.16" accuracy="88" line="63168">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.0" accuracy="88" line="66814">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:4.0</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.4" accuracy="88" line="67474">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:4.4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 2.6.33" accuracy="88" line="56094">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10 - 3.12" accuracy="88" line="63130">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.11 - 4.1" accuracy="88" line="63416">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16" accuracy="88" line="64125">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="84949" lastboot="Wed Jan  9 22:39:00 2019"/>
+<times srtt="27232" rttvar="8276" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129689"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.17" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="http" servicefp="SF-Port80-TCP:V=7.70%I=7%D=1/10%Time=5C375256%P=x86_64-unknown-linux-gnu%r(RTSPRequest,AA,&quot;&lt;html&gt;\r\n&lt;head&gt;&lt;title&gt;400\x20Bad\x20Request&lt;/title&gt;&lt;/head&gt;\r\n&lt;body\x20bgcolor=\&quot;white\&quot;&gt;\r\n&lt;center&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;/center&gt;\r\n&lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;\r\n&lt;/body&gt;\r\n&lt;/html&gt;\r\n&quot;)%r(X11Probe,13F,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nServer:\x20openresty\r\nDate:\x20Thu,\x2010\x20Jan\x202019\x2014:10:30\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x20170\r\nConnection:\x20close\r\n\r\n&lt;html&gt;\r\n&lt;head&gt;&lt;title&gt;400\x20Bad\x20Request&lt;/title&gt;&lt;/head&gt;\r\n&lt;body\x20bgcolor=\&quot;white\&quot;&gt;\r\n&lt;center&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;/center&gt;\r\n&lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;\r\n&lt;/body&gt;\r\n&lt;/html&gt;\r\n&quot;);" method="table" conf="3"/><script id="fingerprint-strings" output="&#xa;  RTSPRequest: &#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;&#xa;  X11Probe: &#xa;    HTTP/1.1 400 Bad Request&#xa;    Server: openresty&#xa;    Date: Thu, 10 Jan 2019 14:10:30 GMT&#xa;    Content-Type: text/html&#xa;    Content-Length: 170&#xa;    Connection: close&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;"><elem key="RTSPRequest">&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;</elem>
+<elem key="X11Probe">&#xa;    HTTP/1.1 400 Bad Request&#xa;    Server: openresty&#xa;    Date: Thu, 10 Jan 2019 14:10:30 GMT&#xa;    Content-Type: text/html&#xa;    Content-Length: 170&#xa;    Connection: close&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;</elem>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="ssl" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 3.2 - 4.9" accuracy="92" line="65105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="HP P2000 G3 NAS device" accuracy="88" line="34647">
+<osclass type="storage-misc" vendor="HP" osfamily="embedded" accuracy="88"><cpe>cpe:/h:hp:p2000_g3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16" accuracy="87" line="63962">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="87"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+<osmatch name="Crestron XPanel control system" accuracy="87" line="19544">
+<osclass type="specialized" vendor="Crestron" osfamily="2-Series" accuracy="87"><cpe>cpe:/o:crestron:2_series</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.4" accuracy="85" line="67456">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:4.4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.23 - 2.6.38" accuracy="85" line="51872">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32" accuracy="85" line="55173">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 3.16" accuracy="85" line="64933">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 3.8" accuracy="85" line="65058">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="140" lastboot="Thu Jan 10 22:12:29 2019"/>
+<times srtt="22551" rttvar="3079" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129689"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.18" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" servicefp="SF-Port80-TCP:V=7.70%I=7%D=1/10%Time=5C375256%P=x86_64-unknown-linux-gnu%r(RTSPRequest,AA,&quot;&lt;html&gt;\r\n&lt;head&gt;&lt;title&gt;400\x20Bad\x20Request&lt;/title&gt;&lt;/head&gt;\r\n&lt;body\x20bgcolor=\&quot;white\&quot;&gt;\r\n&lt;center&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;/center&gt;\r\n&lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;\r\n&lt;/body&gt;\r\n&lt;/html&gt;\r\n&quot;)%r(X11Probe,13F,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nServer:\x20openresty\r\nDate:\x20Thu,\x2010\x20Jan\x202019\x2014:10:30\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x20170\r\nConnection:\x20close\r\n\r\n&lt;html&gt;\r\n&lt;head&gt;&lt;title&gt;400\x20Bad\x20Request&lt;/title&gt;&lt;/head&gt;\r\n&lt;body\x20bgcolor=\&quot;white\&quot;&gt;\r\n&lt;center&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;/center&gt;\r\n&lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;\r\n&lt;/body&gt;\r\n&lt;/html&gt;\r\n&quot;);" method="table" conf="3"/><script id="fingerprint-strings" output="&#xa;  RTSPRequest: &#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;&#xa;  X11Probe: &#xa;    HTTP/1.1 400 Bad Request&#xa;    Server: openresty&#xa;    Date: Thu, 10 Jan 2019 14:10:30 GMT&#xa;    Content-Type: text/html&#xa;    Content-Length: 170&#xa;    Connection: close&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;"><elem key="RTSPRequest">&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;</elem>
+<elem key="X11Probe">&#xa;    HTTP/1.1 400 Bad Request&#xa;    Server: openresty&#xa;    Date: Thu, 10 Jan 2019 14:10:30 GMT&#xa;    Content-Type: text/html&#xa;    Content-Length: 170&#xa;    Connection: close&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;</elem>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="ssl" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 3.2 - 4.9" accuracy="92" line="65105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16" accuracy="87" line="63962">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="87"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+<osmatch name="Crestron XPanel control system" accuracy="87" line="19544">
+<osclass type="specialized" vendor="Crestron" osfamily="2-Series" accuracy="87"><cpe>cpe:/o:crestron:2_series</cpe></osclass>
+</osmatch>
+<osmatch name="HP P2000 G3 NAS device" accuracy="87" line="34647">
+<osclass type="storage-misc" vendor="HP" osfamily="embedded" accuracy="87"><cpe>cpe:/h:hp:p2000_g3</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="130" lastboot="Thu Jan 10 22:12:39 2019"/>
+<times srtt="22326" rttvar="3700" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129689"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.19" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="http" servicefp="SF-Port80-TCP:V=7.70%I=7%D=1/10%Time=5C375256%P=x86_64-unknown-linux-gnu%r(RTSPRequest,AA,&quot;&lt;html&gt;\r\n&lt;head&gt;&lt;title&gt;400\x20Bad\x20Request&lt;/title&gt;&lt;/head&gt;\r\n&lt;body\x20bgcolor=\&quot;white\&quot;&gt;\r\n&lt;center&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;/center&gt;\r\n&lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;\r\n&lt;/body&gt;\r\n&lt;/html&gt;\r\n&quot;)%r(X11Probe,13F,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nServer:\x20openresty\r\nDate:\x20Thu,\x2010\x20Jan\x202019\x2014:10:30\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x20170\r\nConnection:\x20close\r\n\r\n&lt;html&gt;\r\n&lt;head&gt;&lt;title&gt;400\x20Bad\x20Request&lt;/title&gt;&lt;/head&gt;\r\n&lt;body\x20bgcolor=\&quot;white\&quot;&gt;\r\n&lt;center&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;/center&gt;\r\n&lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;\r\n&lt;/body&gt;\r\n&lt;/html&gt;\r\n&quot;);" method="table" conf="3"/><script id="fingerprint-strings" output="&#xa;  RTSPRequest: &#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;&#xa;  X11Probe: &#xa;    HTTP/1.1 400 Bad Request&#xa;    Server: openresty&#xa;    Date: Thu, 10 Jan 2019 14:10:30 GMT&#xa;    Content-Type: text/html&#xa;    Content-Length: 170&#xa;    Connection: close&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;"><elem key="RTSPRequest">&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;</elem>
+<elem key="X11Probe">&#xa;    HTTP/1.1 400 Bad Request&#xa;    Server: openresty&#xa;    Date: Thu, 10 Jan 2019 14:10:30 GMT&#xa;    Content-Type: text/html&#xa;    Content-Length: 170&#xa;    Connection: close&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;</elem>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="ssl" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 3.18" accuracy="98" line="64274">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="98"><cpe>cpe:/o:linux:linux_kernel:3.18</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32" accuracy="96" line="55191">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10" accuracy="88" line="63039">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:3.10</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10 - 3.16" accuracy="88" line="63168">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.0" accuracy="88" line="66814">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:4.0</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.4" accuracy="88" line="67474">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:4.4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 2.6.33" accuracy="88" line="56094">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10 - 3.12" accuracy="88" line="63130">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.11 - 4.1" accuracy="88" line="63416">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16" accuracy="88" line="64125">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="125" lastboot="Thu Jan 10 22:12:44 2019"/>
+<times srtt="27342" rttvar="9940" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129689"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.2" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="12">
+<extrareasons reason="no-responses" count="12"/>
+</extraports>
+<port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="110"/><service name="smtp" product="Microsoft Exchange 2010 smtpd" extrainfo="not available" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server:2010</cpe></service><script id="banner" output="421 4.3.2 Service not available"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="110"/><service name="http" product="Microsoft IIS httpd" version="8.5" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:8.5</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="109"/><service name="imap" product="Microsoft Exchange 2007-2010 imapd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="110"/><service name="ssl" product="TLSv1" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="465"><state state="open" reason="syn-ack" reason_ttl="110"/><service name="smtp" product="Microsoft Exchange smtpd" hostname="G1-IT-EX-07.guazi-corp.com" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="587"><state state="open" reason="syn-ack" reason_ttl="109"/><service name="smtp" product="Microsoft Exchange smtpd" hostname="G1-IT-EX-07.guazi-corp.com" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="993"><state state="open" reason="syn-ack" reason_ttl="110"/><service name="ssl" product="Microsoft SChannel TLS" ostype="Windows" servicefp="SF-Port993-TCP:V=7.70%I=7%D=1/10%Time=5C37525B%P=x86_64-unknown-linux-gnu%r(TLSSessionReq,BC1,&quot;\x16\x03\x03\x0b\xbc\x02\0\0M\x03\x03\\7RV\xe8\xban,\x81\x0f\xf3m\xfc\xb2\x13\xbc&lt;\xa87\x0f\x19\x0e\x81\xe46/\xadn\x06n\x88f\x20\xf9\x0e\0\0\x98\xf7B\x1eQ\xad\xc7\xff5=\x82\xacnn\+\xbe;\xdd\x9e\x83\x89J\x8c\xe7L\xf9\x01\x0c\0/\0\0\x05\xff\x01\0\x01\0\x0b\0\x0bc\0\x0b`\0\x06\xed0\x82\x06\xe90\x82\x05\xd1\xa0\x03\x02\x01\x02\x02\x0c#\xc6\x81\x1ew\xbbD:\x91,\xe680\r\x06\t\*\x86H\x86\xf7\r\x01\x01\x0b\x05\x000f1\x0b0\t\x06\x03U\x04\x06\x13\x02BE1\x190\x17\x06\x03U\x04\n\x13\x10GlobalSign\x20nv-sa1&lt;0:\x06\x03U\x04\x03\x133GlobalSign\x20Organization\x20Validation\x20CA\x20-\x20SHA256\x20-\x20G20\x1e\x17\r180508060327Z\x17\r190407034324Z0\x81\x9c1\x0b0\t\x06\x03U\x04\x06\x13\x02CN1\x100\x0e\x06\x03U\x04\x08\x0c\x07Beijing1\x100\x0e\x06\x03U\x04\x07\x0c\x07Beijing1\x120\x10\x06\x03U\x04\x0b\x0c\t\xe6\x8a\x80\xe6\x9c\xaf\xe9\x83\xa81&lt;0:\x06\x03U\x04\n\x0c3\xe8\xbd\xa6\xe5\xa5\xbd\xe5\xa4\x9a\xe6\x97\xa7\xe6\x9c\xba\xe5\x8a\xa8\xe8\xbd\xa6\xe7\xbb\x8f\xe7\xba\xaa\xef\xbc\x88\xe5\x8c\x97\xe4\xba\xac\xef\xbc\x89\xe6\x9c\x89\xe9\x99\x90\xe5\x85\xac\xe5\x8f\xb81\x170\x15\x06\x03U\x04\x03\x0c\x0email\.guazi\.com0\x82\x01\&quot;0\r\x06\t\*\x86H\x86\xf7\r\x01\x01\x01\x05\0\x03\x82\x01\x0f\x000\x82\x01\n\x02\x82\x01\x01\0\x80\xa5\xa0\x14\xadF\\\x81\xff\xfd\xbfh\xa2&gt;\xd2Y\xa8\x83\xce\x980\xfc\xbd\*\x13\xef\xdd\xbc\xc8c\*\x97\xaa5G\xb4\xd9\t\xefA431\xdf\xf2\x1d\)b\|ec\x16\x19\xf3\0\x9e1y\xdd\xc5\xf2\xf8\x84\xc3\xa6\xbau\x8c\x10\xd9hN\xe7\x99\x8a\xde\x8c//\xcd&gt;\xd7\x9d\x83\x82x\xc89\x97rE\xf30\xceGY\x7f\xd9}%kPW:\x9e\x86\)\xe7BQ7e\x7f\|\xa3\x83q\xbc\xafX\x80\x91\xf8\xe3:\x89\x18;\x9b\xdd\)=\x89\x1c2}\x05\xb2\xaeg\x15\xbe\x06\x86\x8d\x10\x11c\x0e\x17\xc3\xab\&quot;\xde1\xd7\x89\x14\x82\t\x0e\x1a\x14{\xe6\xf3\xeb\xdd\x98\x8f\x9c\x1eP\xde\xe5\xe2U\x11\+\x20\|\xdc\xc4IY\xd6\xd6\xf2\xba\x89\xc0!\x9b\xc9vN\xb5\x16\xe8T\^\xc6\xfd\xe3\xfcgi\x196\xd7\x96\xb7\xc0_\x97l\xd4\xeeS2C\xa5&amp;{\xbf\xfb\xad\xe7\x8e\xab\xf6\x1a\xa43\xe7PgE8\xee\xb6\x98~\xef\xdd\xb7&gt;\x05%\xe5-\xfe\xa2\x19i\xfb\x02\x03\x01\0\x01\xa3\x82\x03\^0\x82\x03Z0\x0e\x06\x03U\x1d\x0f\x01\x01\xff\x04\x04\x03\x02\x05\xa00\x81\xa0\x06\x08\+\x06\x01\x05\x05\x07\x01\x01\x04\x81\x930\x81\x900M\x06\x08\+\x06\x01\x05\x05\x070\x02\x86Ahttp://secure\.globalsign\.com/cacert/gsorganizationvalsha2g2r1\.crt0\?\x06\x08\+\x06\x01\x05\x05\x070\x01\x863http://ocsp2\.globalsign\.com/gsorganiz&quot;);" method="table" conf="3"><cpe>cpe:/o:microsoft:windows</cpe></service><script id="fingerprint-strings" output="&#xa;  TLSSessionReq: &#xa;    GlobalSign nv-sa1&lt;0:&#xa;    3GlobalSign Organization Validation CA - SHA256 - G20&#xa;    180508060327Z&#xa;    190407034324Z0&#xa;    Beijing1&#xa;    Beijing1&#xa;    1&lt;0:&#xa;    mail.guazi.com0&#xa;    F\x81&#xa;    A431&#xa;    )b|ec&#xa;    }%kPW:&#xa;    BQ7e&#xa;    PgE8&#xa;    Ahttp://secure.globalsign.com/cacert/gsorganizationvalsha2g2r1.crt0?&#xa;    3http://ocsp2.globalsign.com/gsorganiz"><elem key="TLSSessionReq">&#xa;    GlobalSign nv-sa1&lt;0:&#xa;    3GlobalSign Organization Validation CA - SHA256 - G20&#xa;    180508060327Z&#xa;    190407034324Z0&#xa;    Beijing1&#xa;    Beijing1&#xa;    1&lt;0:&#xa;    mail.guazi.com0&#xa;    F\x81&#xa;    A431&#xa;    )b|ec&#xa;    }%kPW:&#xa;    BQ7e&#xa;    PgE8&#xa;    Ahttp://secure.globalsign.com/cacert/gsorganizationvalsha2g2r1.crt0?&#xa;    3http://ocsp2.globalsign.com/gsorganiz</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="25"/>
+<osmatch name="Microsoft Windows Server 2012 R2" accuracy="100" line="75297">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2012" accuracy="100"><cpe>cpe:/o:microsoft:windows_server_2012:r2</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2016" accuracy="100" line="75710">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2016" accuracy="100"><cpe>cpe:/o:microsoft:windows_server_2016</cpe></osclass>
+</osmatch>
+</os>
+<times srtt="23684" rttvar="3168" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129689"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.20" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" servicefp="SF-Port80-TCP:V=7.70%I=7%D=1/10%Time=5C375256%P=x86_64-unknown-linux-gnu%r(RTSPRequest,AA,&quot;&lt;html&gt;\r\n&lt;head&gt;&lt;title&gt;400\x20Bad\x20Request&lt;/title&gt;&lt;/head&gt;\r\n&lt;body\x20bgcolor=\&quot;white\&quot;&gt;\r\n&lt;center&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;/center&gt;\r\n&lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;\r\n&lt;/body&gt;\r\n&lt;/html&gt;\r\n&quot;)%r(X11Probe,13F,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nServer:\x20openresty\r\nDate:\x20Thu,\x2010\x20Jan\x202019\x2014:10:31\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x20170\r\nConnection:\x20close\r\n\r\n&lt;html&gt;\r\n&lt;head&gt;&lt;title&gt;400\x20Bad\x20Request&lt;/title&gt;&lt;/head&gt;\r\n&lt;body\x20bgcolor=\&quot;white\&quot;&gt;\r\n&lt;center&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;/center&gt;\r\n&lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;\r\n&lt;/body&gt;\r\n&lt;/html&gt;\r\n&quot;);" method="table" conf="3"/><script id="fingerprint-strings" output="&#xa;  RTSPRequest: &#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;&#xa;  X11Probe: &#xa;    HTTP/1.1 400 Bad Request&#xa;    Server: openresty&#xa;    Date: Thu, 10 Jan 2019 14:10:31 GMT&#xa;    Content-Type: text/html&#xa;    Content-Length: 170&#xa;    Connection: close&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;"><elem key="RTSPRequest">&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;</elem>
+<elem key="X11Probe">&#xa;    HTTP/1.1 400 Bad Request&#xa;    Server: openresty&#xa;    Date: Thu, 10 Jan 2019 14:10:31 GMT&#xa;    Content-Type: text/html&#xa;    Content-Length: 170&#xa;    Connection: close&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;</elem>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="ssl" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 3.16" accuracy="100" line="63962">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="3986939" lastboot="Sun Nov 25 18:45:50 2018"/>
+<times srtt="23266" rttvar="6999" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129689"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.21" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" servicefp="SF-Port80-TCP:V=7.70%I=7%D=1/10%Time=5C375260%P=x86_64-unknown-linux-gnu%r(RTSPRequest,AA,&quot;&lt;html&gt;\r\n&lt;head&gt;&lt;title&gt;400\x20Bad\x20Request&lt;/title&gt;&lt;/head&gt;\r\n&lt;body\x20bgcolor=\&quot;white\&quot;&gt;\r\n&lt;center&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;/center&gt;\r\n&lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;\r\n&lt;/body&gt;\r\n&lt;/html&gt;\r\n&quot;);" method="table" conf="3"/><script id="fingerprint-strings" output="&#xa;  RTSPRequest: &#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;"><elem key="RTSPRequest">&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;</elem>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="ssl" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 3.16" accuracy="100" line="63962">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="227" lastboot="Thu Jan 10 22:11:02 2019"/>
+<times srtt="20827" rttvar="3757" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129689"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.22" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" servicefp="SF-Port80-TCP:V=7.70%I=7%D=1/10%Time=5C375260%P=x86_64-unknown-linux-gnu%r(RTSPRequest,AA,&quot;&lt;html&gt;\r\n&lt;head&gt;&lt;title&gt;400\x20Bad\x20Request&lt;/title&gt;&lt;/head&gt;\r\n&lt;body\x20bgcolor=\&quot;white\&quot;&gt;\r\n&lt;center&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;/center&gt;\r\n&lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;\r\n&lt;/body&gt;\r\n&lt;/html&gt;\r\n&quot;);" method="table" conf="3"/><script id="fingerprint-strings" output="&#xa;  RTSPRequest: &#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;"><elem key="RTSPRequest">&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;</elem>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="ssl" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 3.2 - 4.9" accuracy="100" line="65105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="1534625" lastboot="Mon Dec 24 03:57:44 2018"/>
+<times srtt="21673" rttvar="4038" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.23" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" product="nginx" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="ssl" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+</os>
+<times srtt="25082" rttvar="5248" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.25" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="18">
+<extrareasons reason="no-responses" count="18"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" product="Server" servicefp="SF-Port80-TCP:V=7.70%I=7%D=1/10%Time=5C37525C%P=x86_64-unknown-linux-gnu%r(GetRequest,125,&quot;HTTP/1\.1\x20200\x20OK\r\nDate:\x20Thu,\x2010\x20Jan\x202019\x2014:06:53\x20GMT\r\nServer:\x20Server\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-Robots-Tag:\x20noindex,\x20nofollow,\x20noarchive,\x20nosnippet,\x20nosnippet,\x20notranslate,\x20noimageindex\r\nContent-Length:\x2020\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\n\r\nget\x20http\x20host\x20failed&quot;)%r(HTTPOptions,125,&quot;HTTP/1\.1\x20200\x20OK\r\nDate:\x20Thu,\x2010\x20Jan\x202019\x2014:06:56\x20GMT\r\nServer:\x20Server\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-Robots-Tag:\x20noindex,\x20nofollow,\x20noarchive,\x20nosnippet,\x20nosnippet,\x20notranslate,\x20noimageindex\r\nContent-Length:\x2020\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\n\r\nget\x20http\x20host\x20failed&quot;);" method="probed" conf="10"/><script id="fingerprint-strings" output="&#xa;  GetRequest: &#xa;    HTTP/1.1 200 OK&#xa;    Date: Thu, 10 Jan 2019 14:06:53 GMT&#xa;    Server: Server&#xa;    X-Frame-Options: SAMEORIGIN&#xa;    X-Robots-Tag: noindex, nofollow, noarchive, nosnippet, nosnippet, notranslate, noimageindex&#xa;    Content-Length: 20&#xa;    Connection: close&#xa;    Content-Type: text/html; charset=utf-8&#xa;    http host failed&#xa;  HTTPOptions: &#xa;    HTTP/1.1 200 OK&#xa;    Date: Thu, 10 Jan 2019 14:06:56 GMT&#xa;    Server: Server&#xa;    X-Frame-Options: SAMEORIGIN&#xa;    X-Robots-Tag: noindex, nofollow, noarchive, nosnippet, nosnippet, notranslate, noimageindex&#xa;    Content-Length: 20&#xa;    Connection: close&#xa;    Content-Type: text/html; charset=utf-8&#xa;    http host failed"><elem key="GetRequest">&#xa;    HTTP/1.1 200 OK&#xa;    Date: Thu, 10 Jan 2019 14:06:53 GMT&#xa;    Server: Server&#xa;    X-Frame-Options: SAMEORIGIN&#xa;    X-Robots-Tag: noindex, nofollow, noarchive, nosnippet, nosnippet, notranslate, noimageindex&#xa;    Content-Length: 20&#xa;    Connection: close&#xa;    Content-Type: text/html; charset=utf-8&#xa;    http host failed</elem>
+<elem key="HTTPOptions">&#xa;    HTTP/1.1 200 OK&#xa;    Date: Thu, 10 Jan 2019 14:06:56 GMT&#xa;    Server: Server&#xa;    X-Frame-Options: SAMEORIGIN&#xa;    X-Robots-Tag: noindex, nofollow, noarchive, nosnippet, nosnippet, notranslate, noimageindex&#xa;    Content-Length: 20&#xa;    Connection: close&#xa;    Content-Type: text/html; charset=utf-8&#xa;    http host failed</elem>
+</script><script id="http-server-header" output="Server"><elem>Server</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Compal CG6640 cable modem" accuracy="97" line="67804">
+<osclass type="broadband router" vendor="Linux" osfamily="Linux" accuracy="97"><cpe>cpe:/o:linux:linux_kernel</cpe></osclass>
+<osclass type="broadband router" vendor="Compal" osfamily="embedded" accuracy="97"><cpe>cpe:/h:compal:cg6640</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.12 - 4.10" accuracy="96" line="63515">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.18" accuracy="95" line="64184">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:3.18</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.10" accuracy="94" line="56337">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10" accuracy="94" line="63021">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:3.10</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16" accuracy="94" line="64089">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32" accuracy="93" line="40073">
+<osclass type="security-misc" vendor="Imperva" osfamily="SecureSphere" accuracy="93"><cpe>cpe:/o:imperva:securesphere</cpe></osclass>
+</osmatch>
+<osmatch name="Geovision EBD4700 CCTV camera (Linux 3.4)" accuracy="93" line="30086">
+<osclass type="webcam" vendor="Geovision" osfamily="embedded" accuracy="93"><cpe>cpe:/h:geovision:ebd4700</cpe></osclass>
+<osclass type="webcam" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.4</cpe></osclass>
+</osmatch>
+<osmatch name="Google Chromecast" accuracy="93" line="31481">
+<osclass type="media device" vendor="Google" osfamily="embedded" accuracy="93"/>
+</osmatch>
+<osmatch name="OpenWrt Kamikaze 8.09 (Linux 2.4.35.4)" accuracy="93" line="45790">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:2.4.35.4</cpe></osclass>
+</osmatch>
+</os>
+<times srtt="23185" rttvar="4463" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.26" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" product="OpenResty web app server" method="probed" conf="10"><cpe>cpe:/a:openresty:ngx_openresty</cpe></service></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="ssl" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 3.16" accuracy="100" line="63962">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="228" lastboot="Thu Jan 10 22:11:01 2019"/>
+<times srtt="22796" rttvar="4834" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129689"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.27" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" servicefp="SF-Port80-TCP:V=7.70%I=7%D=1/10%Time=5C375260%P=x86_64-unknown-linux-gnu%r(RTSPRequest,AA,&quot;&lt;html&gt;\r\n&lt;head&gt;&lt;title&gt;400\x20Bad\x20Request&lt;/title&gt;&lt;/head&gt;\r\n&lt;body\x20bgcolor=\&quot;white\&quot;&gt;\r\n&lt;center&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;/center&gt;\r\n&lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;\r\n&lt;/body&gt;\r\n&lt;/html&gt;\r\n&quot;);" method="table" conf="3"/><script id="fingerprint-strings" output="&#xa;  RTSPRequest: &#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;"><elem key="RTSPRequest">&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;</elem>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="ssl" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 3.16" accuracy="100" line="63962">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="227" lastboot="Thu Jan 10 22:11:02 2019"/>
+<times srtt="23838" rttvar="7275" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.3" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="18">
+<extrareasons reason="no-responses" count="18"/>
+</extraports>
+<port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="smtp" product="Postfix smtpd" hostname=" g1-it-postfix-01.guazi.com" method="probed" conf="10"><cpe>cpe:/a:postfix:postfix</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="25"/>
+<osmatch name="Linux 2.6.32 - 3.10" accuracy="100" line="56381">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.13" accuracy="100" line="56411">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.39" accuracy="100" line="58000">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:2.6.39</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10" accuracy="100" line="62820">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3.10</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.3" accuracy="100" line="65215">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3.3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.4 - 3.10" accuracy="100" line="65366">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Synology DiskStation Manager 5.2-5644" accuracy="100" line="101159">
+<osclass type="storage-misc" vendor="Synology" osfamily="DiskStation Manager" osgen="5.X" accuracy="100"><cpe>cpe:/a:synology:diskstation_manager:5.2</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="3230042" lastboot="Tue Dec  4 13:00:47 2018"/>
+<times srtt="24723" rttvar="6629" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129689"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.30" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="ssl" method="probed" conf="10"/><script id="http-server-header" output="openresty"><elem>openresty</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 3.16" accuracy="100" line="63962">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="3777" lastboot="Thu Jan 10 21:11:52 2019"/>
+<times srtt="23127" rttvar="7206" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.31" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="443"/>
+<osmatch name="Linux 3.16" accuracy="100" line="63962">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="384" lastboot="Thu Jan 10 22:08:25 2019"/>
+<times srtt="28968" rttvar="10332" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.32" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="13">
+<extrareasons reason="no-responses" count="13"/>
+</extraports>
+<port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="109"/><service name="tcpwrapped" method="probed" conf="8"/><script id="banner" output="421 4.3.2 Service not available"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="110"/><service name="tcpwrapped" method="probed" conf="10"/><script id="http-server-header" output="Microsoft-IIS/8.5"><elem>Microsoft-IIS/8.5</elem>
+</script></port>
+<port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="110"/><service name="imap" product="Microsoft Exchange 2007-2010 imapd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service><script id="banner" output="* OK The Microsoft Exchange IMAP4 service is ready."/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="109"/><service name="ssl" product="TLSv1" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="587"><state state="open" reason="syn-ack" reason_ttl="110"/><service name="smtp" product="Microsoft Exchange smtpd" hostname="G1-IT-EX-07.guazi-corp.com" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="993"><state state="open" reason="syn-ack" reason_ttl="109"/><service name="ssl" product="TLSv1" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="143"/>
+<osmatch name="Microsoft Windows Server 2012 R2" accuracy="100" line="75297">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2012" accuracy="100"><cpe>cpe:/o:microsoft:windows_server_2012:r2</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="3321412" lastboot="Mon Dec  3 11:37:57 2018"/>
+<times srtt="24135" rttvar="4681" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.34" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="http" product="OpenResty web app server" method="probed" conf="10"><cpe>cpe:/a:openresty:ngx_openresty</cpe></service></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="ssl" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 3.2 - 4.9" accuracy="100" line="65105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="3098843" lastboot="Thu Dec  6 01:27:26 2018"/>
+<times srtt="22921" rttvar="4864" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.35" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="443"/>
+<osmatch name="Crestron XPanel control system" accuracy="100" line="19544">
+<osclass type="specialized" vendor="Crestron" osfamily="2-Series" accuracy="100"><cpe>cpe:/o:crestron:2_series</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="117020" lastboot="Wed Jan  9 13:44:29 2019"/>
+<times srtt="23117" rttvar="6058" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.4" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="18">
+<extrareasons reason="no-responses" count="18"/>
+</extraports>
+<port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="smtp" product="Postfix smtpd" hostname=" g1-it-postfix-02.guazi.com" method="probed" conf="10"><cpe>cpe:/a:postfix:postfix</cpe></service><script id="banner" output="220 g1-it-postfix-02.guazi.com ESMTP Postfix"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="25"/>
+<osmatch name="Linux 2.6.32 - 3.10" accuracy="100" line="56381">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.13" accuracy="100" line="56411">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.39" accuracy="100" line="58000">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:2.6.39</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10" accuracy="100" line="62820">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3.10</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.3" accuracy="100" line="65215">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3.3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.4 - 3.10" accuracy="100" line="65366">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Synology DiskStation Manager 5.2-5644" accuracy="100" line="101159">
+<osclass type="storage-misc" vendor="Synology" osfamily="DiskStation Manager" osgen="5.X" accuracy="100"><cpe>cpe:/a:synology:diskstation_manager:5.2</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="3092799" lastboot="Thu Dec  6 03:08:10 2018"/>
+<times srtt="23195" rttvar="6892" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.41" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="18">
+<extrareasons reason="no-responses" count="18"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" product="nginx" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 2.6.32 - 3.10" accuracy="100" line="56381">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.13" accuracy="100" line="56411">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.39" accuracy="100" line="58000">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:2.6.39</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10" accuracy="100" line="62820">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3.10</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.3" accuracy="100" line="65215">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3.3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.4 - 3.10" accuracy="100" line="65366">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Synology DiskStation Manager 5.2-5644" accuracy="100" line="101159">
+<osclass type="storage-misc" vendor="Synology" osfamily="DiskStation Manager" osgen="5.X" accuracy="100"><cpe>cpe:/a:synology:diskstation_manager:5.2</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="2695030" lastboot="Mon Dec 10 17:37:39 2018"/>
+<times srtt="23091" rttvar="6616" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.42" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" product="OpenResty web app server" method="probed" conf="10"><cpe>cpe:/a:openresty:ngx_openresty</cpe></service></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 3.16" accuracy="90" line="64089">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="90"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 4.9" accuracy="90" line="65105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="90"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="90"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.18" accuracy="89" line="64184">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="89"><cpe>cpe:/o:linux:linux_kernel:3.18</cpe></osclass>
+</osmatch>
+<osmatch name="Asus WL-500gP wireless broadband router" accuracy="89" line="8402">
+<osclass type="WAP" vendor="Asus" osfamily="embedded" accuracy="89"><cpe>cpe:/h:asus:wl-500gp</cpe></osclass>
+</osmatch>
+<osmatch name="Android 4.1.1" accuracy="89" line="30710">
+<osclass type="media device" vendor="Google" osfamily="Android" osgen="4.1.X" accuracy="89"><cpe>cpe:/o:google:android:4.1.1</cpe></osclass>
+</osmatch>
+<osmatch name="Android 4.1.2" accuracy="89" line="30784">
+<osclass type="phone" vendor="Google" osfamily="Android" osgen="4.1.X" accuracy="89"><cpe>cpe:/o:google:android:4.1.2</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.23 - 2.6.38" accuracy="89" line="51872">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="89"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32" accuracy="89" line="55173">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="89"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10 - 4.11" accuracy="89" line="63230">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="89"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="89"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.12" accuracy="89" line="63436">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="89"><cpe>cpe:/o:linux:linux_kernel:3.12</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="126" lastboot="Thu Jan 10 22:12:43 2019"/>
+<ipidsequence class="All zeros" values="0,0,0"/>
+<tcptssequence class="other" values="6988E0AC,E13B232C,6985D91D"/>
+<times srtt="21762" rttvar="6020" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.43" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" product="OpenResty web app server" method="probed" conf="10"><cpe>cpe:/a:openresty:ngx_openresty</cpe></service></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 3.16" accuracy="100" line="63962">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="4023484" lastboot="Sun Nov 25 08:36:45 2018"/>
+<times srtt="22548" rttvar="6474" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.44" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="443"/>
+<osmatch name="Linux 3.16" accuracy="100" line="63962">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="31689" lastboot="Thu Jan 10 13:26:40 2019"/>
+<times srtt="22150" rttvar="6438" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.48" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="18">
+<extrareasons reason="no-responses" count="18"/>
+</extraports>
+<port protocol="tcp" portid="8443"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="tcpwrapped" method="probed" conf="10"/><script id="http-server-header" output="openresty/1.11.2.4"><elem>openresty/1.11.2.4</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="8443"/>
+<osmatch name="Linux 3.16" accuracy="100" line="63962">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="842557" lastboot="Tue Jan  1 04:12:12 2019"/>
+<times srtt="25471" rttvar="12791" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.49" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="ssl" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="443"/>
+<osmatch name="Linux 3.16" accuracy="100" line="63962">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="9947" lastboot="Thu Jan 10 19:29:02 2019"/>
+<times srtt="24051" rttvar="6436" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.5" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="http" product="OpenResty web app server" method="probed" conf="10"><cpe>cpe:/a:openresty:ngx_openresty</cpe></service></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="ssl" method="probed" conf="10"/><script id="http-server-header" output="openresty"><elem>openresty</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 3.16" accuracy="100" line="63962">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="227" lastboot="Thu Jan 10 22:11:02 2019"/>
+<times srtt="23565" rttvar="9140" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.50" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<extraports state="closed" count="1">
+<extrareasons reason="reset" count="1"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" product="nginx" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="443"/>
+<osmatch name="Linux 2.6.32 - 3.13" accuracy="100" line="56411">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.39" accuracy="100" line="58000">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:2.6.39</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="2878428" lastboot="Sat Dec  8 14:41:01 2018"/>
+<ipidsequence class="All zeros" values="0,0,0"/>
+<tcptssequence class="1000HZ" values="AB8DE0E9,AB8DE1D1,AB8DE4FB"/>
+<times srtt="24794" rttvar="6799" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.51" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<extraports state="closed" count="1">
+<extrareasons reason="reset" count="1"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" product="nginx" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="443"/>
+<osmatch name="Linux 2.6.39" accuracy="94" line="58000">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.6.39</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.13" accuracy="94" line="56411">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10" accuracy="92" line="62820">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3.10</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.18 - 2.6.22" accuracy="91" line="49721">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Crestron XPanel control system" accuracy="91" line="19544">
+<osclass type="specialized" vendor="Crestron" osfamily="2-Series" accuracy="91"><cpe>cpe:/o:crestron:2_series</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.0 - 3.1" accuracy="90" line="62419">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="90"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.3" accuracy="90" line="65215">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="90"><cpe>cpe:/o:linux:linux_kernel:3.3</cpe></osclass>
+</osmatch>
+<osmatch name="Vodavi XTS-IP PBX" accuracy="90" line="104007">
+<osclass type="PBX" vendor="Vodavi" osfamily="embedded" accuracy="90"><cpe>cpe:/h:vodavi:xts-ip</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.18" accuracy="89" line="49197">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="89"><cpe>cpe:/o:linux:linux_kernel:2.6.18</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.22 - 2.6.36" accuracy="89" line="51668">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="89"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="2878428" lastboot="Sat Dec  8 14:41:01 2018"/>
+<ipidsequence class="All zeros" values="0,0,0"/>
+<tcptssequence class="1000HZ" values="AB8F6B57,AB8F7005,AB8F7450"/>
+<times srtt="24692" rttvar="6188" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.52" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" product="OpenResty web app server" method="probed" conf="10"><cpe>cpe:/a:openresty:ngx_openresty</cpe></service></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="ssl" method="probed" conf="10"/><script id="http-server-header" output="openresty"><elem>openresty</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Crestron XPanel control system" accuracy="100" line="19544">
+<osclass type="specialized" vendor="Crestron" osfamily="2-Series" accuracy="100"><cpe>cpe:/o:crestron:2_series</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="25209" lastboot="Thu Jan 10 15:14:40 2019"/>
+<ipidsequence class="All zeros" values="0,0,0"/>
+<tcptssequence class="other" values="D620C0D5,D620C1C8,D61D31F1"/>
+<times srtt="24791" rttvar="4581" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.53" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="http" product="OpenResty web app server" method="probed" conf="10"><cpe>cpe:/a:openresty:ngx_openresty</cpe></service></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="ssl" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Crestron XPanel control system" accuracy="100" line="19544">
+<osclass type="specialized" vendor="Crestron" osfamily="2-Series" accuracy="100"><cpe>cpe:/o:crestron:2_series</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="3062493" lastboot="Thu Dec  6 11:33:16 2018"/>
+<ipidsequence class="All zeros" values="0,0,0"/>
+<tcptssequence class="1000HZ" values="B6867CD5,B6867DC0,B68680F2"/>
+<times srtt="22969" rttvar="4153" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.54" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" product="OpenResty web app server" method="probed" conf="10"><cpe>cpe:/a:openresty:ngx_openresty</cpe></service></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="ssl" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 3.2 - 4.9" accuracy="100" line="65105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="3847242" lastboot="Tue Nov 27 09:34:07 2018"/>
+<ipidsequence class="All zeros" values="0,0,0"/>
+<tcptssequence class="1000HZ" values="E54CCF13,E54CCFFC,E54CD331"/>
+<times srtt="22900" rttvar="5387" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129689"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.56" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="http" servicefp="SF-Port80-TCP:V=7.70%I=7%D=1/10%Time=5C37526B%P=x86_64-unknown-linux-gnu%r(RTSPRequest,AA,&quot;&lt;html&gt;\r\n&lt;head&gt;&lt;title&gt;400\x20Bad\x20Request&lt;/title&gt;&lt;/head&gt;\r\n&lt;body\x20bgcolor=\&quot;white\&quot;&gt;\r\n&lt;center&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;/center&gt;\r\n&lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;\r\n&lt;/body&gt;\r\n&lt;/html&gt;\r\n&quot;)%r(X11Probe,13F,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nServer:\x20openresty\r\nDate:\x20Thu,\x2010\x20Jan\x202019\x2014:10:51\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x20170\r\nConnection:\x20close\r\n\r\n&lt;html&gt;\r\n&lt;head&gt;&lt;title&gt;400\x20Bad\x20Request&lt;/title&gt;&lt;/head&gt;\r\n&lt;body\x20bgcolor=\&quot;white\&quot;&gt;\r\n&lt;center&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;/center&gt;\r\n&lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;\r\n&lt;/body&gt;\r\n&lt;/html&gt;\r\n&quot;);" method="table" conf="3"/><script id="fingerprint-strings" output="&#xa;  RTSPRequest: &#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;&#xa;  X11Probe: &#xa;    HTTP/1.1 400 Bad Request&#xa;    Server: openresty&#xa;    Date: Thu, 10 Jan 2019 14:10:51 GMT&#xa;    Content-Type: text/html&#xa;    Content-Length: 170&#xa;    Connection: close&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;"><elem key="RTSPRequest">&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;</elem>
+<elem key="X11Probe">&#xa;    HTTP/1.1 400 Bad Request&#xa;    Server: openresty&#xa;    Date: Thu, 10 Jan 2019 14:10:51 GMT&#xa;    Content-Type: text/html&#xa;    Content-Length: 170&#xa;    Connection: close&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;</elem>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="ssl" method="probed" conf="10"/><script id="http-server-header" output="openresty"><elem>openresty</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Crestron XPanel control system" accuracy="100" line="19544">
+<osclass type="specialized" vendor="Crestron" osfamily="2-Series" accuracy="100"><cpe>cpe:/o:crestron:2_series</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="2440" lastboot="Thu Jan 10 21:34:09 2019"/>
+<times srtt="25531" rttvar="6890" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.57" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" product="OpenResty web app server" method="probed" conf="10"><cpe>cpe:/a:openresty:ngx_openresty</cpe></service><script id="http-server-header" output="openresty"><elem>openresty</elem>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="ssl" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 3.16" accuracy="100" line="63962">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="1323068" lastboot="Wed Dec 26 14:43:41 2018"/>
+<ipidsequence class="All zeros" values="0,0,0"/>
+<tcptssequence class="other" values="E54E5593,E54E40D3,E54E457D"/>
+<times srtt="24976" rttvar="4913" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.58" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="18">
+<extrareasons reason="no-responses" count="18"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" product="OpenResty web app server" method="probed" conf="10"><cpe>cpe:/a:openresty:ngx_openresty</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 3.16" accuracy="100" line="63962">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="126" lastboot="Thu Jan 10 22:12:43 2019"/>
+<ipidsequence class="All zeros" values="0,0,0"/>
+<tcptssequence class="other" values="BA81593,A72E7413,A72E7866"/>
+<times srtt="23025" rttvar="5460" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.59" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" product="OpenResty web app server" method="probed" conf="10"><cpe>cpe:/a:openresty:ngx_openresty</cpe></service></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="ssl" method="probed" conf="10"/><script id="http-server-header" output="openresty"><elem>openresty</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 3.2 - 4.9" accuracy="100" line="65105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="2807331" lastboot="Sun Dec  9 10:25:58 2018"/>
+<tcpsequence index="265" difficulty="Good luck!" values="2E7D89AA,1BEC2889,6405DCCA,FB77558F"/>
+<ipidsequence class="All zeros" values="0,0,0,0"/>
+<tcptssequence class="1000HZ" values="A75107B1,A7510885,A7510B4B,A7510BAE"/>
+<times srtt="23947" rttvar="8193" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.6" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="http" product="OpenResty web app server" method="probed" conf="10"><cpe>cpe:/a:openresty:ngx_openresty</cpe></service><script id="http-server-header" output="openresty"><elem>openresty</elem>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="ssl" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Crestron XPanel control system" accuracy="100" line="19544">
+<osclass type="specialized" vendor="Crestron" osfamily="2-Series" accuracy="100"><cpe>cpe:/o:crestron:2_series</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="4120" lastboot="Thu Jan 10 21:06:09 2019"/>
+<times srtt="22846" rttvar="4610" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.60" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<extraports state="closed" count="1">
+<extrareasons reason="reset" count="1"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" product="nginx" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="443"/>
+<osmatch name="Linux 2.6.39" accuracy="94" line="58000">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.6.39</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.13" accuracy="94" line="56411">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32" accuracy="93" line="54126">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 or 3.10" accuracy="93" line="56650">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.10</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 2.6.39" accuracy="93" line="56230">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10" accuracy="92" line="62820">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3.10</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.18 - 2.6.22" accuracy="91" line="49721">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.3" accuracy="90" line="65215">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="90"><cpe>cpe:/o:linux:linux_kernel:3.3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.10" accuracy="89" line="56381">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="89"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="89"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.22 - 2.6.36" accuracy="89" line="51668">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="89"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="2878428" lastboot="Sat Dec  8 14:41:01 2018"/>
+<ipidsequence class="All zeros" values="0,0,0"/>
+<tcptssequence class="1000HZ" values="AB8F6380,AB8F67CC,AB8F6C82"/>
+<times srtt="22642" rttvar="5147" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.63" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="http" product="OpenResty web app server" method="probed" conf="10"><cpe>cpe:/a:openresty:ngx_openresty</cpe></service><script id="http-server-header" output="openresty"><elem>openresty</elem>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="ssl" method="probed" conf="10"/><script id="http-server-header" output="openresty"><elem>openresty</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Crestron XPanel control system" accuracy="100" line="19544">
+<osclass type="specialized" vendor="Crestron" osfamily="2-Series" accuracy="100"><cpe>cpe:/o:crestron:2_series</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="133768" lastboot="Wed Jan  9 09:05:21 2019"/>
+<tcpsequence index="256" difficulty="Good luck!" values="57D32E23,DE609FBE,73612C62,B392F0AF"/>
+<ipidsequence class="All zeros" values="0,0,0,0"/>
+<tcptssequence class="other" values="F6E33CDA,F6E3027F,F6E34078,F6E340DD"/>
+<times srtt="25029" rttvar="7272" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.64" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="http" product="OpenResty web app server" method="probed" conf="10"><cpe>cpe:/a:openresty:ngx_openresty</cpe></service><script id="http-server-header" output="openresty"><elem>openresty</elem>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="ssl" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 3.2 - 4.9" accuracy="93" line="65105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16" accuracy="87" line="63962">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="87"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+<osmatch name="Crestron XPanel control system" accuracy="87" line="19544">
+<osclass type="specialized" vendor="Crestron" osfamily="2-Series" accuracy="87"><cpe>cpe:/o:crestron:2_series</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.4" accuracy="86" line="67456">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="86"><cpe>cpe:/o:linux:linux_kernel:4.4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32" accuracy="86" line="55173">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="86"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 3.16" accuracy="86" line="64933">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="86"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Android 4.1.1" accuracy="85" line="30710">
+<osclass type="media device" vendor="Google" osfamily="Android" osgen="4.1.X" accuracy="85"><cpe>cpe:/o:google:android:4.1.1</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.10" accuracy="85" line="56381">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.13" accuracy="85" line="56411">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10 - 4.11" accuracy="85" line="63230">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="47006" lastboot="Thu Jan 10 09:11:23 2019"/>
+<ipidsequence class="All zeros" values="0,0,0"/>
+<tcptssequence class="other" values="44167DD2,44168283,44174FE6"/>
+<times srtt="22740" rttvar="6874" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.65" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="http" product="OpenResty web app server" method="probed" conf="10"><cpe>cpe:/a:openresty:ngx_openresty</cpe></service></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="ssl" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 2.6.32 - 3.10" accuracy="98" line="56381">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="98"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="98"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Apple iOS 11.0" accuracy="97" line="3607">
+<osclass type="phone" vendor="Apple" osfamily="iOS" osgen="11.X" accuracy="97"><cpe>cpe:/o:apple:iphone_os:11.0</cpe></osclass>
+</osmatch>
+<osmatch name="DirecTV HR34 DVR (Linux 2.6.22)" accuracy="97" line="59397">
+<osclass type="media device" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="97"><cpe>cpe:/o:linux:linux_kernel:2.6.22</cpe></osclass>
+<osclass type="media device" vendor="DirecTV" osfamily="embedded" accuracy="97"><cpe>cpe:/h:directv:hr34</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.8" accuracy="97" line="65878">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="97"><cpe>cpe:/o:linux:linux_kernel:3.8</cpe></osclass>
+</osmatch>
+<osmatch name="QNAP QTS 4.0 - 4.2" accuracy="97" line="93689">
+<osclass type="storage-misc" vendor="QNAP" osfamily="QTS" osgen="4.X" accuracy="97"><cpe>cpe:/o:qnap:qts:4</cpe></osclass>
+</osmatch>
+<osmatch name="Synology DiskStation Manager 5.2-5644" accuracy="97" line="101159">
+<osclass type="storage-misc" vendor="Synology" osfamily="DiskStation Manager" osgen="5.X" accuracy="97"><cpe>cpe:/a:synology:diskstation_manager:5.2</cpe></osclass>
+</osmatch>
+<osmatch name="Check Point VPN-1 UTM appliance" accuracy="97" line="13174">
+<osclass type="firewall" vendor="Check Point" osfamily="embedded" accuracy="97"/>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.9" accuracy="97" line="56628">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="97"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="97"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16" accuracy="90" line="64089">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="90"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 4.9" accuracy="90" line="65105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="90"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="90"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="284474" lastboot="Mon Jan  7 15:13:35 2019"/>
+<times srtt="25689" rttvar="7526" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.66" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" product="OpenResty web app server" method="probed" conf="10"><cpe>cpe:/a:openresty:ngx_openresty</cpe></service><script id="http-server-header" output="openresty"><elem>openresty</elem>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="ssl" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 3.2 - 4.9" accuracy="93" line="65105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16" accuracy="87" line="63962">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="87"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+<osmatch name="Crestron XPanel control system" accuracy="87" line="19544">
+<osclass type="specialized" vendor="Crestron" osfamily="2-Series" accuracy="87"><cpe>cpe:/o:crestron:2_series</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32" accuracy="86" line="55173">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="86"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 3.16" accuracy="86" line="64933">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="86"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 3.8" accuracy="86" line="65058">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="86"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.18" accuracy="86" line="64202">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="86"><cpe>cpe:/o:linux:linux_kernel:3.18</cpe></osclass>
+</osmatch>
+<osmatch name="Android 4.1.1" accuracy="85" line="30710">
+<osclass type="media device" vendor="Google" osfamily="Android" osgen="4.1.X" accuracy="85"><cpe>cpe:/o:google:android:4.1.1</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.10" accuracy="85" line="56381">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.13" accuracy="85" line="56411">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="24669" lastboot="Thu Jan 10 15:23:40 2019"/>
+<ipidsequence class="All zeros" values="0,0,0"/>
+<tcptssequence class="other" values="33536F67,33541141,33537863"/>
+<times srtt="21662" rttvar="3362" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.67" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="18">
+<extrareasons reason="no-responses" count="18"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="http" product="OpenResty web app server" method="probed" conf="10"><cpe>cpe:/a:openresty:ngx_openresty</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 3.2 - 4.9" accuracy="93" line="65105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16" accuracy="87" line="63962">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="87"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+<osmatch name="Crestron XPanel control system" accuracy="87" line="19544">
+<osclass type="specialized" vendor="Crestron" osfamily="2-Series" accuracy="87"><cpe>cpe:/o:crestron:2_series</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 3.16" accuracy="86" line="64933">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="86"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.10" accuracy="85" line="56381">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="HP P2000 G3 NAS device" accuracy="85" line="34647">
+<osclass type="storage-misc" vendor="HP" osfamily="embedded" accuracy="85"><cpe>cpe:/h:hp:p2000_g3</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="40165" lastboot="Thu Jan 10 11:05:24 2019"/>
+<ipidsequence class="All zeros" values="0,0,0"/>
+<tcptssequence class="other" values="EB4E9A4C,EB523350,EB52379D"/>
+<times srtt="22157" rttvar="4037" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129689"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.68" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="http" servicefp="SF-Port80-TCP:V=7.70%I=7%D=1/10%Time=5C375271%P=x86_64-unknown-linux-gnu%r(RTSPRequest,AA,&quot;&lt;html&gt;\r\n&lt;head&gt;&lt;title&gt;400\x20Bad\x20Request&lt;/title&gt;&lt;/head&gt;\r\n&lt;body\x20bgcolor=\&quot;white\&quot;&gt;\r\n&lt;center&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;/center&gt;\r\n&lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;\r\n&lt;/body&gt;\r\n&lt;/html&gt;\r\n&quot;)%r(X11Probe,13F,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nServer:\x20openresty\r\nDate:\x20Thu,\x2010\x20Jan\x202019\x2014:10:57\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x20170\r\nConnection:\x20close\r\n\r\n&lt;html&gt;\r\n&lt;head&gt;&lt;title&gt;400\x20Bad\x20Request&lt;/title&gt;&lt;/head&gt;\r\n&lt;body\x20bgcolor=\&quot;white\&quot;&gt;\r\n&lt;center&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;/center&gt;\r\n&lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;\r\n&lt;/body&gt;\r\n&lt;/html&gt;\r\n&quot;);" method="table" conf="3"/><script id="fingerprint-strings" output="&#xa;  RTSPRequest: &#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;&#xa;  X11Probe: &#xa;    HTTP/1.1 400 Bad Request&#xa;    Server: openresty&#xa;    Date: Thu, 10 Jan 2019 14:10:57 GMT&#xa;    Content-Type: text/html&#xa;    Content-Length: 170&#xa;    Connection: close&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;"><elem key="RTSPRequest">&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;</elem>
+<elem key="X11Probe">&#xa;    HTTP/1.1 400 Bad Request&#xa;    Server: openresty&#xa;    Date: Thu, 10 Jan 2019 14:10:57 GMT&#xa;    Content-Type: text/html&#xa;    Content-Length: 170&#xa;    Connection: close&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;</elem>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="ssl" method="probed" conf="10"/><script id="http-server-header" output="openresty"><elem>openresty</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 3.2 - 4.9" accuracy="100" line="65105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="532048" lastboot="Fri Jan  4 18:27:21 2019"/>
+<times srtt="27975" rttvar="8254" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129688"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.69" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="18">
+<extrareasons reason="no-responses" count="18"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" product="OpenResty web app server" method="probed" conf="10"><cpe>cpe:/a:openresty:ngx_openresty</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 3.2 - 4.9" accuracy="93" line="65105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16" accuracy="87" line="63962">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="87"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+<osmatch name="Crestron XPanel control system" accuracy="87" line="19544">
+<osclass type="specialized" vendor="Crestron" osfamily="2-Series" accuracy="87"><cpe>cpe:/o:crestron:2_series</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32" accuracy="86" line="55173">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="86"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 3.16" accuracy="86" line="64933">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="86"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 3.8" accuracy="86" line="65058">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="86"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.18" accuracy="86" line="64202">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="86"><cpe>cpe:/o:linux:linux_kernel:3.18</cpe></osclass>
+</osmatch>
+<osmatch name="Android 4.1.1" accuracy="85" line="30710">
+<osclass type="media device" vendor="Google" osfamily="Android" osgen="4.1.X" accuracy="85"><cpe>cpe:/o:google:android:4.1.1</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.10" accuracy="85" line="56381">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.13" accuracy="85" line="56411">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="156048" lastboot="Wed Jan  9 02:54:01 2019"/>
+<times srtt="23584" rttvar="4604" to="100000"/>
+</host>
+<host starttime="1547129409" endtime="1547129689"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.251.6.7" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="45"/><service name="http" servicefp="SF-Port80-TCP:V=7.70%I=7%D=1/10%Time=5C375271%P=x86_64-unknown-linux-gnu%r(RTSPRequest,AA,&quot;&lt;html&gt;\r\n&lt;head&gt;&lt;title&gt;400\x20Bad\x20Request&lt;/title&gt;&lt;/head&gt;\r\n&lt;body\x20bgcolor=\&quot;white\&quot;&gt;\r\n&lt;center&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;/center&gt;\r\n&lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;\r\n&lt;/body&gt;\r\n&lt;/html&gt;\r\n&quot;);" method="table" conf="3"/><script id="fingerprint-strings" output="&#xa;  RTSPRequest: &#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;"><elem key="RTSPRequest">&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;</elem>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="ssl" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 3.2 - 4.9" accuracy="92" line="65105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16" accuracy="87" line="63962">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="87"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+<osmatch name="Crestron XPanel control system" accuracy="87" line="19544">
+<osclass type="specialized" vendor="Crestron" osfamily="2-Series" accuracy="87"><cpe>cpe:/o:crestron:2_series</cpe></osclass>
+</osmatch>
+<osmatch name="HP P2000 G3 NAS device" accuracy="87" line="34647">
+<osclass type="storage-misc" vendor="HP" osfamily="embedded" accuracy="87"><cpe>cpe:/h:hp:p2000_g3</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="11308" lastboot="Thu Jan 10 19:06:21 2019"/>
+<times srtt="24467" rttvar="6184" to="100000"/>
+</host>
+<runstats><finished time="1547129891" timestr="Thu Jan 10 22:18:11 2019" elapsed="549.81" summary="Nmap done at Thu Jan 10 22:18:11 2019; 87 IP addresses (87 hosts up) scanned in 549.81 seconds" exit="success"/><hosts up="87" down="0" total="87"/>
+</runstats>
+</nmaprun>

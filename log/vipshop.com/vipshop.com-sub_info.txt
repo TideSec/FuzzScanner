@@ -1,0 +1,485 @@
+
+
+############################## mx3.vipshop.com ##############################
+
+http://mx3.vipshop.com|14.215.61.100|404 Not Found|404 Not Found|nginx||IBM Web Application Security
+
+
+############################## csc.vipshop.com ##############################
+
+http://csc.vipshop.com|221.228.213.117|403 Forbidden|403 Forbidden|Tengine||IBM Web Application Security
+
+
+############################## vipcard.vipshop.com ##############################
+
+http://vipcard.vipshop.com|120.83.182.132|301 Moved Permanently|301 Moved Permanently|nginx||UnDetect
+
+
+############################## mp.vipshop.com ##############################
+
+http://mp.vipshop.com|203.80.154.142|404 Not Found||nginx||IBM Web Application Security
+
+
+############################## tms.vipshop.com ##############################
+
+http://tms.vipshop.com|203.80.154.142|200 OK|TMS系统登陆|nginx||IBM Web Application Security
+
+
+############################## pay.vipshop.com ##############################
+
+http://pay.vipshop.com|120.83.182.134|200 OK||nginx||IBM Web Application Security
+
+
+############################## blog.vipshop.com ##############################
+
+http://blog.vipshop.com|120.83.182.133|301 Moved Permanently|301 Moved Permanently|nginx||IBM Web Application Security
+
+
+############################## tour.vipshop.com ##############################
+
+http://tour.vipshop.com|183.6.216.41|301 Moved Permanently|301 Moved Permanently|nginx||UnDetect
+
+
+############################## brand.vipshop.com ##############################
+
+http://brand.vipshop.com|host_down
+
+
+############################## sc.vipshop.com ##############################
+
+http://sc.vipshop.com|123.134.184.144|504 Gateway Timeout|ERROR: CONNECT FAIL|web cache||UnDetect
+
+
+############################## ns7.vipshop.com ##############################
+
+http://ns7.vipshop.com|host_down
+
+
+############################## acs.vipshop.com ##############################
+
+http://acs.vipshop.com|43.255.85.13|200 OK|唯品会VIP特卖会—联系客服|vipshop/VIP||NoWaf
+
+
+############################## ma.vipshop.com ##############################
+
+http://ma.vipshop.com|120.83.182.134|301 Moved Permanently|301 Moved Permanently|nginx||NoWaf
+
+
+############################## active.vipshop.com ##############################
+
+http://active.vipshop.com|host_down
+	14.17.85.38|up|F5 BIG-IP Local Traffic Manager load balancer (TMOS 11.6)|active.vipshop.com
+		80|open|tcp|tcpwrapped| |###
+
+
+############################## m.vipshop.com ##############################
+
+http://m.vipshop.com|120.83.182.132|302 Found|唯品会VIP特卖会：全球精选 正品特卖- 唯品会|nginx||NoWaf
+
+
+############################## weixin.vipshop.com ##############################
+
+http://weixin.vipshop.com|host_down
+	120.83.182.133|up|Crestron MPC-M5 AV controller or Wago Kontakttechnik 750-852 PLC|weixin.vipshop.com
+		80|open|tcp|http|nginx |###|
+		443|open|tcp|ssl| |###
+
+
+############################## vipshop.com ##############################
+
+http://vipshop.com|host_down
+	183.6.216.41|up|Crestron XPanel control system|vipshop.com
+		80|open|tcp|http|nginx |###|183.6.216.41|200 OK|Welcome to nginx!|nginx||
+		443|open|tcp|ssl| |###
+
+
+############################## pers.vipshop.com ##############################
+
+http://pers.vipshop.com|host_down
+	221.5.66.131|up|Tomato 1.28 (Linux 2.4.20)|pers.vipshop.com
+		8011|open|tcp|unknown| |###
+
+############################## cart.vipshop.com ##############################
+
+http://cart.vipshop.com|61.156.243.247|301 Moved Permanently|唯品会（原Vipshop.com）特卖会：全球精选_正品特卖_确保正品_确保低价_货到付款|nginx||UnDetect
+
+
+############################## share.vipshop.com ##############################
+
+http://share.vipshop.com|123.134.184.144|503 Service Unavailable|ERROR: INVALID REFORWARD RESP|web cache||IBM Web Application Security
+
+############################## mail.vipshop.com ##############################
+
+http://mail.vipshop.com|host_down
+
+
+############################## mx2.vipshop.com ##############################
+
+http://mx2.vipshop.com|host_down
+
+
+############################## ir.vipshop.com ##############################
+
+http://ir.vipshop.com|host_down
+	184.50.87.42|up|Linux 3.13 - 3.16|ir.vipshop.com
+		80|open|tcp|http|AkamaiGHost |Akamai's HTTP Acceleration/Mirror service###|
+		443|open|tcp|ssl| |###
+
+
+############################## day.vipshop.com ##############################
+
+http://day.vipshop.com|host_down
+
+
+############################## vis.vipshop.com ##############################
+
+http://vis.vipshop.com|host_down
+
+
+############################## sp.vipshop.com ##############################
+
+http://sp.vipshop.com|host_down
+	123.134.184.142|up|Linux 2.6.32 - 3.10|sp.vipshop.com
+		80|open|tcp|http|nginx 1.14.1|###|
+		443|open|tcp|ssl| |###
+		1935|open|tcp|rtmp| |###
+		7947|open|tcp|| |###
+		7950|open|tcp|| |###
+		8080|open|tcp|http|nginx 1.14.1|###|
+		8088|open|tcp|http|nginx 1.14.1|###|123.134.184.142|403 Forbidden|403 Forbidden|nginx/1.14.1||
+		8090|open|tcp|opsmessaging| |###
+		10443|open|tcp|ssl| |###
+		10930|open|tcp|tcpwrapped| |###
+		18080|open|tcp|unknown| |###
+		19359|open|tcp|adobe-crossdomain| |###
+
+
+############################## support.vipshop.com ##############################
+
+http://support.vipshop.com|14.17.85.112|301 Moved Permanently|301 Moved Permanently|vipshop/Vbib||IBM Web Application Security
+	14.17.85.111|up|F5 BIG-IP Local Traffic Manager load balancer (TMOS 11.6)|support.vipshop.com
+		80|open|tcp|http|vipshop/Vbib |###|
+
+
+############################## img2.vipshop.com ##############################
+
+http://img2.vipshop.com|123.134.184.142|403 Forbidden||vipshop/Vbib||IBM Web Application Security
+	123.134.184.144|up|Crestron MPC-M5 AV controller or Wago Kontakttechnik 750-852 PLC|img2.vipshop.com
+		7947|open|tcp|| |###
+
+
+############################## www.vipshop.com ##############################
+
+http://www.vipshop.com|61.156.243.247|301 Moved Permanently||vipshop/VipS||UnDetect
+	123.128.14.123|up|Linux 2.6.18 - 2.6.22|www.vipshop.com
+		80|open|tcp|http| |###|
+		81|open|tcp|hosts2-ns| |###
+		443|open|tcp|ssl| |###
+		1080|open|tcp|socks| |###
+		1830|open|tcp|net8-cman| |###
+		1888|open|tcp|ncconfig| |###
+		2012|open|tcp|ttyinfo| |###
+		2013|open|tcp|raid-am| |###
+		2020|open|tcp|xinupageserver| |###
+		3030|open|tcp|arepa-cas| |###
+		4050|open|tcp|cisco-wafs| |###
+		4869|open|tcp|phrelaydbg| |###
+		4871|open|tcp|wired| |###
+		4872|open|tcp|unknown| |###
+		4873|open|tcp|unknown| |###
+		4874|open|tcp|unknown| |###
+		4875|open|tcp|unknown| |###
+		4876|open|tcp|tritium-can| |###
+		4877|open|tcp|lmcs| |###
+		4878|open|tcp|inst-discovery| |###
+		4879|open|tcp|wsdl-event| |###
+		4880|open|tcp|hislip| |###
+		4881|open|tcp|tcpwrapped| |###
+		4882|open|tcp|tcpwrapped| |###
+		4883|open|tcp|tcpwrapped| |###
+		4884|open|tcp|tcpwrapped| |###
+		4885|open|tcp|tcpwrapped| |###
+		4886|open|tcp|tcpwrapped| |###
+		4887|open|tcp|tcpwrapped| |###
+		4888|open|tcp|tcpwrapped| |###
+		4889|open|tcp|tcpwrapped| |###
+		4891|open|tcp|tcpwrapped| |###
+		4892|open|tcp|tcpwrapped| |###
+		4893|open|tcp|tcpwrapped| |###
+		4894|open|tcp|tcpwrapped| |###
+		4896|open|tcp|tcpwrapped| |###
+		4897|open|tcp|tcpwrapped| |###
+		4898|open|tcp|tcpwrapped| |###
+		4899|open|tcp|tcpwrapped| |###
+		4900|open|tcp|tcpwrapped| |###
+		4901|open|tcp|tcpwrapped| |###
+		4902|open|tcp|tcpwrapped| |###
+		4903|open|tcp|tcpwrapped| |###
+		4904|open|tcp|tcpwrapped| |###
+		4905|open|tcp|tcpwrapped| |###
+		4906|open|tcp|tcpwrapped| |###
+		4907|open|tcp|tcpwrapped| |###
+		7776|open|tcp|tcpwrapped| |###
+		7777|open|tcp|tcpwrapped| |###
+		8000|open|tcp|tcpwrapped| |###
+		8001|open|tcp|tcpwrapped| |###
+		8009|open|tcp|tcpwrapped| |###
+		8010|open|tcp|tcpwrapped| |###
+		8011|open|tcp|tcpwrapped| |###
+		8015|open|tcp|tcpwrapped| |###
+		8016|open|tcp|unknown| |###
+		8020|open|tcp|intu-ec-svcdisc| |###
+		8022|open|tcp|oa-system| |###
+		8080|open|tcp|http-proxy| |###|
+		8081|open|tcp|blackice-icecap| |###
+		8082|open|tcp|blackice-alerts| |###
+		8088|open|tcp|radan-http| |###|
+		8090|open|tcp|opsmessaging| |###
+		8091|open|tcp|jamlink| |###
+		8093|open|tcp|unknown| |###
+		8101|open|tcp|ldoms-migr| |###
+		8102|open|tcp|kz-migr| |###
+		8103|open|tcp|| |###
+		8104|open|tcp|| |###
+		8105|open|tcp|| |###
+		8106|open|tcp|| |###
+		8107|open|tcp|| |###
+		8108|open|tcp|| |###
+		8109|open|tcp|tcpwrapped| |###
+		8110|open|tcp|tcpwrapped| |###
+		8111|open|tcp|tcpwrapped| |###
+		8112|open|tcp|tcpwrapped| |###
+		8113|open|tcp|tcpwrapped| |###
+		8114|open|tcp|tcpwrapped| |###
+		8115|open|tcp|tcpwrapped| |###
+		8116|open|tcp|tcpwrapped| |###
+		8197|open|tcp|tcpwrapped| |###
+		8201|open|tcp|tcpwrapped| |###
+		8360|open|tcp|tcpwrapped| |###
+		8361|open|tcp|tcpwrapped| |###
+		8686|open|tcp|tcpwrapped| |###
+		8807|open|tcp|tcpwrapped| |###
+		9080|open|tcp|tcpwrapped| |###
+		9088|open|tcp|tcpwrapped| |###
+		9696|open|tcp|tcpwrapped| |###
+		11113|open|tcp|tcpwrapped| |###
+		11234|open|tcp|tcpwrapped| |###
+		15001|open|tcp|tcpwrapped| |###
+		18096|open|tcp|tcpwrapped| |###
+		22227|open|tcp|tcpwrapped| |###
+		38081|open|tcp|tcpwrapped| |###
+		50026|open|tcp|tcpwrapped| |###
+		50027|open|tcp|tcpwrapped| |###
+		50028|open|tcp|tcpwrapped| |###
+		50029|open|tcp|tcpwrapped| |###
+		50030|open|tcp|tcpwrapped| |###
+		57891|open|tcp|tcpwrapped| |###
+		62290|open|tcp|tcpwrapped| |###
+		65318|open|tcp|tcpwrapped| |###
+		65383|open|tcp|tcpwrapped| |###
+
+############################## img1.vipshop.com ##############################
+
+http://img1.vipshop.com|host_down
+123.134.184.141 is repeated with others in this file.
+
+############################## seo.vipshop.com ##############################
+
+http://seo.vipshop.com|host_down
+123.134.184.144 is repeated with others in this file.
+
+############################## act.vipshop.com ##############################
+
+http://act.vipshop.com|host_down
+123.134.184.144 is repeated with others in this file.
+
+############################## stock.vipshop.com ##############################
+
+http://stock.vipshop.com|host_down
+120.83.182.131 is repeated with others in this file.
+
+############################## mx1.vipshop.com ##############################
+
+http://mx1.vipshop.com|host_down
+121.32.130.126 is repeated with others in this file.
+
+############################## 400.vipshop.com ##############################
+
+http://400.vipshop.com|host_down
+43.255.85.13 is repeated with others in this file.
+
+############################## img3.vipshop.com ##############################
+
+http://img3.vipshop.com|host_down
+123.134.184.141 is repeated with others in this file.
+
+############################## mapp.vipshop.com ##############################
+
+http://mapp.vipshop.com|host_down
+
+
+############################## oa2.vipshop.com ##############################
+
+http://oa2.vipshop.com|host_down
+
+
+############################## open.vipshop.com ##############################
+
+http://open.vipshop.com|host_down
+
+
+############################## union.vipshop.com ##############################
+
+http://union.vipshop.com|host_down
+
+
+############################## moa.vipshop.com ##############################
+
+http://moa.vipshop.com|host_down
+
+
+############################## crm.vipshop.com ##############################
+
+http://crm.vipshop.com|host_down
+
+
+############################## feedback.vipshop.com ##############################
+
+http://feedback.vipshop.com|host_down
+
+
+############################## subscribe.vipshop.com ##############################
+
+http://subscribe.vipshop.com|host_down
+
+
+############################## message.vipshop.com ##############################
+
+http://message.vipshop.com|host_down
+
+
+############################## pms.vipshop.com ##############################
+
+http://pms.vipshop.com|host_down
+
+
+############################## mi.vipshop.com ##############################
+
+http://mi.vipshop.com|host_down
+
+
+############################## comm.vipshop.com ##############################
+
+http://comm.vipshop.com|host_down
+
+############################## shop.vipshop.com ##############################
+
+http://shop.vipshop.com|112.240.60.205|301 Moved Permanently|301 Moved Permanently|nginx||Unknown_Waf
+	27.195.145.119|up|Linux 2.6.18 - 2.6.22|shop.vipshop.com
+		80|open|tcp|http| |###|
+		81|open|tcp|hosts2-ns| |###
+		443|open|tcp|ssl| |###
+		1080|open|tcp|socks| |###
+		1830|open|tcp|net8-cman| |###
+		1888|open|tcp|ncconfig| |###
+		2012|open|tcp|ttyinfo| |###
+		2013|open|tcp|raid-am| |###
+		2020|open|tcp|xinupageserver| |###
+		3030|open|tcp|arepa-cas| |###
+		4050|open|tcp|cisco-wafs| |###
+		4869|open|tcp|phrelaydbg| |###
+		4871|open|tcp|wired| |###
+		4872|open|tcp|| |###
+		4873|open|tcp|| |###
+		4874|open|tcp|| |###
+		4875|open|tcp|unknown| |###
+		4876|open|tcp|tritium-can| |###
+		4877|open|tcp|lmcs| |###
+		4878|open|tcp|inst-discovery| |###
+		4879|open|tcp|wsdl-event| |###
+		4880|open|tcp|hislip| |###
+		4881|open|tcp|tcpwrapped| |###
+		4882|open|tcp|tcpwrapped| |###
+		4883|open|tcp|tcpwrapped| |###
+		4884|open|tcp|tcpwrapped| |###
+		4885|open|tcp|tcpwrapped| |###
+		4886|open|tcp|tcpwrapped| |###
+		4887|open|tcp|tcpwrapped| |###
+		4888|open|tcp|tcpwrapped| |###
+		4889|open|tcp|tcpwrapped| |###
+		4891|open|tcp|tcpwrapped| |###
+		4892|open|tcp|tcpwrapped| |###
+		4893|open|tcp|tcpwrapped| |###
+		4894|open|tcp|tcpwrapped| |###
+		4896|open|tcp|tcpwrapped| |###
+		4897|open|tcp|tcpwrapped| |###
+		4898|open|tcp|tcpwrapped| |###
+		4899|open|tcp|tcpwrapped| |###
+		4900|open|tcp|tcpwrapped| |###
+		4901|open|tcp|tcpwrapped| |###
+		4902|open|tcp|tcpwrapped| |###
+		4903|open|tcp|tcpwrapped| |###
+		4904|open|tcp|tcpwrapped| |###
+		4905|open|tcp|tcpwrapped| |###
+		4906|open|tcp|tcpwrapped| |###
+		4907|open|tcp|tcpwrapped| |###
+		7776|open|tcp|tcpwrapped| |###
+		7777|open|tcp|tcpwrapped| |###
+		8000|open|tcp|tcpwrapped| |###
+		8001|open|tcp|tcpwrapped| |###
+		8009|open|tcp|tcpwrapped| |###
+		8010|open|tcp|tcpwrapped| |###
+		8011|open|tcp|tcpwrapped| |###
+		8015|open|tcp|tcpwrapped| |###
+		8016|open|tcp|tcpwrapped| |###
+		8020|open|tcp|tcpwrapped| |###
+		8022|open|tcp|tcpwrapped| |###
+		8080|open|tcp|tcpwrapped| |###
+		8081|open|tcp|tcpwrapped| |###
+		8082|open|tcp|blackice-alerts| |###
+		8088|open|tcp|radan-http| |###|
+		8090|open|tcp|opsmessaging| |###
+		8091|open|tcp|jamlink| |###
+		8093|open|tcp|unknown| |###
+		8101|open|tcp|ldoms-migr| |###
+		8102|open|tcp|kz-migr| |###
+		8103|open|tcp|| |###
+		8104|open|tcp|| |###
+		8105|open|tcp|| |###
+		8106|open|tcp|| |###
+		8107|open|tcp|| |###
+		8108|open|tcp|| |###
+		8109|open|tcp|| |###
+		8110|open|tcp|unknown| |###
+		8111|open|tcp|| |###
+		8112|open|tcp|tcpwrapped| |###
+		8113|open|tcp|tcpwrapped| |###
+		8114|open|tcp|tcpwrapped| |###
+		8115|open|tcp|tcpwrapped| |###
+		8116|open|tcp|tcpwrapped| |###
+		8197|open|tcp|tcpwrapped| |###
+		8201|open|tcp|tcpwrapped| |###
+		8360|open|tcp|tcpwrapped| |###
+		8361|open|tcp|tcpwrapped| |###
+		8686|open|tcp|tcpwrapped| |###
+		8807|open|tcp|tcpwrapped| |###
+		9080|open|tcp|tcpwrapped| |###
+		9088|open|tcp|tcpwrapped| |###
+		9696|open|tcp|tcpwrapped| |###
+		11113|open|tcp|tcpwrapped| |###
+		11234|open|tcp|tcpwrapped| |###
+		15001|open|tcp|tcpwrapped| |###
+		18096|open|tcp|tcpwrapped| |###
+		22227|open|tcp|tcpwrapped| |###
+		38081|open|tcp|tcpwrapped| |###
+		50026|open|tcp|tcpwrapped| |###
+		50027|open|tcp|tcpwrapped| |###
+		50028|open|tcp|tcpwrapped| |###
+		50029|open|tcp|tcpwrapped| |###
+		50030|open|tcp|tcpwrapped| |###
+		57891|open|tcp|tcpwrapped| |###
+		62290|open|tcp|tcpwrapped| |###
+		65318|open|tcp|tcpwrapped| |###
+		65383|open|tcp|tcpwrapped| |###
+
+

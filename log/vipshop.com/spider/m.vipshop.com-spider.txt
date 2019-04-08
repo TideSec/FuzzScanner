@@ -1,0 +1,13 @@
+############################## VisitedUrl ##############################
+http://m.vipshop.com
+http://m.vipshop.com///m.vip.com/sw/manifest.json
+http://m.vipshop.com///h2.appsimg.com
+http://m.vipshop.com///h2.vipstatic.com
+http://m.vipshop.com///h2.vipstatic.com/ms2-m.vipstatic.com/static/page/lightart-index/css/lightart-index.8cfd7e77.css
+http://m.vipshop.com///m.vip.com/sw/safari_statndalone.js
+http://m.vipshop.com///h2.vipstatic.com/ms2-m.vipstatic.com/static/page/vendors/js/vendors.e7a6fb28.js
+http://m.vipshop.com///h2.vipstatic.com/ms2-m.vipstatic.com/static/page/lightart-index/js/lightart-index.fd275f85.js
+############################## UnVisitedUrl ##############################
+############################## External_link ##############################
+https://h2.vipstatic.com/viva.vipstatic.com/uploadfiles/viva-act-static/lightart-lib/lightart.4a0a43b7.js
+############################## Active_link ##############################

@@ -1,0 +1,57 @@
+############################## VisitedUrl ##############################
+http://shop.vipshop.com
+http://shop.vipshop.com/
+http://shop.vipshop.com/{$link}
+http://shop.vipshop.com/{{value.link}}
+http://shop.vipshop.com/{{val.link}}
+http://shop.vipshop.com/{{v.link}}
+http://shop.vipshop.com/'+t.timeLink+'
+http://shop.vipshop.com/{{val.link}}&ff=column-title
+http://shop.vipshop.com/{{val.link}}&ff=column-item-{{i}}
+http://shop.vipshop.com/{{$data.leftLink}}&ff=indexNew
+http://shop.vipshop.com///detail.vip.com/detail-{{val.brandId}}-{{val.productId}}.html?ff=new_index_{{$data.key}}
+http://shop.vipshop.com/{{$data.link}}&ff=indexNew
+http://shop.vipshop.com/{{$data.bg.link}}
+http://shop.vipshop.com//
+http://shop.vipshop.com///lady.vip.com
+http://shop.vipshop.com///shoes-bags.vip.com
+http://shop.vipshop.com///man.vip.com/
+http://shop.vipshop.com///sport.vip.com
+http://shop.vipshop.com///acce.vip.com
+http://shop.vipshop.com///beauty.vip.com/
+http://shop.vipshop.com///kid.vip.com/
+http://shop.vipshop.com///home.vip.com/
+http://shop.vipshop.com///global.vip.com/
+http://shop.vipshop.com///www.vip.com/brand_date.php?f=button
+http://shop.vipshop.com/{{item.link}}
+http://shop.vipshop.com///fav.vip.com/brand
+http://shop.vipshop.com///s2.vipstatic.com
+http://shop.vipshop.com///a.vpimg1.com
+http://shop.vipshop.com///c.vpimg1.com
+http://shop.vipshop.com///d.vpimg1.com
+http://shop.vipshop.com///shop.vipstatic.com/css/public/shop/common-hash-1c381738.css?2018010403
+http://shop.vipshop.com///shop.vipstatic.com/css/public/te/4/index_v4-hash-080db684.css?2018010403
+http://shop.vipshop.com///shop.vipstatic.com/js/public/jquery-1.10.2.js?2018010403
+http://shop.vipshop.com///shop.vipstatic.com/js/public/core3.1.0.js?2018010403
+http://shop.vipshop.com///common.vip.com/?type=header&jq=0&core=0&loadga=0&loadmars=0&h_urls=www.vip.com&from=shop&relevace_time=1&v=132&isGat=0&isAdapt=1
+############################## UnVisitedUrl ##############################
+http://shop.vipshop.com///common.vip.com/?type=footer&jq=0&core=0&loadmars=1
+http://shop.vipshop.com///common.vip.com/?type=header&jq=0&core=0
+http://shop.vipshop.com///s2.vipstatic.com/js/public/core3.js?20161215
+http://shop.vipshop.com///s2.vipstatic.com/js/public/jquery.js?20161215
+http://shop.vipshop.com///www.vip.com
+############################## External_link ##############################
+https://mst.vip.com/3z0xj8i3Xa2KVWdMREkYrw.php?client=vipcms&mst_page_type=guide&mst_cdi=1&wapid=mst_1775178&extra_type=1&rn=1
+############################## Active_link ##############################
+http://shop.vipshop.com///detail.vip.com/detail-{{val.brandId}}-{{val.productId}}.html?ff=new_index_{{$data.key}}
+http://shop.vipshop.com///www.vip.com/brand_date.php?f=button
+http://shop.vipshop.com///shop.vipstatic.com/css/public/shop/common-hash-1c381738.css?2018010403
+http://shop.vipshop.com///shop.vipstatic.com/css/public/te/4/index_v4-hash-080db684.css?2018010403
+http://shop.vipshop.com///shop.vipstatic.com/js/public/jquery-1.10.2.js?2018010403
+http://shop.vipshop.com///shop.vipstatic.com/js/public/core3.1.0.js?2018010403
+http://shop.vipshop.com///common.vip.com/?type=header&jq=0&core=0&loadga=0&loadmars=0&h_urls=www.vip.com&from=shop&relevace_time=1&v=132&isGat=0&isAdapt=1
+http://shop.vipshop.com///common.vip.com/?type=footer&jq=0&core=0&loadmars=1
+http://shop.vipshop.com///common.vip.com/?type=header&jq=0&core=0
+http://shop.vipshop.com///s2.vipstatic.com/js/public/core3.js?20161215
+http://shop.vipshop.com///s2.vipstatic.com/js/public/jquery.js?20161215
+https://mst.vip.com/3z0xj8i3Xa2KVWdMREkYrw.php?client=vipcms&mst_page_type=guide&mst_cdi=1&wapid=mst_1775178&extra_type=1&rn=1

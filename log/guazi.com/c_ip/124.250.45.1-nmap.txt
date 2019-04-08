@@ -1,0 +1,202 @@
+	124.250.45.1|up|D-Link NetDefend firewall|
+		7547|open|tcp|cwmp| |###
+
+	124.250.45.10|up|Linux 3.16|
+		80|open|tcp|http|OpenResty web app server |###|
+		443|open|tcp|ssl| |###
+
+	124.250.45.100|up|Linux 3.16|
+		80|open|tcp|http|OpenResty web app server |###|
+		443|open|tcp|ssl| |###
+
+	124.250.45.12|up|Linux 2.6.18 - 2.6.22|
+		80|open|tcp|http|nginx |###|
+
+	124.250.45.13|up|Linux 4.10|
+		80|open|tcp|http|nginx |###|
+		443|open|tcp|ssl| |###
+
+	124.250.45.15|up|Linux 2.6.32 - 3.10|
+		80|open|tcp|http|nginx |###|124.250.45.15|200 OK|瓜子二手车校园招聘|nginx||
+		443|open|tcp|ssl| |###
+
+	124.250.45.19|up|Linux 3.18|
+		80|open|tcp|http|OpenResty web app server |###|
+		443|open|tcp|ssl| |###
+
+	124.250.45.2|up|TiVo series 1 (Linux 2.1.24-TiVo-2.5)|
+		7547|open|tcp|cwmp| |###
+
+	124.250.45.23|up|Linux 3.2 - 4.9|
+		80|open|tcp|http|OpenResty web app server |###|
+
+	124.250.45.24|up|Linux 3.2 - 4.9|
+		80|open|tcp|http|OpenResty web app server |###|
+		443|open|tcp|ssl| |###
+
+	124.250.45.25|up|Linux 3.10|
+		80|open|tcp|http|OpenResty web app server |###|
+
+	124.250.45.26|up|Linux 3.2 - 3.16|
+		80|open|tcp|http|nginx |###|
+		443|open|tcp|ssl| |###
+
+	124.250.45.29|up|Linux 3.2 - 4.9|
+		80|open|tcp|http|OpenResty web app server |###|124.250.45.29|302 Found|302 Found|openresty||
+
+	124.250.45.30|up|Linux 3.2 - 4.9|
+		80|open|tcp|http| |###|
+		443|open|tcp|ssl| |###
+
+	124.250.45.33|up|Linux 3.18|
+		80|open|tcp|http| |###|
+
+	124.250.45.35|up|Microsoft Windows Server 2012 R2|
+		25|open|tcp|smtp|Microsoft Exchange 2010 smtpd |not available###
+		80|open|tcp|http|Microsoft IIS httpd 8.5|Windows###|
+		443|open|tcp|ssl|TLSv1 |Windows###
+		465|open|tcp|smtp|Microsoft Exchange smtpd |Windows###
+
+	124.250.45.37|up|Linux 3.2 - 4.9|
+		443|open|tcp|ssl| |###
+
+	124.250.45.38|up|Linux 3.16|
+		443|open|tcp|ssl| |###
+
+	124.250.45.4|up|Linux 4.10|
+		80|open|tcp|http| |###|
+		443|open|tcp|ssl| |###
+
+	124.250.45.42|up|Crestron MPC-M5 AV controller or Wago Kontakttechnik 750-852 PLC|
+		80|open|tcp|http|nginx |###|
+		443|open|tcp|ssl| |###
+
+	124.250.45.45|up|Linux 2.6.32 - 3.10|
+		80|open|tcp|http|nginx |###|
+		443|open|tcp|ssl| |###
+
+	124.250.45.47|up|Linux 3.16|
+		80|open|tcp|http|OpenResty web app server |###|124.250.45.47|302 Found|302 Found|openresty||
+		443|open|tcp|ssl| |###
+
+	124.250.45.48|up|Linux 3.18|
+		443|open|tcp|ssl| |###
+
+	124.250.45.5|up|Microsoft Windows Server 2012 or Windows Server 2012 R2|
+		25|open|tcp|smtp|Microsoft Exchange 2010 smtpd |not available###
+		80|open|tcp|http|Microsoft IIS httpd 8.5|Windows###|124.250.45.5|403 Forbidden||Microsoft-IIS/8.5||
+		143|open|tcp|imap|Microsoft Exchange 2007-2010 imapd |Windows###
+		443|open|tcp|https| |###|
+		587|open|tcp|smtp|Microsoft Exchange smtpd |Windows###
+		993|open|tcp|ssl|TLSv1 |Windows###
+
+	124.250.45.53|up|Linux 3.16|
+		8000|open|tcp|http-alt|kong/0.11.1 |###|124.250.45.53|404 Not Found||kong/0.11.1||
+
+	124.250.45.54|up|Linux 3.2 - 4.9|
+		80|open|tcp|http|OpenResty web app server |###|124.250.45.54|302 Found|302 Found|openresty||
+		443|open|tcp|ssl| |###
+
+	124.250.45.55|up|Linux 2.6.32 - 3.13|
+		80|open|tcp|http|nginx |###|
+
+	124.250.45.57|up|Linux 3.16|
+		80|open|tcp|http|OpenResty web app server |###|124.250.45.57|302 Found|302 Found|openresty||
+
+	124.250.45.58|up|Linux 3.16|
+		80|open|tcp|http|OpenResty web app server |###|124.250.45.58|302 Found|302 Found|openresty||
+		443|open|tcp|ssl| |###
+
+	124.250.45.59|up|Linux 3.2 - 4.9|
+		80|open|tcp|http|OpenResty web app server |###|124.250.45.59|302 Found|302 Found|openresty||
+		443|open|tcp|ssl| |###
+
+	124.250.45.6|up|Linux 2.6.32 - 3.10|
+		25|open|tcp|smtp|Postfix smtpd |###
+
+	124.250.45.62|up|Linux 3.16|
+		443|open|tcp|ssl| |###
+
+	124.250.45.63|up|Linux 3.2 - 4.9|
+		80|open|tcp|tcpwrapped| |###
+		443|open|tcp|tcpwrapped| |###
+
+	124.250.45.64|up|Linux 3.18|
+		443|open|tcp|tcpwrapped| |###
+
+	124.250.45.65|up|Linux 2.6.32 - 3.13|
+		80|open|tcp|http|nginx |###|
+
+	124.250.45.69|up|Linux 3.16|
+		80|open|tcp|http|OpenResty web app server |###|124.250.45.69|302 Found|302 Found|openresty||
+		443|open|tcp|ssl| |###
+
+	124.250.45.7|up|Linux 2.6.32|
+		25|open|tcp|smtp|Postfix smtpd |###
+
+	124.250.45.70|up|Linux 3.16|
+		80|open|tcp|http|OpenResty web app server |###|124.250.45.70|302 Found|302 Found|openresty||
+		443|open|tcp|ssl| |###
+
+	124.250.45.71|up|Linux 3.16|
+		80|open|tcp|http|OpenResty web app server |###|124.250.45.71|302 Found|302 Found|openresty||
+		443|open|tcp|ssl| |###
+
+	124.250.45.73|up|Linux 3.18|
+		80|open|tcp|http|OpenResty web app server |###|124.250.45.73|302 Found|302 Found|openresty||
+
+	124.250.45.74|up|Linux 3.16|
+		80|open|tcp|http| |###|
+		443|open|tcp|ssl| |###
+
+	124.250.45.75|up|Linux 3.16|
+		80|open|tcp|http|OpenResty web app server |###|124.250.45.75|302 Found|302 Found|openresty||
+		443|open|tcp|ssl| |###
+
+	124.250.45.76|up|Linux 3.2 - 4.9|
+		80|open|tcp|http|OpenResty web app server |###|124.250.45.76|302 Found|302 Found|openresty||
+		443|open|tcp|ssl| |###
+
+	124.250.45.77|up|Linux 4.10|
+		80|open|tcp|http|OpenResty web app server |###|124.250.45.77|302 Found|302 Found|openresty||
+		443|open|tcp|ssl| |###
+
+	124.250.45.78|up|Microsoft Windows Server 2016|
+		80|open|tcp|http|Microsoft IIS httpd 8.5|Windows###|124.250.45.78|302 Found|文档已移动|Microsoft-IIS/8.5|ASP.NET|
+		443|open|tcp|ssl|TLSv1 |Windows###
+		587|open|tcp|smtp|Microsoft Exchange smtpd |Windows###
+		993|open|tcp|ssl|TLSv1 |Windows###
+
+	124.250.45.79|up|Linux 3.16|
+		80|open|tcp|http|OpenResty web app server |###|124.250.45.79|302 Found|302 Found|openresty||
+		443|open|tcp|ssl| |###
+
+	124.250.45.8|up|Linux 3.16|
+		80|open|tcp|http|OpenResty web app server |###|124.250.45.8|302 Found|302 Found|openresty||
+		443|open|tcp|ssl| |###
+
+	124.250.45.80|up|Linux 3.16|
+		80|open|tcp|http|OpenResty web app server |###|124.250.45.80|302 Found|302 Found|openresty||
+		443|open|tcp|ssl| |###
+
+	124.250.45.81|up|Linux 2.6.32 - 3.13|
+		80|open|tcp|http|nginx |###|
+
+	124.250.45.82|up|Linux 3.16|
+		80|open|tcp|http|OpenResty web app server |###|
+		443|open|tcp|ssl| |###
+
+	124.250.45.83|up|Linux 3.2 - 4.9|
+		80|open|tcp|http|OpenResty web app server |###|124.250.45.83|302 Found|302 Found|openresty||
+		443|open|tcp|ssl| |###
+
+	124.250.45.84|up|Linux 2.6.32 - 3.13|
+		80|open|tcp|http|nginx |###|
+
+	124.250.45.85|up|Linux 3.2 - 4.9|
+		80|open|tcp|http| |###|
+
+	124.250.45.9|up|Linux 2.6.32 - 3.10|
+		80|open|tcp|http|OpenResty web app server |###|124.250.45.9|502 Bad Gateway|502 Bad Gateway|openresty||
+		443|open|tcp|ssl| |###
+

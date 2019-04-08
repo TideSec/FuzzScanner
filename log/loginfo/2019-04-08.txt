@@ -1,0 +1,3 @@
+2019-04-08_18:52:01
+/Users/xysoul/Tools/1-MyGitHub/fuzzScanner/log/qdlndx.cn/sub/www.qdlndx.cn-nmap.xml
+Nmap scan error: no element found: line 1, column 0

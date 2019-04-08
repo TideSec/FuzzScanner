@@ -1,0 +1,2221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/local/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.70 scan initiated Thu Jan 10 22:08:59 2019 as: nmap -oX /root/fuzzScanner/log/guazi.com/c_ip/106.38.228.1-nmap.xml -Pn -&#45;open -sS -sV -O -&#45;script=banner -p 21,23,25,80,111,143,443,465,554,587,993,3306,5060,5061,7547,8000,8080,8443,9000 106.38.228.1 106.38.228.100 106.38.228.101 106.38.228.102 106.38.228.103 106.38.228.104 106.38.228.141 106.38.228.142 106.38.228.161 106.38.228.162 106.38.228.163 106.38.228.17 106.38.228.177 106.38.228.178 106.38.228.179 106.38.228.18 106.38.228.180 106.38.228.19 106.38.228.193 106.38.228.194 106.38.228.195 106.38.228.196 106.38.228.197 106.38.228.198 106.38.228.199 106.38.228.2 106.38.228.20 106.38.228.200 106.38.228.201 106.38.228.202 106.38.228.203 106.38.228.204 106.38.228.205 106.38.228.206 106.38.228.208 106.38.228.21 106.38.228.214 106.38.228.215 106.38.228.228 106.38.228.229 106.38.228.230 106.38.228.231 106.38.228.232 106.38.228.233 106.38.228.234 106.38.228.235 106.38.228.236 106.38.228.237 106.38.228.238 106.38.228.241 106.38.228.242 106.38.228.243 106.38.228.25 106.38.228.26 106.38.228.27 106.38.228.29 106.38.228.33 106.38.228.34 106.38.228.5 106.38.228.65 106.38.228.66 106.38.228.67 106.38.228.73 106.38.228.74 106.38.228.75 106.38.228.76 106.38.228.77 106.38.228.78 106.38.228.79 106.38.228.80 106.38.228.81 106.38.228.82 106.38.228.83 106.38.228.84 106.38.228.85 106.38.228.86 106.38.228.87 106.38.228.88 106.38.228.89 106.38.228.90 106.38.228.91 106.38.228.92 106.38.228.93 106.38.228.94 106.38.228.95 106.38.228.96 106.38.228.97 106.38.228.98 106.38.228.99 -->
+<nmaprun scanner="nmap" args="nmap -oX /root/fuzzScanner/log/guazi.com/c_ip/106.38.228.1-nmap.xml -Pn -&#45;open -sS -sV -O -&#45;script=banner -p 21,23,25,80,111,143,443,465,554,587,993,3306,5060,5061,7547,8000,8080,8443,9000 106.38.228.1 106.38.228.100 106.38.228.101 106.38.228.102 106.38.228.103 106.38.228.104 106.38.228.141 106.38.228.142 106.38.228.161 106.38.228.162 106.38.228.163 106.38.228.17 106.38.228.177 106.38.228.178 106.38.228.179 106.38.228.18 106.38.228.180 106.38.228.19 106.38.228.193 106.38.228.194 106.38.228.195 106.38.228.196 106.38.228.197 106.38.228.198 106.38.228.199 106.38.228.2 106.38.228.20 106.38.228.200 106.38.228.201 106.38.228.202 106.38.228.203 106.38.228.204 106.38.228.205 106.38.228.206 106.38.228.208 106.38.228.21 106.38.228.214 106.38.228.215 106.38.228.228 106.38.228.229 106.38.228.230 106.38.228.231 106.38.228.232 106.38.228.233 106.38.228.234 106.38.228.235 106.38.228.236 106.38.228.237 106.38.228.238 106.38.228.241 106.38.228.242 106.38.228.243 106.38.228.25 106.38.228.26 106.38.228.27 106.38.228.29 106.38.228.33 106.38.228.34 106.38.228.5 106.38.228.65 106.38.228.66 106.38.228.67 106.38.228.73 106.38.228.74 106.38.228.75 106.38.228.76 106.38.228.77 106.38.228.78 106.38.228.79 106.38.228.80 106.38.228.81 106.38.228.82 106.38.228.83 106.38.228.84 106.38.228.85 106.38.228.86 106.38.228.87 106.38.228.88 106.38.228.89 106.38.228.90 106.38.228.91 106.38.228.92 106.38.228.93 106.38.228.94 106.38.228.95 106.38.228.96 106.38.228.97 106.38.228.98 106.38.228.99" start="1547129339" startstr="Thu Jan 10 22:08:59 2019" version="7.70" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="19" services="21,23,25,80,111,143,443,465,554,587,993,3306,5060-5061,7547,8000,8080,8443,9000"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1547129397" endtime="1547129629"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.1" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="12">
+<extrareasons reason="resets" count="12"/>
+</extraports>
+<extraports state="filtered" count="4">
+<extrareasons reason="no-responses" count="4"/>
+</extraports>
+<port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="240"/><service name="ftp" product="vsftpd" version="2.0.8 or later" method="probed" conf="10"><cpe>cpe:/a:vsftpd:vsftpd</cpe></service><script id="banner" output="220 FTP service ready."/></port>
+<port protocol="tcp" portid="23"><state state="open" reason="syn-ack" reason_ttl="240"/><service name="telnet" product="HP H3C SR8808 SecBlade firewall module telnetd" devicetype="firewall" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="7547"><state state="open" reason="syn-ack" reason_ttl="240"/><service name="cwmp" method="table" conf="3"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="21"/>
+<portused state="closed" proto="tcp" portid="25"/>
+<portused state="closed" proto="udp" portid="34208"/>
+<osmatch name="D-Link NetDefend firewall" accuracy="94" line="19943">
+<osclass type="firewall" vendor="D-Link" osfamily="embedded" accuracy="94"/>
+</osmatch>
+<osmatch name="TiVo series 1 (Linux 2.1.24-TiVo-2.5)" accuracy="93" line="44415">
+<osclass type="media device" vendor="Linux" osfamily="Linux" osgen="2.1.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:2.1.24</cpe></osclass>
+</osmatch>
+<osmatch name="D-Link DFL-700 firewall" accuracy="92" line="19925">
+<osclass type="firewall" vendor="D-Link" osfamily="embedded" accuracy="92"><cpe>cpe:/h:dlink:dfl-700</cpe></osclass>
+</osmatch>
+<osmatch name="D-Link DFL-200 firewall" accuracy="91" line="19907">
+<osclass type="firewall" vendor="D-Link" osfamily="embedded" accuracy="91"><cpe>cpe:/h:dlink:dfl-200</cpe></osclass>
+</osmatch>
+<osmatch name="Rigol DS1000Z-series oscilloscope" accuracy="90" line="94603">
+<osclass type="specialized" vendor="Rigol Technologies" osfamily="embedded" accuracy="90"/>
+</osmatch>
+<osmatch name="Brother HL-2070N printer" accuracy="90" line="11050">
+<osclass type="printer" vendor="Brother" osfamily="embedded" accuracy="90"><cpe>cpe:/h:brother:hl-2070n</cpe></osclass>
+</osmatch>
+<osmatch name="Siemens W748 or W788 WAP" accuracy="90" line="97262">
+<osclass type="WAP" vendor="Siemens" osfamily="embedded" accuracy="90"><cpe>cpe:/h:siemens:w748</cpe><cpe>cpe:/h:siemens:w788</cpe></osclass>
+</osmatch>
+<osmatch name="Slingbox Pro-HD TV over IP gateway" accuracy="90" line="97612">
+<osclass type="media device" vendor="Sling" osfamily="embedded" accuracy="90"/>
+</osmatch>
+<osmatch name="H3C Comware 5.20" accuracy="89" line="31808">
+<osclass type="switch" vendor="H3C" osfamily="Comware" osgen="5.X" accuracy="89"><cpe>cpe:/o:h3c:comware:5.20</cpe></osclass>
+</osmatch>
+<osmatch name="ZyXEL ZyNOS 3.40" accuracy="89" line="107171">
+<osclass type="broadband router" vendor="ZyXEL" osfamily="ZyNOS" osgen="3.X" accuracy="89"><cpe>cpe:/o:zyxel:zynos:3.40</cpe></osclass>
+</osmatch>
+</os>
+<distance value="17"/>
+<times srtt="39084" rttvar="6966" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.100" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="15">
+<extrareasons reason="no-responses" count="15"/>
+</extraports>
+<extraports state="closed" count="3">
+<extrareasons reason="resets" count="3"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" product="nginx" extrainfo="bad gateway" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="443"/>
+<portused state="closed" proto="udp" portid="35081"/>
+<osmatch name="Linux 3.2 - 4.9" accuracy="97" line="65105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="97"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="97"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10 - 4.11" accuracy="96" line="63230">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.13" accuracy="94" line="56411">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 3.8" accuracy="93" line="65058">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.18" accuracy="93" line="64256">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.18</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.10" accuracy="93" line="67002">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:4.10</cpe></osclass>
+</osmatch>
+<osmatch name="Asus RT-AC66U WAP" accuracy="93" line="68155">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" accuracy="93"><cpe>cpe:/o:linux:linux_kernel</cpe></osclass>
+<osclass type="WAP" vendor="Asus" osfamily="embedded" accuracy="93"><cpe>cpe:/h:asus:rt-ac66u</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10" accuracy="92" line="62820">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3.10</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2" accuracy="92" line="64802">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3.2</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16" accuracy="92" line="63962">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="164687" lastboot="Wed Jan  9 00:29:03 2019"/>
+<distance value="17"/>
+<times srtt="35543" rttvar="2629" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.101" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="16">
+<extrareasons reason="no-responses" count="16"/>
+</extraports>
+<extraports state="closed" count="2">
+<extrareasons reason="resets" count="2"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" product="nginx" extrainfo="bad gateway" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="443"/>
+<portused state="closed" proto="udp" portid="37919"/>
+<osmatch name="Linux 3.2 - 4.9" accuracy="97" line="65105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="97"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="97"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10 - 4.11" accuracy="96" line="63230">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.13" accuracy="94" line="56411">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 3.8" accuracy="93" line="65058">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10" accuracy="92" line="62820">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3.10</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16" accuracy="92" line="63962">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32" accuracy="92" line="55173">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.13" accuracy="92" line="63698">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3.13</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.18" accuracy="92" line="64256">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3.18</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.10" accuracy="92" line="66984">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:4.10</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="331944" lastboot="Mon Jan  7 02:01:26 2019"/>
+<distance value="18"/>
+<times srtt="33951" rttvar="2891" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.102" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="16">
+<extrareasons reason="no-responses" count="16"/>
+</extraports>
+<extraports state="closed" count="2">
+<extrareasons reason="resets" count="2"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" product="nginx" extrainfo="bad gateway" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service><script id="http-server-header" output="momo"><elem>momo</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="443"/>
+<portused state="closed" proto="udp" portid="40506"/>
+<osmatch name="Linux 3.2 - 4.9" accuracy="97" line="65105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="97"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="97"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.13" accuracy="96" line="56411">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10 - 4.11" accuracy="96" line="63230">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32" accuracy="93" line="55173">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.10" accuracy="93" line="56381">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="HP P2000 G3 NAS device" accuracy="93" line="34647">
+<osclass type="storage-misc" vendor="HP" osfamily="embedded" accuracy="93"><cpe>cpe:/h:hp:p2000_g3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 3.8" accuracy="93" line="65058">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16 - 4.6" accuracy="92" line="64164">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.10" accuracy="92" line="66984">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:4.10</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.4" accuracy="92" line="67384">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:4.4</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="333089" lastboot="Mon Jan  7 01:42:21 2019"/>
+<distance value="18"/>
+<times srtt="31335" rttvar="3262" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.103" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="15">
+<extrareasons reason="no-responses" count="15"/>
+</extraports>
+<extraports state="closed" count="3">
+<extrareasons reason="resets" count="3"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="47"/><service name="http" product="nginx" extrainfo="bad gateway" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="443"/>
+<portused state="closed" proto="udp" portid="37658"/>
+<osmatch name="Linux 3.2 - 4.9" accuracy="97" line="65105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="97"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="97"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10 - 4.11" accuracy="96" line="63230">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.13" accuracy="94" line="56411">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 3.8" accuracy="93" line="65058">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.18" accuracy="93" line="64256">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.18</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10" accuracy="92" line="62820">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3.10</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16" accuracy="92" line="63962">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32" accuracy="92" line="55173">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.13" accuracy="92" line="63698">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3.13</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.10" accuracy="92" line="66984">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:4.10</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="332956" lastboot="Mon Jan  7 01:44:34 2019"/>
+<distance value="18"/>
+<times srtt="33574" rttvar="4041" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.104" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="15">
+<extrareasons reason="no-responses" count="15"/>
+</extraports>
+<extraports state="closed" count="3">
+<extrareasons reason="resets" count="3"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="47"/><service name="http" product="nginx" extrainfo="bad gateway" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="443"/>
+<portused state="closed" proto="udp" portid="32594"/>
+<osmatch name="Linux 3.2 - 4.9" accuracy="97" line="65105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="97"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="97"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10 - 4.11" accuracy="96" line="63230">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.13" accuracy="94" line="56411">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 3.8" accuracy="93" line="65058">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.18" accuracy="93" line="64256">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.18</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.10" accuracy="93" line="67002">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:4.10</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10" accuracy="92" line="62820">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3.10</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2" accuracy="92" line="64802">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3.2</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16" accuracy="92" line="63962">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32" accuracy="92" line="55173">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="332834" lastboot="Mon Jan  7 01:46:36 2019"/>
+<distance value="18"/>
+<times srtt="32743" rttvar="2019" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.141" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="11">
+<extrareasons reason="resets" count="11"/>
+</extraports>
+<extraports state="filtered" count="6">
+<extrareasons reason="no-responses" count="6"/>
+</extraports>
+<port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="239"/><service name="ftp" product="vsftpd" version="2.0.8 or later" method="probed" conf="10"><cpe>cpe:/a:vsftpd:vsftpd</cpe></service></port>
+<port protocol="tcp" portid="23"><state state="open" reason="syn-ack" reason_ttl="239"/><service name="telnet" product="HP H3C SR8808 SecBlade firewall module telnetd" devicetype="firewall" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="21"/>
+<portused state="closed" proto="tcp" portid="25"/>
+<portused state="closed" proto="udp" portid="42139"/>
+<osmatch name="Cisco ACE load balancer" accuracy="93" line="13944">
+<osclass type="load balancer" vendor="Cisco" osfamily="embedded" accuracy="93"/>
+</osmatch>
+<osmatch name="Kyocera EP 470DN printer" accuracy="92" line="41939">
+<osclass type="printer" vendor="Kyocera" osfamily="embedded" accuracy="92"><cpe>cpe:/h:kyocera:ep_470dn</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2003" accuracy="91" line="71640">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2003" accuracy="91"><cpe>cpe:/o:microsoft:windows_server_2003</cpe></osclass>
+</osmatch>
+<osmatch name="HP OpenVMS 7.3-1" accuracy="91" line="36827">
+<osclass type="general purpose" vendor="HP" osfamily="OpenVMS" osgen="7.X" accuracy="91"><cpe>cpe:/o:hp:openvms:7.3</cpe></osclass>
+</osmatch>
+<osmatch name="DEC OSF/1 V5.1" accuracy="90" line="21262">
+<osclass type="general purpose" vendor="DEC" osfamily="OSF/1" osgen="5.X" accuracy="90"><cpe>cpe:/o:dec:osf_1:5</cpe></osclass>
+</osmatch>
+<osmatch name="Huawei Secospace USG6680 firewall" accuracy="90" line="37165">
+<osclass type="firewall" vendor="Huawei" osfamily="embedded" accuracy="90"><cpe>cpe:/h:huawei:secospace_usg6680</cpe></osclass>
+</osmatch>
+<osmatch name="SiliconDust HDHomeRun set top box" accuracy="90" line="97354">
+<osclass type="media device" vendor="Silicondust" osfamily="embedded" accuracy="90"><cpe>cpe:/h:silicondust:hdhr</cpe></osclass>
+</osmatch>
+<osmatch name="3Com 5500-EI switch" accuracy="90" line="410">
+<osclass type="switch" vendor="3Com" osfamily="embedded" accuracy="90"><cpe>cpe:/h:3com:5500-ei</cpe></osclass>
+</osmatch>
+<osmatch name="Motorola 2210-02 ADSL modem" accuracy="89" line="85948">
+<osclass type="broadband router" vendor="Motorola" osfamily="embedded" accuracy="89"><cpe>cpe:/h:motorola:2210-02</cpe></osclass>
+</osmatch>
+<osmatch name="Netopia 3386 ADSL router" accuracy="89" line="88170">
+<osclass type="broadband router" vendor="Netopia" osfamily="embedded" accuracy="89"><cpe>cpe:/h:netopia:3386</cpe></osclass>
+</osmatch>
+</os>
+<distance value="17"/>
+<times srtt="32853" rttvar="4202" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.142" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="18">
+<extrareasons reason="host-prohibiteds" count="12"/>
+<extrareasons reason="no-responses" count="6"/>
+</extraports>
+<port protocol="tcp" portid="3306"><state state="open" reason="syn-ack" reason_ttl="47"/><service name="mysql" product="MariaDB" extrainfo="unauthorized" method="probed" conf="10"><cpe>cpe:/a:mariadb:mariadb</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="3306"/>
+<osmatch name="Linux 3.10 - 4.11" accuracy="100" line="63230">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 4.9" accuracy="100" line="65105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="2419787" lastboot="Thu Dec 13 22:04:03 2018"/>
+<tcpsequence index="263" difficulty="Good luck!" values="B49964FF,4375B926,71D2012,D01C979,8FB5D8D3,6082C84B"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="90389C16,90389D6D,90389E83,90389F24,90389F85,90389FEC"/>
+<times srtt="34979" rttvar="4092" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129629"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.161" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="15">
+<extrareasons reason="resets" count="15"/>
+</extraports>
+<extraports state="filtered" count="2">
+<extrareasons reason="no-responses" count="2"/>
+</extraports>
+<port protocol="tcp" portid="23"><state state="open" reason="syn-ack" reason_ttl="239"/><service name="telnet" product="H3C switch telnetd" devicetype="switch" method="probed" conf="10"/><script id="banner" output="\xFF\xFB\x01\xFF\xFB\x01\xFF\xFB\x01"/></port>
+<port protocol="tcp" portid="7547"><state state="open" reason="syn-ack" reason_ttl="239"/><service name="cwmp" method="table" conf="3"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="23"/>
+<portused state="closed" proto="tcp" portid="21"/>
+<portused state="closed" proto="udp" portid="39777"/>
+<osmatch name="TiVo series 1 (Linux 2.1.24-TiVo-2.5)" accuracy="90" line="44415">
+<osclass type="media device" vendor="Linux" osfamily="Linux" osgen="2.1.X" accuracy="90"><cpe>cpe:/o:linux:linux_kernel:2.1.24</cpe></osclass>
+</osmatch>
+<osmatch name="H3C Comware 5.20" accuracy="90" line="31808">
+<osclass type="switch" vendor="H3C" osfamily="Comware" osgen="5.X" accuracy="90"><cpe>cpe:/o:h3c:comware:5.20</cpe></osclass>
+</osmatch>
+<osmatch name="Huawei AP6050DN WAP" accuracy="86" line="37255">
+<osclass type="WAP" vendor="Huawei" osfamily="embedded" accuracy="86"><cpe>cpe:/h:huawei:ap6050dn</cpe></osclass>
+</osmatch>
+<osmatch name="Huawei VRP 3 switch" accuracy="86" line="37329">
+<osclass type="switch" vendor="Huawei" osfamily="VRP" osgen="3.X" accuracy="86"><cpe>cpe:/o:huawei:vrp:3</cpe></osclass>
+</osmatch>
+<osmatch name="Huawei S9300 switch" accuracy="86" line="37310">
+<osclass type="switch" vendor="Huawei" osfamily="VRP" osgen="3.X" accuracy="86"><cpe>cpe:/h:huawei:s9300</cpe><cpe>cpe:/o:huawei:vrp:3</cpe></osclass>
+</osmatch>
+<osmatch name="D-Link NetDefend firewall" accuracy="85" line="19943">
+<osclass type="firewall" vendor="D-Link" osfamily="embedded" accuracy="85"/>
+</osmatch>
+<osmatch name="Linux 2.4.18" accuracy="85" line="44872">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:2.4.18</cpe></osclass>
+</osmatch>
+<osmatch name="TiVo series 1 (Sony SVR-2000 or Philips HDR112) (Linux 2.1.24-TiVo-2.5, PowerPC)" accuracy="85" line="44436">
+<osclass type="media device" vendor="Linux" osfamily="Linux" osgen="2.1.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:2.1.24</cpe></osclass>
+<osclass type="media device" vendor="Philips" osfamily="embedded" accuracy="85"><cpe>cpe:/h:philips:hdr112</cpe></osclass>
+<osclass type="media device" vendor="Sony" osfamily="embedded" accuracy="85"><cpe>cpe:/h:sony:svr-2000</cpe></osclass>
+</osmatch>
+</os>
+<distance value="17"/>
+<times srtt="34234" rttvar="5020" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.162" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="14">
+<extrareasons reason="resets" count="14"/>
+</extraports>
+<extraports state="filtered" count="4">
+<extrareasons reason="no-responses" count="4"/>
+</extraports>
+<port protocol="tcp" portid="23"><state state="open" reason="syn-ack" reason_ttl="239"/><service name="telnet" product="H3C switch telnetd" devicetype="switch" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="23"/>
+<portused state="closed" proto="tcp" portid="21"/>
+<portused state="closed" proto="udp" portid="31705"/>
+<osmatch name="H3C Comware 5.20" accuracy="89" line="31808">
+<osclass type="switch" vendor="H3C" osfamily="Comware" osgen="5.X" accuracy="89"><cpe>cpe:/o:h3c:comware:5.20</cpe></osclass>
+</osmatch>
+<osmatch name="TiVo series 1 (Linux 2.1.24-TiVo-2.5)" accuracy="89" line="44415">
+<osclass type="media device" vendor="Linux" osfamily="Linux" osgen="2.1.X" accuracy="89"><cpe>cpe:/o:linux:linux_kernel:2.1.24</cpe></osclass>
+</osmatch>
+<osmatch name="OpenWrt Kamikaze 7.09 (Linux 2.6.22)" accuracy="86" line="61315">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="86"><cpe>cpe:/o:linux:linux_kernel:2.6.22</cpe></osclass>
+</osmatch>
+<osmatch name="D-Link NetDefend firewall" accuracy="85" line="19943">
+<osclass type="firewall" vendor="D-Link" osfamily="embedded" accuracy="85"/>
+</osmatch>
+<osmatch name="Huawei S9300 switch" accuracy="85" line="37310">
+<osclass type="switch" vendor="Huawei" osfamily="VRP" osgen="3.X" accuracy="85"><cpe>cpe:/h:huawei:s9300</cpe><cpe>cpe:/o:huawei:vrp:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.4.18" accuracy="85" line="44872">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:2.4.18</cpe></osclass>
+</osmatch>
+</os>
+<distance value="17"/>
+<times srtt="34701" rttvar="2123" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129629"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.163" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="12">
+<extrareasons reason="resets" count="12"/>
+</extraports>
+<extraports state="filtered" count="5">
+<extrareasons reason="no-responses" count="5"/>
+</extraports>
+<port protocol="tcp" portid="23"><state state="open" reason="syn-ack" reason_ttl="239"/><service name="telnet" product="H3C switch telnetd" devicetype="switch" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="7547"><state state="open" reason="syn-ack" reason_ttl="239"/><service name="cwmp" method="table" conf="3"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="23"/>
+<portused state="closed" proto="tcp" portid="21"/>
+<portused state="closed" proto="udp" portid="44622"/>
+<osmatch name="H3C Comware 5.20" accuracy="89" line="31808">
+<osclass type="switch" vendor="H3C" osfamily="Comware" osgen="5.X" accuracy="89"><cpe>cpe:/o:h3c:comware:5.20</cpe></osclass>
+</osmatch>
+<osmatch name="TiVo series 1 (Linux 2.1.24-TiVo-2.5)" accuracy="89" line="44415">
+<osclass type="media device" vendor="Linux" osfamily="Linux" osgen="2.1.X" accuracy="89"><cpe>cpe:/o:linux:linux_kernel:2.1.24</cpe></osclass>
+</osmatch>
+<osmatch name="Huawei AP6050DN WAP" accuracy="85" line="37255">
+<osclass type="WAP" vendor="Huawei" osfamily="embedded" accuracy="85"><cpe>cpe:/h:huawei:ap6050dn</cpe></osclass>
+</osmatch>
+<osmatch name="OpenWrt Kamikaze 7.09 (Linux 2.6.22)" accuracy="85" line="61315">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:2.6.22</cpe></osclass>
+</osmatch>
+<osmatch name="Huawei VRP 3 switch" accuracy="85" line="37329">
+<osclass type="switch" vendor="Huawei" osfamily="VRP" osgen="3.X" accuracy="85"><cpe>cpe:/o:huawei:vrp:3</cpe></osclass>
+</osmatch>
+<osmatch name="Huawei S9300 switch" accuracy="85" line="37310">
+<osclass type="switch" vendor="Huawei" osfamily="VRP" osgen="3.X" accuracy="85"><cpe>cpe:/h:huawei:s9300</cpe><cpe>cpe:/o:huawei:vrp:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.4.18" accuracy="85" line="44872">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:2.4.18</cpe></osclass>
+</osmatch>
+</os>
+<distance value="16"/>
+<times srtt="32303" rttvar="3580" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.17" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="13">
+<extrareasons reason="resets" count="13"/>
+</extraports>
+<extraports state="filtered" count="5">
+<extrareasons reason="no-responses" count="5"/>
+</extraports>
+<port protocol="tcp" portid="23"><state state="open" reason="syn-ack" reason_ttl="239"/><service name="telnet" product="H3C switch telnetd" devicetype="switch" method="probed" conf="10"/><script id="banner" output="\xFF\xFB\x01\xFF\xFB\x01\xFF\xFB\x01\xFF\xFB\x03\xFF\xFD\x18\xF&#xa;F\xFD\x1F\x0D\x0A***************************************************...&#xa;"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="23"/>
+<portused state="closed" proto="tcp" portid="21"/>
+<portused state="closed" proto="udp" portid="42926"/>
+<osmatch name="TiVo series 1 (Linux 2.1.24-TiVo-2.5)" accuracy="90" line="44415">
+<osclass type="media device" vendor="Linux" osfamily="Linux" osgen="2.1.X" accuracy="90"><cpe>cpe:/o:linux:linux_kernel:2.1.24</cpe></osclass>
+</osmatch>
+<osmatch name="H3C Comware 5.20" accuracy="90" line="31808">
+<osclass type="switch" vendor="H3C" osfamily="Comware" osgen="5.X" accuracy="90"><cpe>cpe:/o:h3c:comware:5.20</cpe></osclass>
+</osmatch>
+<osmatch name="OpenWrt Kamikaze 7.09 (Linux 2.6.22)" accuracy="86" line="61315">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="86"><cpe>cpe:/o:linux:linux_kernel:2.6.22</cpe></osclass>
+</osmatch>
+<osmatch name="Huawei AP6050DN WAP" accuracy="85" line="37255">
+<osclass type="WAP" vendor="Huawei" osfamily="embedded" accuracy="85"><cpe>cpe:/h:huawei:ap6050dn</cpe></osclass>
+</osmatch>
+<osmatch name="Huawei VRP 3 switch" accuracy="85" line="37329">
+<osclass type="switch" vendor="Huawei" osfamily="VRP" osgen="3.X" accuracy="85"><cpe>cpe:/o:huawei:vrp:3</cpe></osclass>
+</osmatch>
+<osmatch name="Huawei S9300 switch" accuracy="85" line="37310">
+<osclass type="switch" vendor="Huawei" osfamily="VRP" osgen="3.X" accuracy="85"><cpe>cpe:/h:huawei:s9300</cpe><cpe>cpe:/o:huawei:vrp:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.4.18" accuracy="85" line="44872">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:2.4.18</cpe></osclass>
+</osmatch>
+</os>
+<distance value="17"/>
+<times srtt="35751" rttvar="3496" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129630"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.177" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="11">
+<extrareasons reason="resets" count="11"/>
+</extraports>
+<extraports state="filtered" count="5">
+<extrareasons reason="no-responses" count="5"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="110"/><service name="http" product="nginx" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service><script id="http-server-header" output="nginx"><elem>nginx</elem>
+</script></port>
+<port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="110"/><service name="rpcbind" version="2-4" extrainfo="RPC #100000" method="probed" conf="10"/><script id="rpcinfo" output="&#xa;  program version   port/proto  service&#xa;  100000  2,3,4        111/tcp  rpcbind&#xa;  100000  2,3,4        111/udp  rpcbind&#xa;"><table key="100000">
+<table key="tcp">
+<table key="version">
+<elem>2</elem>
+<elem>3</elem>
+<elem>4</elem>
+</table>
+<elem key="port">111</elem>
+</table>
+<table key="udp">
+<table key="version">
+<elem>2</elem>
+<elem>3</elem>
+<elem>4</elem>
+</table>
+<elem key="port">111</elem>
+</table>
+</table>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="110"/><service name="ssl" method="probed" conf="10"/><script id="http-server-header" output="nginx"><elem>nginx</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="21"/>
+<portused state="closed" proto="udp" portid="42719"/>
+<osmatch name="Lexmark X644e printer" accuracy="94" line="43254">
+<osclass type="printer" vendor="Lexmark" osfamily="embedded" accuracy="94"><cpe>cpe:/h:lexmark:x644e</cpe></osclass>
+</osmatch>
+<osmatch name="Asus RT-AC66U router (Linux 2.6)" accuracy="92" line="8205">
+<osclass type="broadband router" vendor="Asus" osfamily="embedded" accuracy="92"><cpe>cpe:/h:asus:rt-ac66u</cpe></osclass>
+<osclass type="broadband router" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Asus RT-N16 WAP (Linux 2.6)" accuracy="92" line="60654">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="WAP" vendor="Asus" osfamily="embedded" accuracy="92"><cpe>cpe:/h:asus:rt-n16</cpe></osclass>
+</osmatch>
+<osmatch name="Asus RT-N66U WAP (Linux 2.6)" accuracy="92" line="60695">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="WAP" vendor="Asus" osfamily="embedded" accuracy="92"><cpe>cpe:/h:asus:rt-n66u</cpe></osclass>
+</osmatch>
+<osmatch name="Tomato 1.28 (Linux 2.6.22)" accuracy="92" line="61392">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6.22</cpe></osclass>
+</osmatch>
+<osmatch name="Lexmark 1400-series printer" accuracy="91" line="42768">
+<osclass type="printer" vendor="Lexmark" osfamily="embedded" accuracy="91"/>
+</osmatch>
+<osmatch name="Linux 2.6.24" accuracy="91" line="51944">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:2.6.24</cpe></osclass>
+</osmatch>
+<osmatch name="OpenWrt 0.9 - 7.09 (Linux 2.4.30 - 2.4.34)" accuracy="90" line="46532">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="90"><cpe>cpe:/o:linux:linux_kernel:2.4</cpe></osclass>
+</osmatch>
+<osmatch name="OpenWrt White Russian 0.9 (Linux 2.4.30)" accuracy="90" line="46571">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="90"><cpe>cpe:/o:linux:linux_kernel:2.4.30</cpe></osclass>
+</osmatch>
+<osmatch name="OpenWrt Kamikaze 7.09 (Linux 2.6.22)" accuracy="90" line="61315">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="90"><cpe>cpe:/o:linux:linux_kernel:2.6.22</cpe></osclass>
+</osmatch>
+</os>
+<distance value="19"/>
+<times srtt="33405" rttvar="3367" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129630"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.178" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="15">
+<extrareasons reason="resets" count="15"/>
+</extraports>
+<extraports state="filtered" count="2">
+<extrareasons reason="no-responses" count="2"/>
+</extraports>
+<port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="110"/><service name="rpcbind" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="110"/><service name="ssl" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="111"/>
+<portused state="closed" proto="tcp" portid="21"/>
+<portused state="closed" proto="udp" portid="38159"/>
+<osmatch name="OpenWrt Kamikaze 7.09 (Linux 2.6.22)" accuracy="94" line="61315">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.6.22</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.4.22 (x86)" accuracy="93" line="45438">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:2.4.22</cpe></osclass>
+</osmatch>
+<osmatch name="OpenWrt 0.9 - 7.09 (Linux 2.4.30 - 2.4.34)" accuracy="93" line="46532">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:2.4</cpe></osclass>
+</osmatch>
+<osmatch name="OpenWrt White Russian 0.9 (Linux 2.4.30)" accuracy="93" line="46571">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:2.4.30</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.22 (Fedora 7)" accuracy="93" line="51322">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:2.6.22</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.24" accuracy="93" line="51964">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:2.6.24</cpe></osclass>
+</osmatch>
+<osmatch name="OpenWrt (Linux 3.18)" accuracy="93" line="61767">
+<osclass type="broadband router" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.18</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.0" accuracy="93" line="62033">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.0</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2" accuracy="92" line="64401">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3.2</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.22" accuracy="91" line="50909">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:2.6.22</cpe></osclass>
+</osmatch>
+</os>
+<distance value="19"/>
+<times srtt="32038" rttvar="3535" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129630"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.179" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="12">
+<extrareasons reason="resets" count="12"/>
+</extraports>
+<extraports state="filtered" count="4">
+<extrareasons reason="no-responses" count="4"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="110"/><service name="http" product="nginx" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+<port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="110"/><service name="rpcbind" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="110"/><service name="ssl" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="21"/>
+<portused state="closed" proto="udp" portid="34335"/>
+<osmatch name="OpenWrt 0.9 - 7.09 (Linux 2.4.30 - 2.4.34)" accuracy="94" line="46532">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.4</cpe></osclass>
+</osmatch>
+<osmatch name="OpenWrt White Russian 0.9 (Linux 2.4.30)" accuracy="94" line="46571">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.4.30</cpe></osclass>
+</osmatch>
+<osmatch name="OpenWrt Kamikaze 7.09 (Linux 2.6.22)" accuracy="94" line="61315">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.6.22</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.4.18" accuracy="92" line="44872">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.4.18</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.9 - 2.6.21" accuracy="90" line="58917">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="90"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Lexmark X644e printer" accuracy="90" line="43254">
+<osclass type="printer" vendor="Lexmark" osfamily="embedded" accuracy="90"><cpe>cpe:/h:lexmark:x644e</cpe></osclass>
+</osmatch>
+<osmatch name="Asus RT-AC66U router (Linux 2.6)" accuracy="88" line="8205">
+<osclass type="broadband router" vendor="Asus" osfamily="embedded" accuracy="88"><cpe>cpe:/h:asus:rt-ac66u</cpe></osclass>
+<osclass type="broadband router" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Asus RT-N16 WAP (Linux 2.6)" accuracy="88" line="60654">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="WAP" vendor="Asus" osfamily="embedded" accuracy="88"><cpe>cpe:/h:asus:rt-n16</cpe></osclass>
+</osmatch>
+<osmatch name="Asus RT-N66U WAP (Linux 2.6)" accuracy="88" line="60695">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="WAP" vendor="Asus" osfamily="embedded" accuracy="88"><cpe>cpe:/h:asus:rt-n66u</cpe></osclass>
+</osmatch>
+<osmatch name="Tomato 1.28 (Linux 2.6.22)" accuracy="88" line="61392">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:2.6.22</cpe></osclass>
+</osmatch>
+</os>
+<distance value="19"/>
+<times srtt="31616" rttvar="3305" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129629"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.18" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="14">
+<extrareasons reason="resets" count="14"/>
+</extraports>
+<extraports state="filtered" count="3">
+<extrareasons reason="no-responses" count="3"/>
+</extraports>
+<port protocol="tcp" portid="23"><state state="open" reason="syn-ack" reason_ttl="239"/><service name="telnet" product="H3C switch telnetd" devicetype="switch" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="7547"><state state="open" reason="syn-ack" reason_ttl="239"/><service name="cwmp" method="table" conf="3"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="23"/>
+<portused state="closed" proto="tcp" portid="21"/>
+<portused state="closed" proto="udp" portid="39385"/>
+<osmatch name="H3C Comware 5.20" accuracy="90" line="31808">
+<osclass type="switch" vendor="H3C" osfamily="Comware" osgen="5.X" accuracy="90"><cpe>cpe:/o:h3c:comware:5.20</cpe></osclass>
+</osmatch>
+<osmatch name="TiVo series 1 (Linux 2.1.24-TiVo-2.5)" accuracy="90" line="44415">
+<osclass type="media device" vendor="Linux" osfamily="Linux" osgen="2.1.X" accuracy="90"><cpe>cpe:/o:linux:linux_kernel:2.1.24</cpe></osclass>
+</osmatch>
+<osmatch name="Huawei AP6050DN WAP" accuracy="86" line="37255">
+<osclass type="WAP" vendor="Huawei" osfamily="embedded" accuracy="86"><cpe>cpe:/h:huawei:ap6050dn</cpe></osclass>
+</osmatch>
+<osmatch name="Huawei VRP 3 switch" accuracy="86" line="37329">
+<osclass type="switch" vendor="Huawei" osfamily="VRP" osgen="3.X" accuracy="86"><cpe>cpe:/o:huawei:vrp:3</cpe></osclass>
+</osmatch>
+<osmatch name="Huawei S9300 switch" accuracy="86" line="37310">
+<osclass type="switch" vendor="Huawei" osfamily="VRP" osgen="3.X" accuracy="86"><cpe>cpe:/h:huawei:s9300</cpe><cpe>cpe:/o:huawei:vrp:3</cpe></osclass>
+</osmatch>
+<osmatch name="OpenWrt Kamikaze 7.09 (Linux 2.6.22)" accuracy="85" line="61315">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:2.6.22</cpe></osclass>
+</osmatch>
+<osmatch name="D-Link NetDefend firewall" accuracy="85" line="19943">
+<osclass type="firewall" vendor="D-Link" osfamily="embedded" accuracy="85"/>
+</osmatch>
+<osmatch name="Linux 2.4.18" accuracy="85" line="44872">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:2.4.18</cpe></osclass>
+</osmatch>
+<osmatch name="TiVo series 1 (Sony SVR-2000 or Philips HDR112) (Linux 2.1.24-TiVo-2.5, PowerPC)" accuracy="85" line="44436">
+<osclass type="media device" vendor="Linux" osfamily="Linux" osgen="2.1.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:2.1.24</cpe></osclass>
+<osclass type="media device" vendor="Philips" osfamily="embedded" accuracy="85"><cpe>cpe:/h:philips:hdr112</cpe></osclass>
+<osclass type="media device" vendor="Sony" osfamily="embedded" accuracy="85"><cpe>cpe:/h:sony:svr-2000</cpe></osclass>
+</osmatch>
+</os>
+<distance value="17"/>
+<times srtt="35134" rttvar="5241" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129630"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.180" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="12">
+<extrareasons reason="resets" count="12"/>
+</extraports>
+<extraports state="filtered" count="4">
+<extrareasons reason="no-responses" count="4"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="110"/><service name="http" product="nginx" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service><script id="http-server-header" output="nginx"><elem>nginx</elem>
+</script></port>
+<port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="110"/><service name="rpcbind" version="2-4" extrainfo="RPC #100000" method="probed" conf="10"/><script id="rpcinfo" output="&#xa;  program version   port/proto  service&#xa;  100000  2,3,4        111/tcp  rpcbind&#xa;  100000  2,3,4        111/udp  rpcbind&#xa;"><table key="100000">
+<table key="tcp">
+<table key="version">
+<elem>2</elem>
+<elem>3</elem>
+<elem>4</elem>
+</table>
+<elem key="port">111</elem>
+</table>
+<table key="udp">
+<table key="version">
+<elem>2</elem>
+<elem>3</elem>
+<elem>4</elem>
+</table>
+<elem key="port">111</elem>
+</table>
+</table>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="110"/><service name="ssl" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="21"/>
+<portused state="closed" proto="udp" portid="40118"/>
+<osmatch name="Linux 2.4.22 (x86)" accuracy="94" line="45438">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.4.22</cpe></osclass>
+</osmatch>
+<osmatch name="OpenWrt 0.9 - 7.09 (Linux 2.4.30 - 2.4.34)" accuracy="94" line="46532">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.4</cpe></osclass>
+</osmatch>
+<osmatch name="OpenWrt White Russian 0.9 (Linux 2.4.30)" accuracy="94" line="46571">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.4.30</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.22 (Fedora 7)" accuracy="94" line="51322">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.6.22</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.24" accuracy="94" line="51964">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.6.24</cpe></osclass>
+</osmatch>
+<osmatch name="OpenWrt Kamikaze 7.09 (Linux 2.6.22)" accuracy="94" line="61315">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.6.22</cpe></osclass>
+</osmatch>
+<osmatch name="OpenWrt (Linux 3.18)" accuracy="93" line="61767">
+<osclass type="broadband router" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.18</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.9 - 2.6.21" accuracy="93" line="58917">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.22" accuracy="93" line="50909">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:2.6.22</cpe></osclass>
+</osmatch>
+<osmatch name="D-Link DIR-615, Encore 3G, or EnGenius ESR-9752 WAP" accuracy="93" line="20752">
+<osclass type="WAP" vendor="D-Link" osfamily="embedded" accuracy="93"><cpe>cpe:/h:dlink:dir-615</cpe></osclass>
+<osclass type="WAP" vendor="Encore" osfamily="embedded" accuracy="93"><cpe>cpe:/h:encore:3g</cpe></osclass>
+<osclass type="WAP" vendor="EnGenius" osfamily="embedded" accuracy="93"><cpe>cpe:/h:engenius:esr-9752</cpe></osclass>
+</osmatch>
+</os>
+<distance value="19"/>
+<times srtt="34648" rttvar="7257" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129629"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.19" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="14">
+<extrareasons reason="resets" count="14"/>
+</extraports>
+<extraports state="filtered" count="3">
+<extrareasons reason="no-responses" count="3"/>
+</extraports>
+<port protocol="tcp" portid="23"><state state="open" reason="syn-ack" reason_ttl="239"/><service name="telnet" product="H3C switch telnetd" devicetype="switch" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="7547"><state state="open" reason="syn-ack" reason_ttl="239"/><service name="cwmp" method="table" conf="3"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="23"/>
+<portused state="closed" proto="tcp" portid="21"/>
+<portused state="closed" proto="udp" portid="34489"/>
+<osmatch name="TiVo series 1 (Linux 2.1.24-TiVo-2.5)" accuracy="90" line="44415">
+<osclass type="media device" vendor="Linux" osfamily="Linux" osgen="2.1.X" accuracy="90"><cpe>cpe:/o:linux:linux_kernel:2.1.24</cpe></osclass>
+</osmatch>
+<osmatch name="H3C Comware 5.20" accuracy="90" line="31808">
+<osclass type="switch" vendor="H3C" osfamily="Comware" osgen="5.X" accuracy="90"><cpe>cpe:/o:h3c:comware:5.20</cpe></osclass>
+</osmatch>
+<osmatch name="Huawei S9300 switch" accuracy="86" line="37310">
+<osclass type="switch" vendor="Huawei" osfamily="VRP" osgen="3.X" accuracy="86"><cpe>cpe:/h:huawei:s9300</cpe><cpe>cpe:/o:huawei:vrp:3</cpe></osclass>
+</osmatch>
+<osmatch name="Huawei AP6050DN WAP" accuracy="85" line="37255">
+<osclass type="WAP" vendor="Huawei" osfamily="embedded" accuracy="85"><cpe>cpe:/h:huawei:ap6050dn</cpe></osclass>
+</osmatch>
+<osmatch name="Huawei VRP 3 switch" accuracy="85" line="37329">
+<osclass type="switch" vendor="Huawei" osfamily="VRP" osgen="3.X" accuracy="85"><cpe>cpe:/o:huawei:vrp:3</cpe></osclass>
+</osmatch>
+<osmatch name="D-Link NetDefend firewall" accuracy="85" line="19943">
+<osclass type="firewall" vendor="D-Link" osfamily="embedded" accuracy="85"/>
+</osmatch>
+<osmatch name="Linux 2.4.18" accuracy="85" line="44872">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:2.4.18</cpe></osclass>
+</osmatch>
+<osmatch name="TiVo series 1 (Sony SVR-2000 or Philips HDR112) (Linux 2.1.24-TiVo-2.5, PowerPC)" accuracy="85" line="44436">
+<osclass type="media device" vendor="Linux" osfamily="Linux" osgen="2.1.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:2.1.24</cpe></osclass>
+<osclass type="media device" vendor="Philips" osfamily="embedded" accuracy="85"><cpe>cpe:/h:philips:hdr112</cpe></osclass>
+<osclass type="media device" vendor="Sony" osfamily="embedded" accuracy="85"><cpe>cpe:/h:sony:svr-2000</cpe></osclass>
+</osmatch>
+</os>
+<distance value="16"/>
+<times srtt="36501" rttvar="9621" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129629"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.193" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="14">
+<extrareasons reason="resets" count="14"/>
+</extraports>
+<extraports state="filtered" count="3">
+<extrareasons reason="no-responses" count="3"/>
+</extraports>
+<port protocol="tcp" portid="23"><state state="open" reason="syn-ack" reason_ttl="240"/><service name="telnet" product="HP H3C SR8808 SecBlade firewall module telnetd" devicetype="firewall" method="probed" conf="10"/><script id="banner" output="%connection closed by remote host!\x00"/></port>
+<port protocol="tcp" portid="7547"><state state="open" reason="syn-ack" reason_ttl="240"/><service name="cwmp" method="table" conf="3"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="23"/>
+<portused state="closed" proto="tcp" portid="21"/>
+<portused state="closed" proto="udp" portid="41626"/>
+<osmatch name="H3C Comware 5.20" accuracy="90" line="31808">
+<osclass type="switch" vendor="H3C" osfamily="Comware" osgen="5.X" accuracy="90"><cpe>cpe:/o:h3c:comware:5.20</cpe></osclass>
+</osmatch>
+<osmatch name="TiVo series 1 (Linux 2.1.24-TiVo-2.5)" accuracy="90" line="44415">
+<osclass type="media device" vendor="Linux" osfamily="Linux" osgen="2.1.X" accuracy="90"><cpe>cpe:/o:linux:linux_kernel:2.1.24</cpe></osclass>
+</osmatch>
+<osmatch name="Huawei S9300 switch" accuracy="86" line="37310">
+<osclass type="switch" vendor="Huawei" osfamily="VRP" osgen="3.X" accuracy="86"><cpe>cpe:/h:huawei:s9300</cpe><cpe>cpe:/o:huawei:vrp:3</cpe></osclass>
+</osmatch>
+<osmatch name="Huawei AP6050DN WAP" accuracy="85" line="37255">
+<osclass type="WAP" vendor="Huawei" osfamily="embedded" accuracy="85"><cpe>cpe:/h:huawei:ap6050dn</cpe></osclass>
+</osmatch>
+<osmatch name="OpenWrt Kamikaze 7.09 (Linux 2.6.22)" accuracy="85" line="61315">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:2.6.22</cpe></osclass>
+</osmatch>
+<osmatch name="Huawei VRP 3 switch" accuracy="85" line="37329">
+<osclass type="switch" vendor="Huawei" osfamily="VRP" osgen="3.X" accuracy="85"><cpe>cpe:/o:huawei:vrp:3</cpe></osclass>
+</osmatch>
+<osmatch name="D-Link NetDefend firewall" accuracy="85" line="19943">
+<osclass type="firewall" vendor="D-Link" osfamily="embedded" accuracy="85"/>
+</osmatch>
+<osmatch name="Linux 2.4.18" accuracy="85" line="44872">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:2.4.18</cpe></osclass>
+</osmatch>
+<osmatch name="TiVo series 1 (Sony SVR-2000 or Philips HDR112) (Linux 2.1.24-TiVo-2.5, PowerPC)" accuracy="85" line="44436">
+<osclass type="media device" vendor="Linux" osfamily="Linux" osgen="2.1.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:2.1.24</cpe></osclass>
+<osclass type="media device" vendor="Philips" osfamily="embedded" accuracy="85"><cpe>cpe:/h:philips:hdr112</cpe></osclass>
+<osclass type="media device" vendor="Sony" osfamily="embedded" accuracy="85"><cpe>cpe:/h:sony:svr-2000</cpe></osclass>
+</osmatch>
+</os>
+<distance value="17"/>
+<times srtt="37072" rttvar="8797" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.194" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="14">
+<extrareasons reason="resets" count="14"/>
+</extraports>
+<extraports state="filtered" count="4">
+<extrareasons reason="no-responses" count="4"/>
+</extraports>
+<port protocol="tcp" portid="23"><state state="open" reason="syn-ack" reason_ttl="240"/><service name="telnet" product="HP H3C SR8808 SecBlade firewall module telnetd" devicetype="firewall" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="23"/>
+<portused state="closed" proto="tcp" portid="21"/>
+<portused state="closed" proto="udp" portid="44187"/>
+<osmatch name="TiVo series 1 (Linux 2.1.24-TiVo-2.5)" accuracy="90" line="44415">
+<osclass type="media device" vendor="Linux" osfamily="Linux" osgen="2.1.X" accuracy="90"><cpe>cpe:/o:linux:linux_kernel:2.1.24</cpe></osclass>
+</osmatch>
+<osmatch name="H3C Comware 5.20" accuracy="89" line="31808">
+<osclass type="switch" vendor="H3C" osfamily="Comware" osgen="5.X" accuracy="89"><cpe>cpe:/o:h3c:comware:5.20</cpe></osclass>
+</osmatch>
+<osmatch name="Huawei AP6050DN WAP" accuracy="85" line="37255">
+<osclass type="WAP" vendor="Huawei" osfamily="embedded" accuracy="85"><cpe>cpe:/h:huawei:ap6050dn</cpe></osclass>
+</osmatch>
+<osmatch name="OpenWrt Kamikaze 7.09 (Linux 2.6.22)" accuracy="85" line="61315">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:2.6.22</cpe></osclass>
+</osmatch>
+<osmatch name="Huawei VRP 3 switch" accuracy="85" line="37329">
+<osclass type="switch" vendor="Huawei" osfamily="VRP" osgen="3.X" accuracy="85"><cpe>cpe:/o:huawei:vrp:3</cpe></osclass>
+</osmatch>
+<osmatch name="Huawei S9300 switch" accuracy="85" line="37310">
+<osclass type="switch" vendor="Huawei" osfamily="VRP" osgen="3.X" accuracy="85"><cpe>cpe:/h:huawei:s9300</cpe><cpe>cpe:/o:huawei:vrp:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.4.18" accuracy="85" line="44872">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:2.4.18</cpe></osclass>
+</osmatch>
+</os>
+<distance value="16"/>
+<times srtt="38454" rttvar="8675" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129629"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.195" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="15">
+<extrareasons reason="resets" count="15"/>
+</extraports>
+<extraports state="filtered" count="1">
+<extrareasons reason="no-response" count="1"/>
+</extraports>
+<port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="240"/><service name="ftp" product="Huawei Quidway AR28-09 WAP ftpd" extrainfo="user queue is full" devicetype="WAP" method="probed" conf="10"><cpe>cpe:/h:huawei:quidway_ar28-09</cpe></service></port>
+<port protocol="tcp" portid="23"><state state="open" reason="syn-ack" reason_ttl="240"/><service name="telnet" product="HP H3C SR8808 SecBlade firewall module telnetd" devicetype="firewall" method="probed" conf="10"/><script id="banner" output="%connection closed by remote host!\x00"/></port>
+<port protocol="tcp" portid="7547"><state state="open" reason="syn-ack" reason_ttl="240"/><service name="cwmp" method="table" conf="3"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="21"/>
+<portused state="closed" proto="tcp" portid="25"/>
+<portused state="closed" proto="udp" portid="35650"/>
+<osmatch name="D-Link DFL-200 firewall" accuracy="94" line="19907">
+<osclass type="firewall" vendor="D-Link" osfamily="embedded" accuracy="94"><cpe>cpe:/h:dlink:dfl-200</cpe></osclass>
+</osmatch>
+<osmatch name="TiVo series 1 (Linux 2.1.24-TiVo-2.5)" accuracy="93" line="44415">
+<osclass type="media device" vendor="Linux" osfamily="Linux" osgen="2.1.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:2.1.24</cpe></osclass>
+</osmatch>
+<osmatch name="D-Link NetDefend firewall" accuracy="93" line="19943">
+<osclass type="firewall" vendor="D-Link" osfamily="embedded" accuracy="93"/>
+</osmatch>
+<osmatch name="D-Link DFL-700 firewall" accuracy="93" line="19925">
+<osclass type="firewall" vendor="D-Link" osfamily="embedded" accuracy="93"><cpe>cpe:/h:dlink:dfl-700</cpe></osclass>
+</osmatch>
+<osmatch name="Slingbox Pro-HD TV over IP gateway" accuracy="90" line="97612">
+<osclass type="media device" vendor="Sling" osfamily="embedded" accuracy="90"/>
+</osmatch>
+<osmatch name="H3C Comware 5.20" accuracy="90" line="31808">
+<osclass type="switch" vendor="H3C" osfamily="Comware" osgen="5.X" accuracy="90"><cpe>cpe:/o:h3c:comware:5.20</cpe></osclass>
+</osmatch>
+<osmatch name="Cisco 827H ADSL router (IOS 12.2)" accuracy="89" line="13725">
+<osclass type="broadband router" vendor="Cisco" osfamily="embedded" accuracy="89"><cpe>cpe:/o:cisco:ios:12.2</cpe></osclass>
+</osmatch>
+<osmatch name="Cisco 1700-series router" accuracy="89" line="14192">
+<osclass type="router" vendor="Cisco" osfamily="embedded" accuracy="89"><cpe>cpe:/h:cisco:1700_router</cpe></osclass>
+</osmatch>
+<osmatch name="Rigol DS1000Z-series oscilloscope" accuracy="89" line="94603">
+<osclass type="specialized" vendor="Rigol Technologies" osfamily="embedded" accuracy="89"/>
+</osmatch>
+<osmatch name="Cisco 2950 switch (IOS 12.1)" accuracy="89" line="16914">
+<osclass type="switch" vendor="Cisco" osfamily="IOS" osgen="12.X" accuracy="89"><cpe>cpe:/h:cisco:catalyst_2950</cpe><cpe>cpe:/o:cisco:ios:12.1</cpe></osclass>
+</osmatch>
+</os>
+<distance value="17"/>
+<times srtt="41491" rttvar="10562" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129629"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.196" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" servicefp="SF-Port80-TCP:V=7.70%I=7%D=1/10%Time=5C37526B%P=x86_64-unknown-linux-gnu%r(RTSPRequest,AA,&quot;&lt;html&gt;\r\n&lt;head&gt;&lt;title&gt;400\x20Bad\x20Request&lt;/title&gt;&lt;/head&gt;\r\n&lt;body\x20bgcolor=\&quot;white\&quot;&gt;\r\n&lt;center&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;/center&gt;\r\n&lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;\r\n&lt;/body&gt;\r\n&lt;/html&gt;\r\n&quot;)%r(X11Probe,13F,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nServer:\x20openresty\r\nDate:\x20Thu,\x2010\x20Jan\x202019\x2014:10:51\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x20170\r\nConnection:\x20close\r\n\r\n&lt;html&gt;\r\n&lt;head&gt;&lt;title&gt;400\x20Bad\x20Request&lt;/title&gt;&lt;/head&gt;\r\n&lt;body\x20bgcolor=\&quot;white\&quot;&gt;\r\n&lt;center&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;/center&gt;\r\n&lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;\r\n&lt;/body&gt;\r\n&lt;/html&gt;\r\n&quot;);" method="table" conf="3"/><script id="fingerprint-strings" output="&#xa;  RTSPRequest: &#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;&#xa;  X11Probe: &#xa;    HTTP/1.1 400 Bad Request&#xa;    Server: openresty&#xa;    Date: Thu, 10 Jan 2019 14:10:51 GMT&#xa;    Content-Type: text/html&#xa;    Content-Length: 170&#xa;    Connection: close&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;"><elem key="RTSPRequest">&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;</elem>
+<elem key="X11Probe">&#xa;    HTTP/1.1 400 Bad Request&#xa;    Server: openresty&#xa;    Date: Thu, 10 Jan 2019 14:10:51 GMT&#xa;    Content-Type: text/html&#xa;    Content-Length: 170&#xa;    Connection: close&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;&#xa;    &lt;body bgcolor=&quot;white&quot;&gt;&#xa;    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;&#xa;    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;&#xa;    &lt;/body&gt;&#xa;    &lt;/html&gt;</elem>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="ssl" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="iPXE 1.0.0+" accuracy="100" line="40429">
+<osclass type="specialized" vendor="iPXE" osfamily="iPXE" osgen="1.X" accuracy="100"><cpe>cpe:/o:ipxe:ipxe:1.0.0%2b</cpe></osclass>
+</osmatch>
+<osmatch name="Tomato 1.28 (Linux 2.4.20)" accuracy="100" line="46662">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:2.4.20</cpe></osclass>
+</osmatch>
+<osmatch name="Tomato firmware (Linux 2.6.22)" accuracy="100" line="61430">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:2.6.22</cpe></osclass>
+</osmatch>
+<osmatch name="Sony Ericsson U8i Vivaz mobile phone" accuracy="100" line="98544">
+<osclass type="phone" vendor="Sony Ericsson" osfamily="embedded" accuracy="100"><cpe>cpe:/h:sonyericsson:u8i_vivaz</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="130" lastboot="Thu Jan 10 22:11:40 2019"/>
+<times srtt="35101" rttvar="7454" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.197" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" product="nginx" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="ssl" method="probed" conf="10"/><script id="http-server-header" output="openresty"><elem>openresty</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 2.6.18 - 2.6.22" accuracy="100" line="49721">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="125" lastboot="Thu Jan 10 22:11:45 2019"/>
+<times srtt="37153" rttvar="8638" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.198" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="18">
+<extrareasons reason="no-responses" count="18"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" product="OpenResty web app server" method="probed" conf="10"><cpe>cpe:/a:openresty:ngx_openresty</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 3.2 - 4.9" accuracy="100" line="65105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="1194095" lastboot="Fri Dec 28 02:32:15 2018"/>
+<tcpsequence index="263" difficulty="Good luck!" values="24D61220,32A8A0FF,202B1F8D,8AC2E815,82B5FF56"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="472A0F9E,472A10BB,472A1122,472A1180,472A11EE"/>
+<times srtt="32111" rttvar="10877" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129629"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.199" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<extraports state="closed" count="1">
+<extrareasons reason="reset" count="1"/>
+</extraports>
+<port protocol="tcp" portid="554"><state state="open" reason="syn-ack" reason_ttl="110"/><service name="rtsp" method="table" conf="3"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="554"/>
+<portused state="closed" proto="tcp" portid="443"/>
+<osmatch name="Microsoft Windows Server 2012 R2" accuracy="98" line="75297">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2012" accuracy="98"><cpe>cpe:/o:microsoft:windows_server_2012:r2</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2012 Data Center" accuracy="97" line="75145">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2012" accuracy="97"><cpe>cpe:/o:microsoft:windows_server_2012</cpe></osclass>
+</osmatch>
+<osmatch name="Sun Solaris 10" accuracy="93" line="99610">
+<osclass type="general purpose" vendor="Sun" osfamily="Solaris" osgen="10" accuracy="93"><cpe>cpe:/o:sun:sunos:5.10</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2016" accuracy="93" line="75710">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2016" accuracy="93"><cpe>cpe:/o:microsoft:windows_server_2016</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 7 SP1" accuracy="93" line="77025">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="93"><cpe>cpe:/o:microsoft:windows_7::sp1</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Windows 7 SP1" accuracy="93" line="77437">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="93"><cpe>cpe:/o:microsoft:windows_7::sp1</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Vista Home Premium SP1, Windows 7, or Windows Server 2008" accuracy="93" line="79450">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="Vista" accuracy="93"><cpe>cpe:/o:microsoft:windows_vista::sp1:home_premium</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="93"><cpe>cpe:/o:microsoft:windows_7</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="93"><cpe>cpe:/o:microsoft:windows_server_2008</cpe></osclass>
+</osmatch>
+<osmatch name="Sun Solaris 9 or 10 (SPARC)" accuracy="92" line="100715">
+<osclass type="general purpose" vendor="Sun" osfamily="Solaris" osgen="9" accuracy="92"><cpe>cpe:/o:sun:sunos:5.9</cpe></osclass>
+<osclass type="general purpose" vendor="Sun" osfamily="Solaris" osgen="10" accuracy="92"><cpe>cpe:/o:sun:sunos:5.10</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 7 SP1 or Windows Server 2008" accuracy="92" line="77188">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="92"><cpe>cpe:/o:microsoft:windows_7</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="92"><cpe>cpe:/o:microsoft:windows_server_2008</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 7 Ultimate" accuracy="92" line="77316">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="92"><cpe>cpe:/o:microsoft:windows_7:::ultimate</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="32763560" lastboot="Wed Dec 27 17:14:30 2017"/>
+<times srtt="35992" rttvar="6184" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.201" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="18">
+<extrareasons reason="no-responses" count="18"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="110"/><service name="http" product="Microsoft IIS httpd" version="8.5" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:8.5</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Microsoft Windows Server 2012 R2" accuracy="100" line="75297">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2012" accuracy="100"><cpe>cpe:/o:microsoft:windows_server_2012:r2</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="4405792" lastboot="Tue Nov 20 22:23:58 2018"/>
+<tcpsequence index="260" difficulty="Good luck!" values="A9B28CE4,F2C8BBF3,3A77F619,D6FBDE49,F61817D1"/>
+<ipidsequence class="Incremental" values="2976,2977,2978,2979,297A"/>
+<tcptssequence class="100HZ" values="1A427774,1A427791,1A42779B,1A4277A6,1A4277AF"/>
+<times srtt="29585" rttvar="7863" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.202" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="18">
+<extrareasons reason="no-responses" count="18"/>
+</extraports>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="110"/><service name="ssl" product="Microsoft IIS SSL" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="443"/>
+<osmatch name="Microsoft Windows Server 2012 R2" accuracy="100" line="75315">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2012" accuracy="100"><cpe>cpe:/o:microsoft:windows_server_2012:r2</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="4271033" lastboot="Thu Nov 22 11:49:57 2018"/>
+<tcpsequence index="264" difficulty="Good luck!" values="9D749197,67C33A4E,D5AD2CAB,6A64B681,51E72768"/>
+<ipidsequence class="Incremental" values="6A5E,6A5F,6A60,6A61,6A62"/>
+<tcptssequence class="100HZ" values="1974D70F,1974D72B,1974D735,1974D740,1974D749"/>
+<times srtt="81487" rttvar="41847" to="248875"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.203" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="18">
+<extrareasons reason="no-responses" count="18"/>
+</extraports>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="110"/><service name="ssl" product="Microsoft IIS SSL" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="443"/>
+<osmatch name="Microsoft Windows Server 2012 R2" accuracy="100" line="75297">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2012" accuracy="100"><cpe>cpe:/o:microsoft:windows_server_2012:r2</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="4405851" lastboot="Tue Nov 20 22:22:59 2018"/>
+<tcpsequence index="259" difficulty="Good luck!" values="E88F1B05,4DDD04A4,AD0F2FF3,FA38BD86,104F041E"/>
+<ipidsequence class="Incremental" values="17DD,17DE,17DF,17E0,17E1"/>
+<tcptssequence class="100HZ" values="1A428E5A,1A428E75,1A428E80,1A428E8A,1A428E94"/>
+<times srtt="71828" rttvar="56491" to="297792"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.204" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="18">
+<extrareasons reason="no-responses" count="18"/>
+</extraports>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="110"/><service name="ssl" product="Microsoft IIS SSL" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="443"/>
+<osmatch name="Microsoft Windows Server 2012 R2" accuracy="100" line="75297">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2012" accuracy="100"><cpe>cpe:/o:microsoft:windows_server_2012:r2</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="4405851" lastboot="Tue Nov 20 22:22:59 2018"/>
+<tcpsequence index="259" difficulty="Good luck!" values="7AAE7D27,D5BFCE66,12438699,537661DA,DE31E789"/>
+<ipidsequence class="Incremental" values="7869,786A,786B,786C,786D"/>
+<tcptssequence class="100HZ" values="1A428E5B,1A428E76,1A428E80,1A428E89,1A428E93"/>
+<times srtt="48790" rttvar="41332" to="214118"/>
+</host>
+<host starttime="1547129397" endtime="1547129629"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.205" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="18">
+<extrareasons reason="no-responses" count="18"/>
+</extraports>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="110"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="443"/>
+<osmatch name="Microsoft Windows Server 2012 R2" accuracy="100" line="75297">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2012" accuracy="100"><cpe>cpe:/o:microsoft:windows_server_2012:r2</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="4405851" lastboot="Tue Nov 20 22:22:59 2018"/>
+<tcpsequence index="260" difficulty="Good luck!" values="4BF0622A,6EEBDA25,5E908F52,5214D02,394828F9"/>
+<ipidsequence class="Incremental" values="7F66,7F67,7F68,7F69,7F6A"/>
+<tcptssequence class="100HZ" values="1A428E5B,1A428E75,1A428E7F,1A428E89,1A428E93"/>
+<times srtt="106219" rttvar="70552" to="388427"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.208" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" product="OpenResty web app server" method="probed" conf="10"><cpe>cpe:/a:openresty:ngx_openresty</cpe></service><script id="http-server-header" output="openresty"><elem>openresty</elem>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="ssl" method="probed" conf="10"/><script id="http-server-header" output="openresty"><elem>openresty</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 3.2 - 4.9" accuracy="100" line="65105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="1244894" lastboot="Thu Dec 27 12:25:36 2018"/>
+<tcpsequence index="262" difficulty="Good luck!" values="694F2A3E,1AF1F53E,5C6E6477,E356AA8C,C2C32482"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="4A3130E4,4A3131F1,4A313252,4A3132BA,4A31331A"/>
+<times srtt="34903" rttvar="10582" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129629"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.21" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="15">
+<extrareasons reason="no-responses" count="15"/>
+</extraports>
+<extraports state="closed" count="1">
+<extrareasons reason="reset" count="1"/>
+</extraports>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="110"/><service name="ssl" product="Microsoft IIS SSL" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="5060"><state state="open" reason="syn-ack" reason_ttl="238"/><service name="sip" method="table" conf="3"/></port>
+<port protocol="tcp" portid="5061"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="443"/>
+<portused state="closed" proto="tcp" portid="8443"/>
+<portused state="closed" proto="udp" portid="41231"/>
+<osmatch name="Microsoft Windows Server 2012 R2" accuracy="98" line="75243">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2012" accuracy="98"><cpe>cpe:/o:microsoft:windows_server_2012:r2</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2008 R2 or Windows 8" accuracy="94" line="74442">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="94"><cpe>cpe:/o:microsoft:windows_server_2008:r2</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="8" accuracy="94"><cpe>cpe:/o:microsoft:windows_8</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2008 R2 SP1 or Windows 8" accuracy="94" line="74646">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="94"><cpe>cpe:/o:microsoft:windows_server_2008:r2:sp1</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="8" accuracy="94"><cpe>cpe:/o:microsoft:windows_8</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 7" accuracy="94" line="76244">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="94"><cpe>cpe:/o:microsoft:windows_7</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2008 R2" accuracy="94" line="74136">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="94"><cpe>cpe:/o:microsoft:windows_server_2008:r2</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2012 or Windows Server 2012 R2" accuracy="92" line="75205">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2012" accuracy="92"><cpe>cpe:/o:microsoft:windows_server_2012:r2</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2012" accuracy="91" line="75072">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2012" accuracy="91"><cpe>cpe:/o:microsoft:windows_server_2012</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2008 R2 SP1" accuracy="90" line="74626">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="90"><cpe>cpe:/o:microsoft:windows_server_2008:r2:sp1</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2008" accuracy="89" line="74009">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="89"><cpe>cpe:/o:microsoft:windows_server_2008</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 7 Professional" accuracy="89" line="76506">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="89"><cpe>cpe:/o:microsoft:windows_7::-:professional</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="1465073" lastboot="Mon Dec 24 23:15:57 2018"/>
+<distance value="18"/>
+<times srtt="29576" rttvar="5189" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.214" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="18">
+<extrareasons reason="no-responses" count="18"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" product="nginx" version="1.15.2" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx:1.15.2</cpe></service><script id="http-server-header" output="nginx/1.15.2"><elem>nginx/1.15.2</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 3.10 - 4.11" accuracy="100" line="63230">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 4.9" accuracy="100" line="65105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="630785" lastboot="Thu Jan  3 15:00:45 2019"/>
+<tcpsequence index="263" difficulty="Good luck!" values="8D198386,919FA869,1ACAFF38,CB240617,7FA9E4F8"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="2596A090,2596A17C,2596A1D9,2596A23F,2596A2A3"/>
+<times srtt="33445" rttvar="12015" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.215" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="18">
+<extrareasons reason="no-responses" count="18"/>
+</extraports>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="ssl" method="probed" conf="10"/><script id="http-server-header" output="nginx/1.15.2"><elem>nginx/1.15.2</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="443"/>
+<osmatch name="Linux 3.10 - 4.11" accuracy="100" line="63230">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 4.9" accuracy="100" line="65105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="630785" lastboot="Thu Jan  3 15:00:45 2019"/>
+<tcpsequence index="259" difficulty="Good luck!" values="EA6142D7,8DC85892,DDA4A57B,3F43BC5C,C8AD710E"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="2596A08A,2596A177,2596A1DC,2596A245,2596A2A9"/>
+<times srtt="33987" rttvar="9835" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.228" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="18">
+<extrareasons reason="no-responses" count="18"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" product="nginx" version="1.12.1" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx:1.12.1</cpe></service><script id="http-server-header" output="nginx/1.12.1"><elem>nginx/1.12.1</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 4.9" accuracy="100" line="67695">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4.9</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="2230212" lastboot="Sun Dec 16 02:43:38 2018"/>
+<tcpsequence index="256" difficulty="Good luck!" values="E2B1983,6F22A332,C40D4351,F6DF1E16,99442F06"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="84EBF10D,84EBF209,84EBF26B,84EBF2D3,84EBF339"/>
+<times srtt="33190" rttvar="7754" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.229" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="18">
+<extrareasons reason="no-responses" count="18"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" product="nginx" version="1.12.1" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx:1.12.1</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 4.9" accuracy="100" line="67695">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4.9</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="3654763" lastboot="Thu Nov 29 15:01:07 2018"/>
+<tcpsequence index="257" difficulty="Good luck!" values="F8865907,79CC5DF8,C71D5B17,2B54F462,76A9AF7"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="D9D4DD03,D9D4DDFC,D9D4DE5D,D9D4DEC6,D9D4DF2C"/>
+<times srtt="32659" rttvar="9595" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129629"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.230" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="5061"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="8443"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="https-alt" method="table" conf="3"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="8443"/>
+<portused state="closed" proto="udp" portid="40783"/>
+<osmatch name="Linux 3.10 - 3.16" accuracy="100" line="63168">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="1653285" lastboot="Sat Dec 22 18:59:05 2018"/>
+<distance value="18"/>
+<tcpsequence index="264" difficulty="Good luck!" values="CC43FB00,1603A47B,A06EC663,28DE9198,707CE5C"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="6288BB5F,6288BC54,6288BCB5,6288BD1F,6288BD85"/>
+<times srtt="33379" rttvar="8694" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.231" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="5061"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="8443"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="8443"/>
+<osmatch name="Linux 3.10 - 3.16" accuracy="100" line="63168">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.9" accuracy="100" line="67695">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4.9</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="3967662" lastboot="Mon Nov 26 00:06:08 2018"/>
+<times srtt="36723" rttvar="12885" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.232" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="host-prohibiteds" count="11"/>
+<extrareasons reason="no-responses" count="6"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" product="nginx" version="1.12.1" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx:1.12.1</cpe></service><script id="http-server-header" output="nginx/1.12.1"><elem>nginx/1.12.1</elem>
+</script></port>
+<port protocol="tcp" portid="8080"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 3.10 - 3.16" accuracy="100" line="63168">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="4267848" lastboot="Thu Nov 22 12:43:02 2018"/>
+<tcpsequence index="262" difficulty="Good luck!" values="C0B27DBF,3CCB4F9D,97194BF2,FEA65487,7D2BC8F"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="FE5FCF75,FE5FD05A,FE5FD0BE,FE5FD124,FE5FD18D"/>
+<times srtt="30154" rttvar="3878" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.233" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="15">
+<extrareasons reason="no-responses" count="15"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="tcpwrapped" method="probed" conf="10"/><script id="http-server-header" output="Apache"><elem>Apache</elem>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="5060"><state state="open" reason="syn-ack" reason_ttl="238"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="5061"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="5061"/>
+<portused state="closed" proto="udp" portid="35718"/>
+<osmatch name="Linux 3.10 - 3.16" accuracy="97" line="63168">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="97"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.5" accuracy="95" line="65474">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:3.5</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32" accuracy="95" line="54748">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.9" accuracy="94" line="67695">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:4.9</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2.0" accuracy="93" line="65125">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.2.0</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.11 - 4.1" accuracy="93" line="63416">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16" accuracy="93" line="64125">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.18 - 2.6.22" accuracy="92" line="49721">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.4" accuracy="92" line="67546">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:4.4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.22" accuracy="91" line="51254">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:2.6.22</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="8963407" lastboot="Sat Sep 29 04:23:43 2018"/>
+<distance value="19"/>
+<times srtt="35708" rttvar="4079" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.234" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<extraports state="closed" count="1">
+<extrareasons reason="reset" count="1"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="tcpwrapped" method="probed" conf="10"/><script id="http-server-header" output="nginx/1.12.1"><elem>nginx/1.12.1</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="443"/>
+<osmatch name="Linux 3.10 - 3.16" accuracy="100" line="63168">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="1723780" lastboot="Fri Dec 21 23:24:10 2018"/>
+<tcpsequence index="258" difficulty="Good luck!" values="7042C8DC,3A439382,79D15D6C,27A53A68,114E59EC"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="66BC6807,66BC68EF,66BC6954,66BC69B6,66BC6A1A"/>
+<times srtt="31898" rttvar="6140" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.235" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<extraports state="closed" count="1">
+<extrareasons reason="reset" count="1"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="tcpwrapped" method="probed" conf="10"/><script id="http-server-header" output="nginx/1.12.1"><elem>nginx/1.12.1</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="443"/>
+<osmatch name="Linux 3.10 - 3.16" accuracy="100" line="63168">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.9" accuracy="100" line="67695">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4.9</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="1660410" lastboot="Sat Dec 22 17:00:20 2018"/>
+<times srtt="33976" rttvar="3403" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.236" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="18">
+<extrareasons reason="no-responses" count="18"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="tcpwrapped" method="probed" conf="10"/><script id="http-server-header" output="nginx/1.14.0"><elem>nginx/1.14.0</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 3.10 - 3.16" accuracy="100" line="63168">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="371389" lastboot="Sun Jan  6 15:04:01 2019"/>
+<tcpsequence index="264" difficulty="Good luck!" values="6790AEAA,43084C50,10B8A8BC,847785B4"/>
+<ipidsequence class="All zeros" values="0,0,0,0"/>
+<tcptssequence class="1000HZ" values="16208EEB,16208FDA,16209043,162090A6"/>
+<times srtt="33171" rttvar="12202" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.237" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<extraports state="closed" count="1">
+<extrareasons reason="reset" count="1"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="tcpwrapped" method="probed" conf="10"/><script id="http-server-header" output="Apache/2.4.6 (CentOS)"><elem>Apache/2.4.6 (CentOS)</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="443"/>
+<osmatch name="Linux 3.10 - 3.16" accuracy="100" line="63168">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.9" accuracy="100" line="67695">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4.9</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="221780" lastboot="Tue Jan  8 08:37:30 2019"/>
+<times srtt="36522" rttvar="4646" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.238" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<extraports state="closed" count="1">
+<extrareasons reason="reset" count="1"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="443"/>
+<osmatch name="Linux 3.10 - 3.16" accuracy="100" line="63168">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.9" accuracy="100" line="67695">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4.9</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="623316" lastboot="Thu Jan  3 17:05:14 2019"/>
+<times srtt="35451" rttvar="6094" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.241" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="12">
+<extrareasons reason="resets" count="12"/>
+</extraports>
+<extraports state="filtered" count="4">
+<extrareasons reason="no-responses" count="4"/>
+</extraports>
+<port protocol="tcp" portid="23"><state state="open" reason="syn-ack" reason_ttl="239"/><service name="tcpwrapped" method="probed" conf="8"/><script id="banner" output="%connection closed by remote host!\x00"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="239"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="7547"><state state="open" reason="syn-ack" reason_ttl="239"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="7547"/>
+<portused state="closed" proto="tcp" portid="21"/>
+<portused state="closed" proto="udp" portid="30448"/>
+<osmatch name="TiVo series 1 (Linux 2.1.24-TiVo-2.5)" accuracy="89" line="44415">
+<osclass type="media device" vendor="Linux" osfamily="Linux" osgen="2.1.X" accuracy="89"><cpe>cpe:/o:linux:linux_kernel:2.1.24</cpe></osclass>
+</osmatch>
+<osmatch name="D-Link NetDefend firewall" accuracy="88" line="19943">
+<osclass type="firewall" vendor="D-Link" osfamily="embedded" accuracy="88"/>
+</osmatch>
+<osmatch name="D-Link DFL-700 firewall" accuracy="86" line="19925">
+<osclass type="firewall" vendor="D-Link" osfamily="embedded" accuracy="86"><cpe>cpe:/h:dlink:dfl-700</cpe></osclass>
+</osmatch>
+<osmatch name="Rigol DS1000Z-series oscilloscope" accuracy="86" line="94603">
+<osclass type="specialized" vendor="Rigol Technologies" osfamily="embedded" accuracy="86"/>
+</osmatch>
+<osmatch name="Siemens W748 or W788 WAP" accuracy="85" line="97262">
+<osclass type="WAP" vendor="Siemens" osfamily="embedded" accuracy="85"><cpe>cpe:/h:siemens:w748</cpe><cpe>cpe:/h:siemens:w788</cpe></osclass>
+</osmatch>
+<osmatch name="Lexmark X644e printer" accuracy="85" line="43254">
+<osclass type="printer" vendor="Lexmark" osfamily="embedded" accuracy="85"><cpe>cpe:/h:lexmark:x644e</cpe></osclass>
+</osmatch>
+<osmatch name="Brother HL-2070N printer" accuracy="85" line="11050">
+<osclass type="printer" vendor="Brother" osfamily="embedded" accuracy="85"><cpe>cpe:/h:brother:hl-2070n</cpe></osclass>
+</osmatch>
+<osmatch name="H3C Comware 5.20" accuracy="85" line="31808">
+<osclass type="switch" vendor="H3C" osfamily="Comware" osgen="5.X" accuracy="85"><cpe>cpe:/o:h3c:comware:5.20</cpe></osclass>
+</osmatch>
+</os>
+<distance value="17"/>
+<times srtt="35218" rttvar="2244" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.242" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="16">
+<extrareasons reason="resets" count="16"/>
+</extraports>
+<extraports state="filtered" count="1">
+<extrareasons reason="no-response" count="1"/>
+</extraports>
+<port protocol="tcp" portid="23"><state state="open" reason="syn-ack" reason_ttl="239"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="239"/><service name="tcpwrapped" method="probed" conf="10"/><script id="http-server-header" output="Httpd "><elem>Httpd </elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="21"/>
+<portused state="closed" proto="udp" portid="30816"/>
+<osmatch name="D-Link NetDefend firewall" accuracy="94" line="19943">
+<osclass type="firewall" vendor="D-Link" osfamily="embedded" accuracy="94"/>
+</osmatch>
+<osmatch name="TiVo series 1 (Linux 2.1.24-TiVo-2.5)" accuracy="93" line="44415">
+<osclass type="media device" vendor="Linux" osfamily="Linux" osgen="2.1.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:2.1.24</cpe></osclass>
+</osmatch>
+<osmatch name="D-Link DFL-700 firewall" accuracy="92" line="19925">
+<osclass type="firewall" vendor="D-Link" osfamily="embedded" accuracy="92"><cpe>cpe:/h:dlink:dfl-700</cpe></osclass>
+</osmatch>
+<osmatch name="D-Link DFL-200 firewall" accuracy="91" line="19907">
+<osclass type="firewall" vendor="D-Link" osfamily="embedded" accuracy="91"><cpe>cpe:/h:dlink:dfl-200</cpe></osclass>
+</osmatch>
+<osmatch name="Rigol DS1000Z-series oscilloscope" accuracy="90" line="94603">
+<osclass type="specialized" vendor="Rigol Technologies" osfamily="embedded" accuracy="90"/>
+</osmatch>
+<osmatch name="Brother HL-2070N printer" accuracy="90" line="11050">
+<osclass type="printer" vendor="Brother" osfamily="embedded" accuracy="90"><cpe>cpe:/h:brother:hl-2070n</cpe></osclass>
+</osmatch>
+<osmatch name="Siemens W748 or W788 WAP" accuracy="90" line="97262">
+<osclass type="WAP" vendor="Siemens" osfamily="embedded" accuracy="90"><cpe>cpe:/h:siemens:w748</cpe><cpe>cpe:/h:siemens:w788</cpe></osclass>
+</osmatch>
+<osmatch name="Slingbox Pro-HD TV over IP gateway" accuracy="90" line="97612">
+<osclass type="media device" vendor="Sling" osfamily="embedded" accuracy="90"/>
+</osmatch>
+<osmatch name="H3C Comware 5.20" accuracy="89" line="31808">
+<osclass type="switch" vendor="H3C" osfamily="Comware" osgen="5.X" accuracy="89"><cpe>cpe:/o:h3c:comware:5.20</cpe></osclass>
+</osmatch>
+<osmatch name="ZyXEL ZyNOS 3.40" accuracy="89" line="107171">
+<osclass type="broadband router" vendor="ZyXEL" osfamily="ZyNOS" osgen="3.X" accuracy="89"><cpe>cpe:/o:zyxel:zynos:3.40</cpe></osclass>
+</osmatch>
+</os>
+<distance value="16"/>
+<times srtt="40428" rttvar="7586" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.243" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="15">
+<extrareasons reason="resets" count="15"/>
+</extraports>
+<extraports state="filtered" count="2">
+<extrareasons reason="no-responses" count="2"/>
+</extraports>
+<port protocol="tcp" portid="23"><state state="open" reason="syn-ack" reason_ttl="239"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="7547"><state state="open" reason="syn-ack" reason_ttl="239"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="7547"/>
+<portused state="closed" proto="tcp" portid="21"/>
+<portused state="closed" proto="udp" portid="35667"/>
+<osmatch name="D-Link NetDefend firewall" accuracy="94" line="19943">
+<osclass type="firewall" vendor="D-Link" osfamily="embedded" accuracy="94"/>
+</osmatch>
+<osmatch name="TiVo series 1 (Linux 2.1.24-TiVo-2.5)" accuracy="93" line="44415">
+<osclass type="media device" vendor="Linux" osfamily="Linux" osgen="2.1.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:2.1.24</cpe></osclass>
+</osmatch>
+<osmatch name="D-Link DFL-700 firewall" accuracy="92" line="19925">
+<osclass type="firewall" vendor="D-Link" osfamily="embedded" accuracy="92"><cpe>cpe:/h:dlink:dfl-700</cpe></osclass>
+</osmatch>
+<osmatch name="D-Link DFL-200 firewall" accuracy="91" line="19907">
+<osclass type="firewall" vendor="D-Link" osfamily="embedded" accuracy="91"><cpe>cpe:/h:dlink:dfl-200</cpe></osclass>
+</osmatch>
+<osmatch name="Rigol DS1000Z-series oscilloscope" accuracy="90" line="94603">
+<osclass type="specialized" vendor="Rigol Technologies" osfamily="embedded" accuracy="90"/>
+</osmatch>
+<osmatch name="Brother HL-2070N printer" accuracy="90" line="11050">
+<osclass type="printer" vendor="Brother" osfamily="embedded" accuracy="90"><cpe>cpe:/h:brother:hl-2070n</cpe></osclass>
+</osmatch>
+<osmatch name="Siemens W748 or W788 WAP" accuracy="90" line="97262">
+<osclass type="WAP" vendor="Siemens" osfamily="embedded" accuracy="90"><cpe>cpe:/h:siemens:w748</cpe><cpe>cpe:/h:siemens:w788</cpe></osclass>
+</osmatch>
+<osmatch name="Slingbox Pro-HD TV over IP gateway" accuracy="90" line="97612">
+<osclass type="media device" vendor="Sling" osfamily="embedded" accuracy="90"/>
+</osmatch>
+<osmatch name="H3C Comware 5.20" accuracy="89" line="31808">
+<osclass type="switch" vendor="H3C" osfamily="Comware" osgen="5.X" accuracy="89"><cpe>cpe:/o:h3c:comware:5.20</cpe></osclass>
+</osmatch>
+<osmatch name="ZyXEL ZyNOS 3.40" accuracy="89" line="107171">
+<osclass type="broadband router" vendor="ZyXEL" osfamily="ZyNOS" osgen="3.X" accuracy="89"><cpe>cpe:/o:zyxel:zynos:3.40</cpe></osclass>
+</osmatch>
+</os>
+<distance value="18"/>
+<times srtt="37239" rttvar="4416" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.25" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<port protocol="tcp" portid="5061"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="8443"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="8443"/>
+<osmatch name="Linux 3.10 - 3.16" accuracy="100" line="63168">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="832347" lastboot="Tue Jan  1 07:01:23 2019"/>
+<tcpsequence index="262" difficulty="Good luck!" values="8AF87ECB,BD2D0BC0,54A5289C,12556D58"/>
+<ipidsequence class="All zeros" values="0,0,0,0"/>
+<tcptssequence class="1000HZ" values="319A3688,319A378B,319A37F5,319A3855"/>
+<times srtt="31078" rttvar="10347" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.26" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<extraports state="closed" count="1">
+<extrareasons reason="reset" count="1"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="443"/>
+<osmatch name="Linux 3.10 - 3.16" accuracy="100" line="63168">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.9" accuracy="100" line="67695">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4.9</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="1109720" lastboot="Sat Dec 29 01:58:30 2018"/>
+<tcpsequence index="259" difficulty="Good luck!" values="FD64256D,63DD2605,AD85F432,410AF59C"/>
+<ipidsequence class="All zeros" values="0,0,0,0"/>
+<tcptssequence class="1000HZ" values="42229823,42229929,4222998F,422299F2"/>
+<times srtt="32821" rttvar="9240" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.27" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<extraports state="closed" count="1">
+<extrareasons reason="reset" count="1"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="443"/>
+<osmatch name="Linux 3.10 - 3.16" accuracy="100" line="63168">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.9" accuracy="100" line="67695">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4.9</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="2230338" lastboot="Sun Dec 16 02:41:32 2018"/>
+<tcpsequence index="258" difficulty="Good luck!" values="862DBEA1,304C82AC,D9720959,38EF13B5"/>
+<ipidsequence class="All zeros" values="0,0,0,0"/>
+<tcptssequence class="1000HZ" values="84EDE069,84EDE150,84EDE1B5,84EDE21B"/>
+<times srtt="34634" rttvar="7670" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.33" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="14">
+<extrareasons reason="resets" count="14"/>
+</extraports>
+<extraports state="filtered" count="4">
+<extrareasons reason="no-responses" count="4"/>
+</extraports>
+<port protocol="tcp" portid="23"><state state="open" reason="syn-ack" reason_ttl="240"/><service name="tcpwrapped" method="probed" conf="8"/><script id="banner" output="\xFF\xFB\x01\xFF\xFB\x01\xFF\xFB\x01\xFF\xFB\x03\xFF\xFD\x18\xF&#xa;F\xFD\x1F\x0D\x0A***************************************************...&#xa;"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="23"/>
+<portused state="closed" proto="tcp" portid="25"/>
+<portused state="closed" proto="udp" portid="41223"/>
+<osmatch name="H3C Comware 5.20" accuracy="90" line="31808">
+<osclass type="switch" vendor="H3C" osfamily="Comware" osgen="5.X" accuracy="90"><cpe>cpe:/o:h3c:comware:5.20</cpe></osclass>
+</osmatch>
+<osmatch name="Huawei AP6050DN WAP" accuracy="89" line="37255">
+<osclass type="WAP" vendor="Huawei" osfamily="embedded" accuracy="89"><cpe>cpe:/h:huawei:ap6050dn</cpe></osclass>
+</osmatch>
+<osmatch name="Huawei VRP 3 switch" accuracy="89" line="37329">
+<osclass type="switch" vendor="Huawei" osfamily="VRP" osgen="3.X" accuracy="89"><cpe>cpe:/o:huawei:vrp:3</cpe></osclass>
+</osmatch>
+<osmatch name="Huawei S9300 switch" accuracy="89" line="37310">
+<osclass type="switch" vendor="Huawei" osfamily="VRP" osgen="3.X" accuracy="89"><cpe>cpe:/h:huawei:s9300</cpe><cpe>cpe:/o:huawei:vrp:3</cpe></osclass>
+</osmatch>
+<osmatch name="Brother HL-2070N printer" accuracy="89" line="11050">
+<osclass type="printer" vendor="Brother" osfamily="embedded" accuracy="89"><cpe>cpe:/h:brother:hl-2070n</cpe></osclass>
+</osmatch>
+<osmatch name="Siemens SpeedStream 4200 ADSL modem" accuracy="87" line="97007">
+<osclass type="broadband router" vendor="Siemens" osfamily="embedded" accuracy="87"><cpe>cpe:/h:siemens:speedstream_4200</cpe></osclass>
+</osmatch>
+<osmatch name="Cisco 870 router or 2960 switch (IOS 12.2 - 12.4)" accuracy="87" line="16425">
+<osclass type="router" vendor="Cisco" osfamily="IOS" osgen="12.X" accuracy="87"><cpe>cpe:/h:cisco:870_router</cpe><cpe>cpe:/o:cisco:ios:12</cpe></osclass>
+<osclass type="switch" vendor="Cisco" osfamily="IOS" osgen="12.X" accuracy="87"><cpe>cpe:/h:cisco:2960_switch</cpe><cpe>cpe:/o:cisco:ios:12</cpe></osclass>
+</osmatch>
+<osmatch name="Netgear WGR614v7 wireless broadband router" accuracy="87" line="87931">
+<osclass type="WAP" vendor="Netgear" osfamily="embedded" accuracy="87"><cpe>cpe:/h:netgear:wgr614v7</cpe></osclass>
+</osmatch>
+<osmatch name="Roku SoundBridge M500 or M1000 music player" accuracy="87" line="95088">
+<osclass type="media device" vendor="Roku" osfamily="embedded" accuracy="87"><cpe>cpe:/h:roku:soundbridge_m500</cpe><cpe>cpe:/h:roku:soundbridge_m1000</cpe></osclass>
+</osmatch>
+<osmatch name="Canon imageCLASS MF4500-, MF4700-, or MF4800-series printer" accuracy="87" line="12510">
+<osclass type="printer" vendor="Canon" osfamily="embedded" accuracy="87"/>
+</osmatch>
+</os>
+<distance value="15"/>
+<times srtt="34702" rttvar="2914" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.34" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="12">
+<extrareasons reason="resets" count="12"/>
+</extraports>
+<extraports state="filtered" count="5">
+<extrareasons reason="no-responses" count="5"/>
+</extraports>
+<port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="240"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="23"><state state="open" reason="syn-ack" reason_ttl="240"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="23"/>
+<portused state="closed" proto="tcp" portid="25"/>
+<portused state="closed" proto="udp" portid="44252"/>
+<osmatch name="Efficient Networks SpeedStream 4100 ADSL router" accuracy="85" line="23911">
+<osclass type="broadband router" vendor="Efficient Networks" osfamily="embedded" accuracy="85"><cpe>cpe:/h:efficientnetworks:speedstream_4100</cpe></osclass>
+</osmatch>
+</os>
+<distance value="15"/>
+<times srtt="41564" rttvar="10639" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.5" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="15">
+<extrareasons reason="resets" count="15"/>
+</extraports>
+<extraports state="filtered" count="2">
+<extrareasons reason="no-responses" count="2"/>
+</extraports>
+<port protocol="tcp" portid="23"><state state="open" reason="syn-ack" reason_ttl="240"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="7547"><state state="open" reason="syn-ack" reason_ttl="240"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="7547"/>
+<portused state="closed" proto="tcp" portid="21"/>
+<portused state="closed" proto="udp" portid="38708"/>
+<osmatch name="H3C Comware 5.20" accuracy="89" line="31808">
+<osclass type="switch" vendor="H3C" osfamily="Comware" osgen="5.X" accuracy="89"><cpe>cpe:/o:h3c:comware:5.20</cpe></osclass>
+</osmatch>
+<osmatch name="TiVo series 1 (Linux 2.1.24-TiVo-2.5)" accuracy="89" line="44415">
+<osclass type="media device" vendor="Linux" osfamily="Linux" osgen="2.1.X" accuracy="89"><cpe>cpe:/o:linux:linux_kernel:2.1.24</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.4.18" accuracy="86" line="44872">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="86"><cpe>cpe:/o:linux:linux_kernel:2.4.18</cpe></osclass>
+</osmatch>
+<osmatch name="D-Link NetDefend firewall" accuracy="86" line="19943">
+<osclass type="firewall" vendor="D-Link" osfamily="embedded" accuracy="86"/>
+</osmatch>
+<osmatch name="Huawei S9300 switch" accuracy="85" line="37310">
+<osclass type="switch" vendor="Huawei" osfamily="VRP" osgen="3.X" accuracy="85"><cpe>cpe:/h:huawei:s9300</cpe><cpe>cpe:/o:huawei:vrp:3</cpe></osclass>
+</osmatch>
+<osmatch name="OpenWrt Kamikaze 7.09 (Linux 2.6.22)" accuracy="85" line="61315">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:2.6.22</cpe></osclass>
+</osmatch>
+<osmatch name="Huawei AP6050DN WAP" accuracy="85" line="37255">
+<osclass type="WAP" vendor="Huawei" osfamily="embedded" accuracy="85"><cpe>cpe:/h:huawei:ap6050dn</cpe></osclass>
+</osmatch>
+<osmatch name="Huawei VRP 3 switch" accuracy="85" line="37329">
+<osclass type="switch" vendor="Huawei" osfamily="VRP" osgen="3.X" accuracy="85"><cpe>cpe:/o:huawei:vrp:3</cpe></osclass>
+</osmatch>
+<osmatch name="TiVo series 1 (Sony SVR-2000 or Philips HDR112) (Linux 2.1.24-TiVo-2.5, PowerPC)" accuracy="85" line="44436">
+<osclass type="media device" vendor="Linux" osfamily="Linux" osgen="2.1.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:2.1.24</cpe></osclass>
+<osclass type="media device" vendor="Philips" osfamily="embedded" accuracy="85"><cpe>cpe:/h:philips:hdr112</cpe></osclass>
+<osclass type="media device" vendor="Sony" osfamily="embedded" accuracy="85"><cpe>cpe:/h:sony:svr-2000</cpe></osclass>
+</osmatch>
+</os>
+<distance value="16"/>
+<times srtt="36032" rttvar="2574" to="100000"/>
+</host>
+<host starttime="1547129397" endtime="1547129628"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.73" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<extraports state="closed" count="1">
+<extrareasons reason="reset" count="1"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="47"/><service name="tcpwrapped" method="probed" conf="10"/><script id="http-server-header" output="momo"><elem>momo</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="8080"/>
+<portused state="closed" proto="udp" portid="30555"/>
+<osmatch name="Linux 3.2 - 4.9" accuracy="97" line="65105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="97"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="97"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.13" accuracy="96" line="56411">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10 - 4.11" accuracy="96" line="63230">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32" accuracy="93" line="55173">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.10" accuracy="93" line="56381">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="HP P2000 G3 NAS device" accuracy="93" line="34647">
+<osclass type="storage-misc" vendor="HP" osfamily="embedded" accuracy="93"><cpe>cpe:/h:hp:p2000_g3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 3.8" accuracy="93" line="65058">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16 - 4.6" accuracy="92" line="64164">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.18" accuracy="92" line="64256">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3.18</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.10" accuracy="92" line="67002">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:4.10</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="2021374" lastboot="Tue Dec 18 12:44:16 2018"/>
+<distance value="18"/>
+<times srtt="34514" rttvar="3856" to="100000"/>
+</host>
+<host starttime="1547129630" endtime="1547129679"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.76" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="18">
+<extrareasons reason="no-responses" count="18"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="47"/><service name="http" product="nginx" extrainfo="bad gateway" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="udp" portid="32295"/>
+<osmatch name="Linux 3.16" accuracy="100" line="64089">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 4.9" accuracy="100" line="65105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+</os>
+<distance value="18"/>
+<times srtt="34515" rttvar="4677" to="100000"/>
+</host>
+<host starttime="1547129630" endtime="1547129679"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.86" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="15">
+<extrareasons reason="no-responses" count="15"/>
+</extraports>
+<extraports state="closed" count="3">
+<extrareasons reason="resets" count="3"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="46"/><service name="http" product="nginx" extrainfo="bad gateway" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="443"/>
+<portused state="closed" proto="udp" portid="34108"/>
+<osmatch name="Linux 2.6.23 - 2.6.38" accuracy="99" line="51872">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="99"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10 - 4.11" accuracy="99" line="63230">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="99"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="99"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.13" accuracy="99" line="63698">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="99"><cpe>cpe:/o:linux:linux_kernel:3.13</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.13 or 4.2" accuracy="99" line="63776">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="99"><cpe>cpe:/o:linux:linux_kernel:3.13</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="99"><cpe>cpe:/o:linux:linux_kernel:4.2</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16" accuracy="99" line="63998">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="99"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16 - 4.6" accuracy="99" line="64164">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="99"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="99"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 3.8" accuracy="99" line="65058">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="99"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.1" accuracy="99" line="66869">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="99"><cpe>cpe:/o:linux:linux_kernel:4.1</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.10" accuracy="99" line="66984">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="99"><cpe>cpe:/o:linux:linux_kernel:4.10</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.2" accuracy="99" line="67075">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="99"><cpe>cpe:/o:linux:linux_kernel:4.2</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="1995097" lastboot="Tue Dec 18 20:03:02 2018"/>
+<distance value="17"/>
+<tcpsequence index="263" difficulty="Good luck!" values="4ECDD130,477B00CA,F5CFEDEA,65815D31,37B7FDD"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="76EA9EB3,76EA9F19,76EA9F7F,76EA9FE7,76EAA048"/>
+<times srtt="34003" rttvar="3999" to="100000"/>
+</host>
+<host starttime="1547129630" endtime="1547129679"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="106.38.228.98" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="17">
+<extrareasons reason="no-responses" count="17"/>
+</extraports>
+<extraports state="closed" count="1">
+<extrareasons reason="reset" count="1"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="47"/><service name="http" product="nginx" extrainfo="bad gateway" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="443"/>
+<portused state="closed" proto="udp" portid="44346"/>
+<osmatch name="HP P2000 G3 NAS device" accuracy="98" line="34647">
+<osclass type="storage-misc" vendor="HP" osfamily="embedded" accuracy="98"><cpe>cpe:/h:hp:p2000_g3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 4.9" accuracy="97" line="65105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="97"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="97"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.23 - 2.6.38" accuracy="96" line="51872">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 3.8" accuracy="96" line="65058">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.13" accuracy="95" line="56411">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10 - 4.11" accuracy="95" line="63230">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16 - 4.6" accuracy="95" line="64164">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.10" accuracy="95" line="66984">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:4.10</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.4" accuracy="95" line="67221">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:4.4</cpe></osclass>
+</osmatch>
+<osmatch name="Asus RT-AC66U WAP" accuracy="95" line="68155">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" accuracy="95"><cpe>cpe:/o:linux:linux_kernel</cpe></osclass>
+<osclass type="WAP" vendor="Asus" osfamily="embedded" accuracy="95"><cpe>cpe:/h:asus:rt-ac66u</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="332343" lastboot="Mon Jan  7 01:55:36 2019"/>
+<distance value="18"/>
+<tcpsequence index="263" difficulty="Good luck!" values="BB57A92D,AA0CD36C,12AC494C,7481D1AD,6618491D"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="13CF0054,13CF00B8,13CF0120,13CF0184,13CF01EC"/>
+<times srtt="34694" rttvar="3271" to="100000"/>
+</host>
+<runstats><finished time="1547129679" timestr="Thu Jan 10 22:14:39 2019" elapsed="342.63" summary="Nmap done at Thu Jan 10 22:14:39 2019; 89 IP addresses (89 hosts up) scanned in 342.63 seconds" exit="success"/><hosts up="89" down="0" total="89"/>
+</runstats>
+</nmaprun>

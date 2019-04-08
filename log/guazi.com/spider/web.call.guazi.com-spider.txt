@@ -1,0 +1,13 @@
+############################## VisitedUrl ##############################
+http://web.call.guazi.com
+http://web.call.guazi.com//dist/main.41218799215dc10b8a5e5e810ddeda37.css
+http://web.call.guazi.com//highcharts/lib/raven.min.js
+http://web.call.guazi.com//dist/common.499012d06aea04b7ec38.js
+http://web.call.guazi.com//dist/main.e20ed5de76e05c95df49.js
+http://web.call.guazi.com//highcharts/lib/socket.io.js
+############################## UnVisitedUrl ##############################
+############################## External_link ##############################
+http://api.map.baidu.com/library/GeoUtils/1.2/src/GeoUtils_min.js
+http://api.map.baidu.com/api?v=2.0&ak=0E9a1d87c1b0c5025565a115e62c8b90
+############################## Active_link ##############################
+http://api.map.baidu.com/api?v=2.0&ak=0E9a1d87c1b0c5025565a115e62c8b90

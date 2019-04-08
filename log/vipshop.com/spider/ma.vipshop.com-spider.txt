@@ -1,0 +1,8 @@
+############################## VisitedUrl ##############################
+http://ma.vipshop.com
+http://ma.vipshop.com///viva.vip.com/app/views/res/css/style.css
+http://ma.vipshop.com///viva.vip.com/app/views/res/js/jquery_2.1.0.min.js
+http://ma.vipshop.com///viva.vipstatic.com/uploadfiles/viva-act-static/lite-app-page-404/index.8e0fbfd9.js
+############################## UnVisitedUrl ##############################
+############################## External_link ##############################
+############################## Active_link ##############################

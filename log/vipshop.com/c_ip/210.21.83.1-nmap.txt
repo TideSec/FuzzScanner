@@ -1,0 +1,16 @@
+	210.21.83.101|up|iPXE 1.0.0+|
+		443|open|tcp|ssl| |###
+
+	210.21.83.102|up|Linux 3.11 - 4.1|
+		80|open|tcp|http|Tengine httpd |###|
+		443|open|tcp|ssl| |###
+
+	210.21.83.135|up|Linux 2.6.32 - 3.13|
+		3306|open|tcp|mysql|MySQL |unauthorized###
+
+	210.21.83.230|up|Microsoft Windows XP SP2|
+		80|open|tcp|http|nginx 1.7.10|###|210.21.83.230|301 Moved Permanently||nginx/1.7.10||
+
+	210.21.83.25|up|Cisco Aironet 1250 WAP (IOS 12.4) or IOS XE|
+		22|open|tcp|ssh|Cisco SSH 1.25|IOS###
+

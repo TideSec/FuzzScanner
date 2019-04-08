@@ -1,0 +1,84 @@
+############################## VisitedUrl ##############################
+http://acs.vipshop.com
+http://acs.vipshop.com/###
+http://acs.vipshop.com/#
+http://acs.vipshop.com/service_urge14.html?f=acs_sevice_delivery_link
+http://acs.vipshop.com///order.vip.com/detail/index?ordersn=
+http://acs.vipshop.com///myi.vip.com/coupons.html
+http://acs.vipshop.com//service_apm.html
+http://acs.vipshop.com///help.vip.com/themelist.php?type=detail&id=404
+http://acs.vipshop.com///feedback.vip.com/feedback/writefeedback.html
+http://acs.vipshop.com///order.vip.com/order/orderlist
+http://acs.vipshop.com/service_qxps.html?f=acs_sevice_cancel delivery_link
+http://acs.vipshop.com/service_changeAD.html?f=acs_sevice_changeAD
+http://acs.vipshop.com///order.vip.com/order/returnlist
+http://acs.vipshop.com/service_urge02.html?f=acs_sevice_refund_link
+http://acs.vipshop.com/service_urge03.html?f=acs_sevice_receipt_link
+http://acs.vipshop.com/service_qxps.html?f=acs_service_receipt_link
+http://acs.vipshop.com///order.vip.com/order/returnlist?f=acs_sevice_return orders_link
+http://acs.vipshop.com///order.vip.com/detail/index?ordersn=\'{$sn}\'
+http://acs.vipshop.com///order.vip.com/detail/index?ordersn={$sn}
+http://acs.vipshop.com///www.vip.com/
+http://acs.vipshop.com///myi.vip.com/
+http://acs.vipshop.com/#this
+http://acs.vipshop.com///feedback.vip.com/feedback/feedback!myFeedback.do
+http://acs.vipshop.com/{$link}
+http://acs.vipshop.com/
+http://acs.vipshop.com///s2.vipstatic.com
+http://acs.vipshop.com///a.vpimg1.com
+http://acs.vipshop.com/./views/static/release/css/acs/1/comm.css?ver=20140924
+http://acs.vipshop.com/./views/static/release/css/acs/1/service.css?ver=20140818
+http://acs.vipshop.com///s2.vipstatic.com/js/public/jquery.js?ver=1.01
+http://acs.vipshop.com///s2.vipstatic.com/js/public/core2.js?ver=20181214
+http://acs.vipshop.com///common.vip.com/?type=header&jq=0&core=0
+http://acs.vipshop.com///common.vip.com/?type=footer&jq=0&core=0
+############################## UnVisitedUrl ##############################
+http://acs.vipshop.com/js/getprovince.js?v=20170906
+http://acs.vipshop.com/./js/getprovince.js?v=20170906
+http://acs.vipshop.com/css/service.css?ver=20140818
+http://acs.vipshop.com/css/comm.css?ver=20140924
+http://acs.vipshop.com///s2.vipstatic.com/js/public/core2.js?20181214
+http://acs.vipshop.com///s2.vipstatic.com/js/public/jquery.js?20140703
+http://acs.vipshop.com///common.vip.com/?type=footer&jq=0&core=0&loadmars=1
+http://acs.vipshop.com///s2.vipstatic.com/js/public/core3.js?20161215
+http://acs.vipshop.com///s2.vipstatic.com/js/public/jquery.js?20161215
+http://acs.vipshop.com///www.vip.com
+http://acs.vipshop.com///s2.vipstatic.com/js/public/core2.js?ver=1.01
+http://acs.vipshop.com/./css/service.css?ver=20140818
+http://acs.vipshop.com/./css/comm.css?ver=20140924
+http://acs.vipshop.com///acs.vip.com/
+############################## External_link ##############################
+http://400.vip.com/WebChat/chat/webchat.jsp?
+https://myvpal.vip.com/pc/wallet
+############################## Active_link ##############################
+http://acs.vipshop.com/service_urge14.html?f=acs_sevice_delivery_link
+http://acs.vipshop.com///order.vip.com/detail/index?ordersn=
+http://acs.vipshop.com///help.vip.com/themelist.php?type=detail&id=404
+http://acs.vipshop.com/service_qxps.html?f=acs_sevice_cancel delivery_link
+http://acs.vipshop.com/service_changeAD.html?f=acs_sevice_changeAD
+http://acs.vipshop.com/service_urge02.html?f=acs_sevice_refund_link
+http://acs.vipshop.com/service_urge03.html?f=acs_sevice_receipt_link
+http://acs.vipshop.com/service_qxps.html?f=acs_service_receipt_link
+http://acs.vipshop.com///order.vip.com/order/returnlist?f=acs_sevice_return orders_link
+http://acs.vipshop.com///order.vip.com/detail/index?ordersn=\'{$sn}\'
+http://acs.vipshop.com///order.vip.com/detail/index?ordersn={$sn}
+http://acs.vipshop.com///feedback.vip.com/feedback/feedback!myFeedback.do
+http://acs.vipshop.com/./views/static/release/css/acs/1/comm.css?ver=20140924
+http://acs.vipshop.com/./views/static/release/css/acs/1/service.css?ver=20140818
+http://acs.vipshop.com///s2.vipstatic.com/js/public/jquery.js?ver=1.01
+http://acs.vipshop.com///s2.vipstatic.com/js/public/core2.js?ver=20181214
+http://acs.vipshop.com///common.vip.com/?type=header&jq=0&core=0
+http://acs.vipshop.com///common.vip.com/?type=footer&jq=0&core=0
+http://acs.vipshop.com/js/getprovince.js?v=20170906
+http://acs.vipshop.com/./js/getprovince.js?v=20170906
+http://acs.vipshop.com/css/service.css?ver=20140818
+http://acs.vipshop.com/css/comm.css?ver=20140924
+http://acs.vipshop.com///s2.vipstatic.com/js/public/core2.js?20181214
+http://acs.vipshop.com///s2.vipstatic.com/js/public/jquery.js?20140703
+http://acs.vipshop.com///common.vip.com/?type=footer&jq=0&core=0&loadmars=1
+http://acs.vipshop.com///s2.vipstatic.com/js/public/core3.js?20161215
+http://acs.vipshop.com///s2.vipstatic.com/js/public/jquery.js?20161215
+http://acs.vipshop.com///s2.vipstatic.com/js/public/core2.js?ver=1.01
+http://acs.vipshop.com/./css/service.css?ver=20140818
+http://acs.vipshop.com/./css/comm.css?ver=20140924
+http://400.vip.com/WebChat/chat/webchat.jsp?

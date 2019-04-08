@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/local/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.70 scan initiated Thu Jan 10 21:57:43 2019 as: nmap -oX /root/fuzzScanner/log/guazi.com/sub/yc.guazi.com-nmap.xml -Pn -&#45;open -sS -sV -O -&#45;script=banner -p 25,80,143,443,587,993,8000,8082,8443,9901 yc.guazi.com -->
+<nmaprun scanner="nmap" args="nmap -oX /root/fuzzScanner/log/guazi.com/sub/yc.guazi.com-nmap.xml -Pn -&#45;open -sS -sV -O -&#45;script=banner -p 25,80,143,443,587,993,8000,8082,8443,9901 yc.guazi.com" start="1547128663" startstr="Thu Jan 10 21:57:43 2019" version="7.70" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="10" services="25,80,143,443,587,993,8000,8082,8443,9901"/>
+<verbose level="0"/>
+<debugging level="0"/>
+
+<runstats><finished time="1518405307" timestr="Sun Feb 11 22:15:07 2018" elapsed="396.80" summary="Nmap done at Sun Feb 11 22:15:07 2018; 256 IP addresses (136 hosts up) scanned in 396.80 seconds" exit="success"/><hosts up="136" down="120" total="256"/>
+            </runstats>
+            </nmaprun>
