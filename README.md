@@ -23,11 +23,16 @@ fuzzScanner可用于批量快速的搜集网站信息，比别人更快一步的
 
 使用比较简单：
 
+从github上拖下来
+
+```
+git clone https://github.com/TideSec/FuzzScanner
+```
+
 安装requirements.txt依赖
 
 ```
 pip install -r requirements.txt
-
 ```
 安装ruby环境，以便运行whatweb
 
@@ -149,7 +154,7 @@ python FuzzScanner.py -Ca vuln_ip.txt        -->  C scan  && C allport
 ```
 - 端口扫描
 
-端口扫描和指纹获取主要依赖于nmap，主要过程如下。
+端口扫描和指纹获取主要依赖于nmap，主要过程如下。该流程类似之前的另一个扫描器https://github.com/TideSec/WDScanner
 
 ```
 1、首先根据参数设置情况判断是全端口扫描还是部分端口扫描；
