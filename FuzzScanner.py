@@ -660,8 +660,17 @@ def scan_domain_all_port(ip,scan_range):
         t1 = datetime.datetime.now()
         open_port = []
         print "scaning ip :", ip
-        for i in range(1, 65535, scan_thread):
-            scan_ip(ip, i)
+        # for i in range(1, 65535, scan_thread):
+        #     scan_ip(ip, i)
+        
+        all_thread = []
+        for p in port:
+            if p == 53: continue
+            t = threading.Thread(target=connect_port, args=(ip, p))
+            all_thread.append(t)
+            t.start()
+        for t in all_thread:
+            t.join()
 
         port_items1 = set(list(open_port))
         port_items2 = []

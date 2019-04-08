@@ -5,8 +5,9 @@ fuzzScanner可用于批量快速的搜集网站信息，比别人更快一步的
 
 开发初衷比较简单，当时正在参加一些攻防演练，需要快速的对目标网站进行子域名发现、端口扫描、目录扫描等，手头上有一些分散的工具，比如lijiejie的subdomains、子域名挖掘机、dirsearch等等，但当目标任务量比较大时，这些重复性的工作就会比较费时费力，所以就有了这么个集合十八种杀人武器于一身的“超级武器”——fuzzScanner。
 
+```
 因为当时着急用，所以很多功能的实现都是直接命令行调用的其他工具，再次非常感谢wydomain、WhatWeb、subDomainsBrute、dirsearch、wafw00f等开源平台。
-
+```
 
 # Change_Log
 
@@ -14,9 +15,10 @@ fuzzScanner可用于批量快速的搜集网站信息，比别人更快一步的
 - [2018-04-03] 完成基础功能
 
 
-# Install
+# 安装
 
-## 自行安装
+## 常规安装
+
 平台开发和运行都是在linux环境下，windows未测试，wydomain、WhatWeb、subDomainsBrute、dirsearch、wafw00f等工具均已放在libs目录下，默认可直接调用。
 
 使用比较简单：
@@ -46,19 +48,53 @@ apt-get install nmap  # Debian 或 Ubuntu 系统
 sudo python FuzzScanner.py 
 ```
 
-## docker环境
+## docker镜像
 
-我直接做了个镜像放在了阿里云上，docker直接pull下来就可以
-
-```
-docker pull registry.cn-hangzhou.aliyuncs.com/secplus/tide:1.0
+为了避免部署的各种问题，直接做了个镜像放在了阿里云上，docker直接pull下来就可以。
 
 ```
+docker pull registry.cn-hangzhou.aliyuncs.com/secplus/tide-fuzzscanner:1.0
 
+```
+使用docker images查看docker镜像信息
 
-# Usage
+```
+root@Docker:~# docker images
+REPOSITORY                                                   TAG                 IMAGE ID            CREATED             SIZE
+registry.cn-hangzhou.aliyuncs.com/secplus/tide-fuzzscanner   1.0                 52341fc71d0a        5 minutes ago       1.36GB
 
-参数设置说明
+```
+创建docker并进入docker
+
+```
+docker run --name fuzzscanner -t -i 52341fc71d0a /bin/bash
+
+```
+
+执行fuzzscanner
+
+```
+root@Docker:~# docker run --name fuzzscanner -t -i 52341fc71d0a /bin/bash
+[root@a7edd0d9fdad /]# cd /root/FuzzScanner/
+[root@a7edd0d9fdad FuzzScanner]# python FuzzScanner.py 
+
+        python FuzzScanner.py -hc target.com         -->  domain && web finger && Dir scan && C scan
+        python FuzzScanner.py -Hc vuln_domains.txt   -->  domain && web finger && Dir scan && C scan
+        python FuzzScanner.py -hca target.com        -->  domain && web finger && Dir scan && C scan && C allport
+        python FuzzScanner.py -Hca vuln_domains.txt  -->  domain && web finger && Dir scan && C scan && C allport
+        python FuzzScanner.py -h  target.com         -->  domain && web finger && Dir scan
+        python FuzzScanner.py -H  vuln_domains.txt   -->  domain && web finger && Dir scan
+        python FuzzScanner.py -c  192.168.1.1        -->  C scan
+        python FuzzScanner.py -cd 192.168.1.1        -->  C scan  && Dir scan
+        python FuzzScanner.py -C  vuln_ip.txt        -->  C scan
+        python FuzzScanner.py -Cd vuln_ip.txt        -->  C scan  && Dir scan
+        python FuzzScanner.py -ca 192.168.1.1        -->  C scan  && C allport
+        python FuzzScanner.py -Ca vuln_ip.txt        -->  C scan  && C allport
+```
+
+# 使用
+
+使用比较简单，参数设置说明。
 
 ```
 python FuzzScanner.py -hc target.com         -->  domain && web finger && Dir scan && C scan 
@@ -99,7 +135,7 @@ python FuzzScanner.py -Ca vuln_ip.txt        -->  C scan  && C allport
 ```
 
 
-# Main_Function
+# 主要功能
 
 - 子域名枚举
 
@@ -155,6 +191,14 @@ python FuzzScanner.py -Ca vuln_ip.txt        -->  C scan  && C allport
 3、domain目录是wydomain、subdomians等的子域名记录；
 4、c_ip目录为ip地址扫描的相关信息；
 ```
+
+# 注意事项
+
+1、在扫描c段时，如果选择了全端口扫描，速度会比较慢，但可能会有惊喜。适合有个服务器放上面慢慢跑。
+
+2、如果选择了目录枚举，可能速度也会比较慢，目录枚举是直接用的dirsearch，在启用该功能后当发现某端口为web服务时就会调用dirsearch。
+
+3、代码写的比较乱，单个文件1500行，导致后期我想再完善时看着头大。。感兴趣的可以一起探讨下~~
 
 # Screenshot
 
