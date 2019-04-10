@@ -1,3 +1,6 @@
+<div align=center><img src=images/logo.png width=30% ></div>
+
+
 # FuzzScanner
 一个用来进行信息搜集的工具集，主要是用于对网站子域名、开放端口、端口指纹、c段地址、敏感目录、链接爬取等信息进行批量搜集。
 
