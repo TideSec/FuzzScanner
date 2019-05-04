@@ -1319,7 +1319,7 @@ if __name__ == '__main__':
         print usage
         exit(0)
 
-    enumdir = 0  # 全局设定，不再进行dirsearch
+    #enumdir = 0  # 全局设定，不再进行dirsearch
 
     try:
         if len(targets) > 0:
